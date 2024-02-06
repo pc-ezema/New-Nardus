@@ -1,0 +1,2 @@
+;(function(){String.prototype.superScript=function(find,replace){var replaceString=this;var regex;for(var i=0;i<find.length;i++){regex=new RegExp(find[i],"g");replaceString=replaceString.replace(regex,replace[i]);}
+return replaceString;};elements=document.querySelectorAll("a, h1, h2, h3, h4, h5, h6");for(var i=0;i<elements.length;i++){elements[i].innerHTML=elements[i].innerHTML.superScript(["©","℗"],["<sup>©</sup>","<sup>℗</sup>"]);}}());

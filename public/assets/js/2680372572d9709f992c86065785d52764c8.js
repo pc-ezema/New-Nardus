@@ -1,0 +1,3 @@
+;(function(){function feLogin(){var className='ctype-felogin_login';var element=document.getElementsByClassName(className)[0];if(element){var id=element.getAttribute('id');if(id){var link=element.querySelectorAll('a')[0];var form=element.querySelectorAll('form')[0];if(link){link.href=link.href+'#'+id;}
+if(form){form.action=form.action+'#'+id;}}}}
+document.addEventListener('DOMContentLoaded',function(){feLogin();});})();

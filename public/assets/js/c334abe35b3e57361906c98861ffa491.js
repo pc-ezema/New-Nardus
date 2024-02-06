@@ -1,0 +1,8 @@
+(function(){function handleVideoPlayClick(){const playButtons=document.querySelectorAll(".video__play");playButtons.forEach(button=>{button.addEventListener("click",function(){const componentContainer=this.closest(".ctype-iffcomponents_video");if(componentContainer.classList.contains("source-type-youtube")){const iframeContainer=componentContainer.querySelector(".video__iframe-container");const{youtubeKey}=this.dataset;if(!iframeContainer||!youtubeKey)return;const iframeElement=document.createElement("iframe");iframeElement.allowFullscreen=true;iframeElement.src=`https://www.youtube-nocookie.com/embed/${youtubeKey}?rel=0&showinfo=0&modestbranding=1&autoplay=1&mute=1`;iframeContainer.append(iframeElement);}
+if(componentContainer.classList.contains("source-type-file")){const videoContainer=componentContainer.querySelector(".video__file");if(!videoContainer)return;const video=videoContainer.querySelector("video");if(!video)return;video.onloadstart=()=>{video.play();}
+videoContainer.classList.add("visible");video.src=video.dataset.src;}
+this.remove();});});}
+function loadVideoSource(){function handler(element){element.src=element.dataset.src;}
+let observer;if("IntersectionObserver"in window){observer=new IntersectionObserver(entries=>{for(var i in entries){if(entries.hasOwnProperty(i)&&entries[i].isIntersecting){handler(entries[i].target);}}});}
+const videos=document.querySelectorAll("video[data-src]");videos.forEach(video=>{if(observer){observer.observe(video);}else{handler(video);}});}
+document.addEventListener("DOMContentLoaded",function(){handleVideoPlayClick();loadVideoSource();});})();

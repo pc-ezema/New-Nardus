@@ -1,0 +1,8 @@
+:root{--sait:env(safe-area-inset-top);--sair:env(safe-area-inset-right);--saib:env(safe-area-inset-bottom);--sail: env(safe-area-inset-left);}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{margin:0;padding:0}table{border-collapse:separate;border-spacing:0}fieldset,img{border:0}address,caption,cite,code,dfn,em,strong,th,var,optgroup{font-style:inherit;font-weight:inherit}del,ins{text-decoration:none}ul,ol{list-style-position:outside;margin:0}caption,th{text-align:left}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:400}q:before,q:after{content:''}abbr,acronym{border:0;font-variant:normal}sup{vertical-align:super}sub{vertical-align:sub}legend{color:#000}input,button,textarea,select{font-size:100%}table,thead,tbody,tr,td,th{font-family:inherit;font-size:inherit;line-height:inherit}main{display:block}
+dd{margin-left:1em;}
+strong{font-weight:bold;}
+em{font-style:italic;}
+u{text-decoration-skip:ink;}
+svg{fill:inherit;stroke:inherit;stroke-width:0;display:block;width:100%;height:100%;}
+.extbase-debugger{position:relative;z-index:100000;}

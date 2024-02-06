@@ -1,0 +1,2 @@
+;(function(){if(window.location.hash){var hash=window.location.hash.substring(1);if(hash.substring(0,1)==='c'){var element=document.getElementById(hash);if(element){HTMLElement.prototype.scrollToCenter=function(){window.scrollBy({top:this.getBoundingClientRect().top-(window.innerHeight>>1),left:0,behavior:'smooth'});}
+setTimeout(function(){element.scrollToCenter();},parseInt('100'));}}}}());

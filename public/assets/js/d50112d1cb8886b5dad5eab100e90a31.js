@@ -1,0 +1,2 @@
+(function(){function handleShareClick(){const button=document.querySelector('.post__share');if(!button)return;button.addEventListener('click',()=>button.classList.toggle('open'));}
+document.addEventListener('DOMContentLoaded',function(){handleShareClick();});})();
