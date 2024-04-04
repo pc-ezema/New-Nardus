@@ -10,4 +10,19 @@ class HomePageController extends Controller
     {
         return view('frontend.index');
     }
+
+    public function scents()
+    {
+        return view('frontend.scents');
+    }
+
+    public function cosmetics()
+    {
+        return view('frontend.cosmetics');
+    }
+
+    public function essential_oil()
+    {
+        return view('frontend.essential_oil');
+    }
 }

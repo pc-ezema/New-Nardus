@@ -15,3 +15,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [HomePageController::class, 'index'])->name('index');
+Route::get('/scents', [HomePageController::class, 'scents'])->name('scents');
+Route::get('/cosmetics', [HomePageController::class, 'cosmetics'])->name('cosmetics');
+Route::get('/essential-oil', [HomePageController::class, 'essential_oil'])->name('essential_oil');

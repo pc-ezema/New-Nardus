@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8" />
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
-    <title>IFF Health &amp; Biosciences: Bioscience for Life</title>
+    <title>{{config('app.name')}}</title>
     <meta http-equiv="x-ua-compatible" content="IE=edge" />
     <meta name="description" content="Inspired by nature and distinguished by our world-class science, engineering and microbiome capabilities, at IFF Health &amp; Biosciences we channel our passion into sustainable life-enhancing technologies to provide innovative and high-performing products and solutions for our customers." />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes, viewport-fit=cover" />
@@ -199,6 +199,4 @@
     <script integrity="sha384-VuOwFzI//Oldv+QAE4hVr77E4t+HSt9p8McwIG74Fe1obkf+NAK3ODGubuERxo1q" crossorigin="anonymous" src="{{URL::asset('assets/js/40553c60e1cd1e4d8dfa5e7a32c412f1.js')}}"></script>
     <script integrity="sha384-n+WtPwescrks0W28iIR6pwgdaS1BrxIAlysyhnQIrdl0E+G8eU3UGj5/UdrX4cbg" crossorigin="anonymous" src="{{URL::asset('assets/js/c30665b3374d5ab7e66d7dcb83f4c47e.js')}}"></script>
 </body>
-<!-- Mirrored from bioscience.iff.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 06 Feb 2024 09:31:45 GMT -->
-
 </html>
