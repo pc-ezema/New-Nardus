@@ -1,1 +1,36 @@
-.tag{font-size:12px;font-weight:700;letter-spacing:1.5px;line-height:14px;padding:6px 6px 2px;text-transform:uppercase}.tag.variant-orange{background-color:rgba(255, 127, 48, 0.05);color:#ff7f30}.tag.variant-grey{background-color:rgba(65, 83, 100, 0.05);color:#415364}.tag.variant-blue{background-color:rgba(0, 117, 207, 0.05);color:#0075cf}.tag.variant-green{background-color:rgba(70, 105, 30, 0.05);color:#46691e}.tag.variant-purple{background-color:rgba(147, 53, 141, 0.05);color:#93358d}.tag.variant-red{background-color:rgba(150, 38, 44, 0.05);color:#96262c}
+.tag {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    line-height: 14px;
+    padding: 6px 6px 2px;
+    text-transform: uppercase;
+}
+.homeTag {
+    font-size: 22px;
+}
+
+.tag.variant-orange {
+    background-color: rgba(255, 127, 48, 0.05);
+    color: #194d02;
+}
+.tag.variant-grey {
+    background-color: rgba(65, 83, 100, 0.05);
+    color: #415364;
+}
+.tag.variant-blue {
+    background-color: rgba(0, 117, 207, 0.05);
+    color: #0075cf;
+}
+.tag.variant-green {
+    background-color: rgba(70, 105, 30, 0.05);
+    color: #46691e;
+}
+.tag.variant-purple {
+    background-color: rgba(147, 53, 141, 0.05);
+    color: #93358d;
+}
+.tag.variant-red {
+    background-color: rgba(150, 38, 44, 0.05);
+    color: #96262c;
+}

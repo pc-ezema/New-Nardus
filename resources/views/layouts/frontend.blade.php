@@ -4,27 +4,11 @@
 
 <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="{{URL::asset('assets/images/nardus.png')}}" type="image/x-icon" />
     <title>{{config('app.name')}}</title>
     <meta http-equiv="x-ua-compatible" content="IE=edge" />
-    <meta name="description" content="Inspired by nature and distinguished by our world-class science, engineering and microbiome capabilities, at IFF Health &amp; Biosciences we channel our passion into sustainable life-enhancing technologies to provide innovative and high-performing products and solutions for our customers." />
+    <meta name="description" content="Experience the rich potency value of our natural product, derived through the most ethical extraction and purification process to give a recall moment the world is yet to discover." />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes, viewport-fit=cover" />
-    <meta property="og:image" content="typo3temp/assets/images/872d395722ea858fd6438188bb06c113_1c13cab01971bae1ed8998bd34816e00.jpg" />
-    <meta property="og:image:secure_url" content="typo3temp/assets/images/872d395722ea858fd6438188bb06c113_1c13cab01971bae1ed8998bd34816e00.jpg" />
-    <meta property="og:image:type" content="image/jpeg" />
-    <meta property="og:image:width" content="512" />
-    <meta property="og:image:height" content="512" />
-    <meta property="og:image:alt" content="IFF Bioscience" />
-    <meta property="og:title" content="IFF Health &amp; Biosciences: Bioscience for Life" />
-    <meta property="og:description" content="Inspired by nature and distinguished by our world-class science, engineering and microbiome capabilities, at IFF Health &amp;amp; Biosciences we channel our passion into sustainable life-enhancing technologies to provide innovative and high-performing products and solutions for our customers." />
-    <meta property="og:locale" content="en-us" />
-    <meta property="og:site_name" content="English" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="index.html" />
-    <meta name="twitter:card" content="summary" />
-    <meta name="format-detection" content="telephone=yes" />
-    <meta name="msapplication-config" content="browserconfig.xml" />
-    <meta name="theme-color" content="#0075cf" />
     <link href="{{URL::asset('assets/css/0b15710bfa8b2f9a6533513916cb8935.css')}}" rel="stylesheet" />
     <link href="{{URL::asset('assets/css/ee5ba5d96b4fd4a7fdf4a12912bd8058.css')}}" rel="stylesheet" />
     <link rel="stylesheet" href="{{URL::asset('assets/css/7015c8c4ac5ff815b57530b221005fc69647.css?1707208358')}}" media="all" />
@@ -51,39 +35,6 @@
     <link href="{{URL::asset('assets/css/2727b62f2ed285910e8dc3623c8812db.css')}}" rel="stylesheet" />
     <link href="{{URL::asset('assets/css/5a10ddb76aa33478daa0a772b94a5fca.css')}}" rel="stylesheet" />
     <link href="{{URL::asset('assets/css/88f75f23ed911c349f072debc9c9abe9.css')}}" rel="stylesheet" />
-    <script>
-        /*<![CDATA[*/
-        var TYPO3 = Object.assign(
-            TYPO3 || {},
-            Object.fromEntries(
-                Object.entries({
-                    lang: {
-                        "popup.terms.and.conditions.text": '<p>We have developed new <a href="https:\/\/www.iff.com\/terms-of-use" target="_blank">Terms of Use<\/a> for our website effective as of June 15, 2023. Please indicate your acceptance to the new Terms of Use to continue.<\/p>',
-                        accept: "Accept",
-                        "footer.quick.menu.navigation.heading": "Quick links",
-                        "footer.social.media.heading": "Stay in touch",
-                        "footer.social.media.description": "Keep up to date on social media",
-                        "footer.news": "News",
-                        "footer.control.reports": "Control Reports",
-                        "footer.esg": "ESG",
-                        "footer.investor.relations": "Investor Relations",
-                        "footer.sitemap": "Sitemap",
-                        "footer.privacy.statement": "Privacy Statement",
-                        "footer.terms.of.use": "Terms of Use",
-                        "footer.cookie.policy": "Cookie Policy",
-                        "footer.cookie.preferences": "Cookie Preferences",
-                        "footer.personal.information": "Do Not Sell or Share My Personal Information",
-                        "footer.job.applicant.privacy.notice": "Job Applicant Privacy Notice",
-                        "footer.customer.and.vendor.privacy.notice": "Customer and Vendor Privacy Notice",
-                    },
-                }).filter(
-                    (entry) =>
-                    !["__proto__", "prototype", "constructor"].includes(entry[0])
-                )
-            )
-        );
-        /*]]>*/
-    </script>
     <script integrity="sha384-16t9ZHYALapzurTezumKK2l5KKm5loTK4iAt3Nv8Nu3ah5CKfT3dl6I4FZ35pqkM" crossorigin="anonymous" src="{{URL::asset('assets/js/8635fc5f85459296e05cfb0f053d2d26.js')}}"></script>
     <script>
         var ua = window.navigator.userAgent;
@@ -112,16 +63,6 @@
             document.getElementsByTagName("html")[0].className += " legacy";
         }
     </script>
-    <link rel="dns-prefetch" href="../scripts.simpleanalyticscdn.com/index.html" />
-    <link rel="dns-prefetch" href="../queue.simpleanalyticscdn.com/index.html" />
-    <link rel="apple-touch-icon" href="typo3temp/assets/images/872d395722ea858fd6438188bb06c113_1c13cab01971bae1ed8998bd34816e00.jpg" />
-    <link rel="dns-prefetch" href="../d3b9n0uye9y0ja.cloudfront.net/index.html" />
-    <link rel="canonical" href="index.html" />
-    <link rel="manifest" href="manifest.json" />
-    <script src="../consent.trustarc.com/autoblockasset/core.min8ca8.js?domain=iff-bionutrisites.com"></script>
-    <script src="https://consent.trustarc.com/autoblockoptout?domain=iff-bionutrisites.com"></script>
-    <script async="async" src="http://consent.trustarc.com/notice?domain=iff-bionutrisites.com&amp;c=teconsent&amp;js=nj&amp;noticeType=bb&amp;text=true&amp;language=en&amp;privacypolicylink=https%3A%2F%2Fwww.iff.com%2Fprivacy&amp;cookieLink=https%3A%2F%2Fwww.iff.com%2Fcookie-policy" crossorigin=""></script>
-    <link rel="canonical" href="index.html" />
     <link rel="preload" href="{{URL::asset('assets/css/7015c8c4ac5ff815b57530b221005fc69647.css?1707208358')}}" as="style" />
     <link rel="preload" href="{{URL::asset('assets/css/3508d07ab3d7c89959c4939a2388315d61c2.css?1707208357')}}" as="style" />
     <link rel="preload" href="{{URL::asset('assets/css/28aed3b268ee92f80af3d5d145e4dd049647.css?1707208358')}}" as="style" />
@@ -152,7 +93,6 @@
     <link rel="preload" href="{{URL::asset('assets/js/d6b4d8c45b72c8f60bb8a97152e1eb1e64c8.js?1671523372')}}" integrity="sha384-FtEAu024jfwfrA3eSUPviL5jkkTpp/ErohQelrjJbue4PqcSbjAv5Bc8o2HdMtE/" crossorigin="anonymous" as="script" />
     <link rel="preload" href="{{URL::asset('assets/js/2680372572d9709f992c86065785d52764c8.js?1671523372')}}" integrity="sha384-7d6w7Duzc6jufO9yDUsnZrRbVTC39/ECiYgiMeWh1nsiKCc0FR7Mf2aqnmxfH1nq" crossorigin="anonymous" as="script" />
     <link rel="preload" href="{{URL::asset('assets/js/d426445c70fe870b2b636a912c722ba964c8.js?1671523372')}}" integrity="sha384-SmV+0Xa0AZshX7Rtc77vechN1qNCMWK0kk6brda/G6hYvultMp+I+nQhGQREZ7C8" crossorigin="anonymous" as="script" />
-    <link rel="preload" href="../scripts.simpleanalyticscdn.com/sri/v10.js" integrity="sha384-z4je5GuhB38cdoxdNMqzPBfivGBm7MAjrfAkvJJvAiHjCtYPJItaTpg1jv4JYyWu" crossorigin="anonymous" as="script" />
     <link rel="preload" href="{{URL::asset('assets/js/d96afb976d850369df991ab56ce8fdf764c8.js?1671523372')}}" integrity="sha384-0ZdzWajWHB/DGVE68eaqrwKcKQ6/pED5Ui94Xm9NIy8iCBrW/WF2dasvduZdwsFt" crossorigin="anonymous" as="script" />
     <link rel="preload" href="{{URL::asset('assets/js/e19dd98212fd0e9cc0386a61a7a8abd5.js')}}" integrity="sha384-K7bi88tbCwBMu+xJ1oLJ44wuGdxmTxLzqAHZr4oIEK6wrx+tCGf24EfU9z9ld4QY" crossorigin="anonymous" as="script" />
     <link rel="preload" href="{{URL::asset('assets/js/df99c4c3034c1045bc9895dbeb114bcc.js')}}" integrity="sha384-n/mWlcmD3A8hj3otHvYHtLg0y7EXKB46oY3GuZ0AKEROBWTJ8Eyzw2e9R9b2BFZA" crossorigin="anonymous" as="script" />
@@ -167,7 +107,6 @@
 </head>
 
 <body class="uid_1 pid_0 rid_1 level_0 template-one-column frontpage nlm-0 nbc-0 doktype-1 with-banners" data-page-uid="1">
-    <a rel="noopener" href="index.html#content" target="_top" id="skip">Skip to content</a>
     <!-- Header -->
     @includeIf('layouts.header')
     <!-- Header Ends -->
@@ -178,15 +117,12 @@
      @includeIf('layouts.footer')
     <!-- Footer Ends -->
     <div id="consent_blackbar"></div>
-    <div id="legacybrowser" data-label="This site uses functionality your browser does not support. Therefore, you should change or upgrade your browser."></div>
-    <noscript><img alt="" src="../queue.simpleanalyticscdn.com/noscript.gif" referrerpolicy="no-referrer-when-downgrade" /></noscript>
     <script src="{{URL::asset('assets/js/ddfcfae1ad4b1f40c07fff380342627664c8.js?1671523372')}}" integrity="sha384-WjBId8JVL+HZfGoIj5hueqFMzcFedLLkONvAqiTxrFPoU3cwR0ZtrbvHTJNnfgHF" crossorigin="anonymous"></script>
     <script src="{{URL::asset('assets/js/6256bf38b3d857c20c655e668e95a327328e.js?1671535555')}}" integrity="sha384-ADy0Wqe9a7RrKRftkSZBFVTT+RagNF/3UJfG+L2W0tEXkyjO09JxkZ3ll+gh03Ye" crossorigin="anonymous"></script>
     <script src="{{URL::asset('assets/js/1a1408c850ced23555276cd5e2145ac064c8.js?1671523372')}}" integrity="sha384-atSRyGt88ZHityR3w08Q9KEdcd1agFd1fl5YTIpXy6pV/kak8ipxTdvKqkWC1wjy" crossorigin="anonymous"></script>
     <script src="{{URL::asset('assets/js/d6b4d8c45b72c8f60bb8a97152e1eb1e64c8.js?1671523372')}}" integrity="sha384-FtEAu024jfwfrA3eSUPviL5jkkTpp/ErohQelrjJbue4PqcSbjAv5Bc8o2HdMtE/" crossorigin="anonymous"></script>
     <script src="{{URL::asset('assets/js/2680372572d9709f992c86065785d52764c8.js?1671523372')}}" integrity="sha384-7d6w7Duzc6jufO9yDUsnZrRbVTC39/ECiYgiMeWh1nsiKCc0FR7Mf2aqnmxfH1nq" crossorigin="anonymous"></script>
     <script src="{{URL::asset('assets/js/d426445c70fe870b2b636a912c722ba964c8.js?1671523372')}}" integrity="sha384-SmV+0Xa0AZshX7Rtc77vechN1qNCMWK0kk6brda/G6hYvultMp+I+nQhGQREZ7C8" crossorigin="anonymous"></script>
-    <script src="../scripts.simpleanalyticscdn.com/sri/v10.js" async="async" defer="defer" integrity="sha384-z4je5GuhB38cdoxdNMqzPBfivGBm7MAjrfAkvJJvAiHjCtYPJItaTpg1jv4JYyWu" crossorigin="anonymous"></script>
     <script src="{{URL::asset('assets/js/d96afb976d850369df991ab56ce8fdf764c8.js?1671523372')}}" integrity="sha384-0ZdzWajWHB/DGVE68eaqrwKcKQ6/pED5Ui94Xm9NIy8iCBrW/WF2dasvduZdwsFt" crossorigin="anonymous"></script>
     <script integrity="sha384-K7bi88tbCwBMu+xJ1oLJ44wuGdxmTxLzqAHZr4oIEK6wrx+tCGf24EfU9z9ld4QY" crossorigin="anonymous" src="{{URL::asset('assets/js/e19dd98212fd0e9cc0386a61a7a8abd5.js')}}"></script>
     <script integrity="sha384-n/mWlcmD3A8hj3otHvYHtLg0y7EXKB46oY3GuZ0AKEROBWTJ8Eyzw2e9R9b2BFZA" crossorigin="anonymous" src="{{URL::asset('assets/js/df99c4c3034c1045bc9895dbeb114bcc.js')}}"></script>

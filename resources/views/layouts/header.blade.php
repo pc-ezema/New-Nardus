@@ -1,9 +1,8 @@
 <header id="main-header">
     <div class="template-wrapper">
-        <a href="{{route('index')}}" id="main-logo" aria-label="IFF logo"><svg id="" class="" aria-labelledby="desc-2408" role="img">
-                <desc id="desc-2408"></desc>
-                <use xlink:href="typo3temp/assets/svg/7c37810a546deeab88bf7901f679e1c2.svg#icon-logo"></use>
-            </svg></a>
+        <a href="{{route('index')}}" id="main-logo" aria-label="{{config('app.name')}} logo">
+            <img src="{{ URL::asset('assets/images/nardus.png') }}" style="max-width: 100px; margin-top: 1rem;" />
+        </a>
         <nav id="main-navigation">
             <ul class="top">
                 <li class="has-sub">
@@ -11,9 +10,21 @@
                     <div class="sub-menu-container">
                         <div class="content-wrapper">
                             <ul class="level-2">
-                                <div class="mobile-navigation-back">Back</div>
+                                <div class="mobile-navigation-back">
+                                    <ul>
+                                        <li style="margin-bottom: 1rem;">
+                                            <a href="{{route('aboutUs')}}">About Us</a>
+                                        </li>
+                                        <li>
+                                            <a href="contact/customer-center.html">FAQs</a>
+                                        </li>
+                                    </ul>
+                                </div>
                                 <li>
-                                    <a href="contact/customer-center.html">Customer Center</a>
+                                    <a href="{{route('aboutUs')}}">About Us</a>
+                                </li>
+                                <li>
+                                    <a href="contact/customer-center.html">FAQs</a>
                                 </li>
                             </ul>
                         </div>
@@ -34,7 +45,7 @@
             </ul>
         </nav>
         <nav id="secondary-navigation text-center">
-            <a href="https://www.iff.com/" target="_blank">iff.com</a><a href="https://www.iff.com/media">Media</a><a href="https://www.iff.com/careers" target="_blank">Careers</a>
+            <a href="#" target="_blank" style="color: #222d35;">Contact Us</a>
         </nav>
         <div class="burger"><span></span><span></span><span></span></div>
     </div>

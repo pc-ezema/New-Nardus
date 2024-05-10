@@ -11,6 +11,11 @@ class HomePageController extends Controller
         return view('frontend.index');
     }
 
+    public function aboutUs()
+    {
+        return view('frontend.about');
+    }
+
     public function scents()
     {
         return view('frontend.scents');

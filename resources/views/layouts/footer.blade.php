@@ -2,17 +2,21 @@
     <div class="content-wrapper">
         <section id="footer-content">
             <div>
-                <a href="index.html" id="footer-logo" aria-label="IFF logo"><svg id="" class="" aria-labelledby="desc-1486" role="img">
-                        <desc id="desc-1486"></desc>
-                        <use xlink:href="typo3temp/assets/svg/7c37810a546deeab88bf7901f679e1c2.svg#icon-footer-logo"></use>
-                    </svg></a>
+                <a href="" id="footer-logo" aria-label="{{config('app.name')}} logo">
+                    <img src="{{ URL::asset('assets/images/nardus-white.png') }}" style="max-width: 200px;" />
+                </a>
             </div>
             <nav>
                 <p class="footer__section-heading">Quick links</p>
-                <a href="iff-bioscience.html">IFF Bioscience</a><a href="solutions.html">Industry Solutions</a><a href="news-and-insights.html">News & Insights</a><a href="contact.html">Contact</a>
+                <a href="{{route('index')}}">Home</a>
+                <a href="{{route('scents')}}">Scent</a>
+                <a href="{{route('cosmetics')}}">Cosmetics</a>
+                <a href="{{route('essential_oil')}}">Essential Oil</a>
             </nav>
             <nav id="footer-other">
-                <a href="https://www.iff.com/control-reports" target="_blank">Control Reports</a><a href="https://www.iff.com/responsibilities/strategy-reporting" target="_blank">ESG</a><a href="https://ir.iff.com/" target="_blank">Investor Relations</a><a href="sitemap.html">Sitemap</a>
+                <a href="{{route('aboutUs')}}">About Us</a>
+                <a href="https://www.iff.com/responsibilities/strategy-reporting" target="_blank">FAQs</a>
+                <a href="sitemap.html">Contact Us</a>
             </nav>
             <div>
                 <p class="footer__section-heading">Stay in touch</p>
@@ -42,17 +46,10 @@
                 </div>
             </div>
         </section>
-        <div id="footer-links">
-            <div id="footer-cookies">
-                <a href="https://www.iff.com/privacy" target="_blank">Privacy Statement</a><a href="https://www.iff.com/terms-of-use" target="_blank">Terms of Use</a><a href="https://www.iff.com/privacy/cookie-policy" target="_blank">Cookie Policy</a><a href="javascript:void(0)" target="_parent" onclick="truste.eu && truste.eu.clickListener()">Cookie Preferences</a><a href="javascript:void(0)" target="_parent" onclick="truste.eu && truste.eu.clickListener()">Do Not Sell or Share My Personal Information</a>
-            </div>
-            <div id="footer-privacy">
-                <a href="https://www.iff.com/privacy/job-applicant-privacy-notice" target="_blank">Job Applicant Privacy Notice</a><a href="https://www.iff.com/privacy/customer-and-vendor-privacy-notice" target="_blank">Customer and Vendor Privacy Notice</a>
-            </div>
-        </div>
         <p id="footer-copyright">
-            Copyright © 2024 by International Flavors &amp; Fragrances Inc. IFF is
-            a Registered Trademark. All Rights Reserved.
+            Copyright <script>
+                    document.write(new Date().getFullYear())
+                </script> © {{config('app.name')}}
         </p>
     </div>
 </footer>
