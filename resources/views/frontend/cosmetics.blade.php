@@ -26,10 +26,7 @@
                 <div class="flexible__mobile-bodytext">
                     <div class="bodytext large-body">
                         <p>
-                            As the market leader in dishwashing enzymes, we’re innovating
-                            today for the consumers of tomorrow. Our range of enzymatic
-                            solutions are designed to deliver effective, sustainable
-                            dishwashing performance for a naturally cleaner world.
+                            Unlocking Nature's Haircare Revolution: {{config('app.name')}} Lemongrass Haitrcare Oil
                         </p>
                     </div>
                 </div>
@@ -37,10 +34,7 @@
             <div class="right">
                 <div class="bodytext large-body">
                     <p>
-                        As the market leader in dishwashing enzymes, we’re innovating
-                        today for the consumers of tomorrow. Our range of enzymatic
-                        solutions are designed to deliver effective, sustainable
-                        dishwashing performance for a naturally cleaner world.
+                        Unlocking Nature's Haircare Revolution: {{config('app.name')}} Lemongrass Haitrcare Oil
                     </p>
                 </div>
             </div>

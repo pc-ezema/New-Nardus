@@ -6,38 +6,38 @@
         <nav id="main-navigation">
             <ul class="top">
                 <li class="has-sub">
-                    <a href="{{route('index')}}">Home</a>
+                    <a href="{{route('index')}}" class="{{ (request()->is('/*')) ? 'active' : '' }}">Home</a>
                     <div class="sub-menu-container">
                         <div class="content-wrapper">
                             <ul class="level-2">
                                 <div class="mobile-navigation-back">
                                     <ul>
                                         <li style="margin-bottom: 1rem;">
-                                            <a href="{{route('aboutUs')}}">About Us</a>
+                                            <a href="{{route('aboutUs')}}" class="{{ (request()->is('/about')) ? 'active' : '' }}">About Us</a>
                                         </li>
                                         <li>
-                                            <a href="contact/customer-center.html">FAQs</a>
+                                            <a href="{{route('faqs')}}" class="{{ (request()->is('/faqs')) ? 'active' : '' }}">FAQs</a>
                                         </li>
                                     </ul>
                                 </div>
                                 <li>
-                                    <a href="{{route('aboutUs')}}">About Us</a>
+                                    <a href="{{route('aboutUs')}}" class="{{ (request()->is('/about')) ? 'active' : '' }}">About Us</a>
                                 </li>
                                 <li>
-                                    <a href="contact/customer-center.html">FAQs</a>
+                                    <a href="{{route('faqs')}}" class="{{ (request()->is('/faqs')) ? 'active' : '' }}">FAQs</a>
                                 </li>
                             </ul>
                         </div>
                     </div>
                 </li>
                 <li class="">
-                    <a href="{{route('scents')}}">Scents</a>
+                    <a href="{{route('scents')}}" class="{{ (request()->is('scents')) ? 'active' : '' }}">Scents</a>
                 </li>
                 <li>
-                    <a href="{{route('cosmetics')}}">Cosmetics</a>
+                    <a href="{{route('cosmetics')}}" class="{{ (request()->is('cosmetics')) ? 'active' : '' }}">Cosmetics</a>
                 </li>
                 <li>
-                    <a href="{{route('essential_oil')}}">Essential Oil</a>
+                    <a href="{{route('essential_oil')}}" class="{{ (request()->is('essential-oil')) ? 'active' : '' }}">Essential Oil</a>
                 </li>
                 <li>
                     <a href="">Shop</a>
@@ -45,7 +45,7 @@
             </ul>
         </nav>
         <nav id="secondary-navigation text-center">
-            <a href="#" target="_blank" style="color: #222d35;">Contact Us</a>
+            <a href="{{route('contactUs')}}" style="color: #222d35; text-decoration: none;" class="{{ (request()->is('contact-us')) ? 'active' : '' }}">Contact Us</a>
         </nav>
         <div class="burger"><span></span><span></span><span></span></div>
     </div>

@@ -7,6 +7,7 @@
     <link rel="icon" href="{{URL::asset('assets/images/nardus.png')}}" type="image/x-icon" />
     <title>{{config('app.name')}}</title>
     <meta http-equiv="x-ua-compatible" content="IE=edge" />
+    <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta name="description" content="Experience the rich potency value of our natural product, derived through the most ethical extraction and purification process to give a recall moment the world is yet to discover." />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes, viewport-fit=cover" />
     <link href="{{URL::asset('assets/css/0b15710bfa8b2f9a6533513916cb8935.css')}}" rel="stylesheet" />
@@ -36,6 +37,8 @@
     <link href="{{URL::asset('assets/css/5a10ddb76aa33478daa0a772b94a5fca.css')}}" rel="stylesheet" />
     <link href="{{URL::asset('assets/css/88f75f23ed911c349f072debc9c9abe9.css')}}" rel="stylesheet" />
     <script integrity="sha384-16t9ZHYALapzurTezumKK2l5KKm5loTK4iAt3Nv8Nu3ah5CKfT3dl6I4FZ35pqkM" crossorigin="anonymous" src="{{URL::asset('assets/js/8635fc5f85459296e05cfb0f053d2d26.js')}}"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css">
+
     <script>
         var ua = window.navigator.userAgent;
         var msie = ua.indexOf("MSIE ");

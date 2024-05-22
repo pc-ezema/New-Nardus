@@ -716,3 +716,11 @@ body #main-navigation .sub-menu-container .content-wrapper,
         text-align: center;
     }
 }
+
+
+
+/*  */
+.active {
+    color: #194d02 !important;
+    border-bottom: 1px solid #194d02;
+}

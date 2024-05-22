@@ -19,4 +19,7 @@ Route::get('/about', [HomePageController::class, 'aboutUs'])->name('aboutUs');
 Route::get('/scents', [HomePageController::class, 'scents'])->name('scents');
 Route::get('/cosmetics', [HomePageController::class, 'cosmetics'])->name('cosmetics');
 Route::get('/essential-oil', [HomePageController::class, 'essential_oil'])->name('essential_oil');
-Route::get('/', [HomePageController::class, 'index'])->name('index');
+Route::get('/contact-us', [HomePageController::class, 'contactUs'])->name('contactUs');
+Route::post('/submit/contact-us', [HomePageController::class, 'submitContact'])->name('submitContact');
+Route::get('/faqs', [HomePageController::class, 'faqs'])->name('faqs');
+Route::get('/testimonial', [HomePageController::class, 'testimonial'])->name('testimonial');
