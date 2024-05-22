@@ -126,6 +126,9 @@
 </div>
 <!-- Google map end -->
 <style>
+    a {
+        text-decoration: none;
+    }
     .main-title {
         text-align: center;
         margin-bottom: 50px;
