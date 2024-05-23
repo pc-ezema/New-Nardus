@@ -83,7 +83,12 @@ class HomePageController extends Controller
 
     public function faqs()
     {
-        return view('frontend.essential_oil');
+        return view('frontend.faqs');
+    }
+
+    public function ourOutlet()
+    {
+        return view('frontend.ourOutlet');
     }
 
     public function testimonial()

@@ -96,6 +96,10 @@
             <div class="right">
                 <div class="bodytext large-body">
                     <p>Click and shop now to explore our premium probiotic solutions!</p>
+                    <p>
+                        Ready to speak with our team?
+                        <strong><a href="{{route('contactUs')}}">Contact us here.</a></strong>
+                    </p>
                 </div>
             </div>
         </div>

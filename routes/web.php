@@ -22,4 +22,5 @@ Route::get('/essential-oil', [HomePageController::class, 'essential_oil'])->name
 Route::get('/contact-us', [HomePageController::class, 'contactUs'])->name('contactUs');
 Route::post('/submit/contact-us', [HomePageController::class, 'submitContact'])->name('submitContact');
 Route::get('/faqs', [HomePageController::class, 'faqs'])->name('faqs');
+Route::get('/our-outlets', [HomePageController::class, 'ourOutlet'])->name('ourOutlet');
 Route::get('/testimonial', [HomePageController::class, 'testimonial'])->name('testimonial');

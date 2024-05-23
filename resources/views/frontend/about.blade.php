@@ -63,7 +63,7 @@
                 <div class="h4">Our Purpose</div>
                 <div class="bodytext large-body">
                     <ul>
-                        <li>To make a significant contribution to the world's need of essential oil.</li>
+                        <li>To make a significant contribution to the world's need for essential oil.</li>
                         <li>To constantly research and source new products that meet our customers’ growing needs.</li>
                         <li>To diffuse the perfect Fragrance in every space.</li>
                         <li>To Nourish, protect and glow with our natural ingredients.</li>
@@ -83,8 +83,8 @@
                     <ul>
                         <li><span style="font-weight: bolder;">Excellent Delivery Service:</span> A smart nationwide logistics network that guarantees safe and fast delivery.</li>
                         <li><span style="font-weight: bolder;">Experience & Talent</span>: Our work is founded on 20+ years of experience and driven by a line-up of remarkable corporate talents.</li>
-                        <li><span style="font-weight: bolder;">24/7 Customer Support:</span> We have an experienced customer support team that responds to inquiries in real time.</li>
-                        <li><span style="font-weight: bolder;">Research & Development:</span> Continuous research on organics with focus on promoting a healthier world.</li>
+                        <li><span style="font-weight: bolder;">24/7 Customer Support:</span> We have an experienced customer support team that responds to inquiries in real-time.</li>
+                        <li><span style="font-weight: bolder;">Research & Development:</span> Continuous research on organics with a focus on promoting a healthier world.</li>
                     </ul>
                 </div>
             </div>

@@ -44,8 +44,9 @@
                 </li>
             </ul>
         </nav>
-        <nav id="secondary-navigation text-center">
-            <a href="{{route('contactUs')}}" style="color: #222d35; text-decoration: none;" class="{{ (request()->is('contact-us')) ? 'active' : '' }}">Contact Us</a>
+        <nav class="navigation" id="secondary-navigation text-center">
+            <a href="{{route('ourOutlet')}}" class="{{ (request()->is('our-outlets')) ? 'active' : '' }}">Our Outlets</a>
+            <a href="{{route('contactUs')}}" class="{{ (request()->is('contact-us')) ? 'active' : '' }}">Contact Us</a>
         </nav>
         <div class="burger"><span></span><span></span><span></span></div>
     </div>

@@ -2,7 +2,7 @@
     <div class="content-wrapper">
         <section id="footer-content">
             <div>
-                <a href="" id="footer-logo" aria-label="{{config('app.name')}} logo">
+                <a href="{{route('index')}}" id="footer-logo" aria-label="{{config('app.name')}} logo">
                     <img src="{{ URL::asset('assets/images/nardus-white.png') }}" style="max-width: 200px;" />
                 </a>
             </div>
@@ -15,8 +15,9 @@
             </nav>
             <nav id="footer-other">
                 <a href="{{route('aboutUs')}}">About Us</a>
-                <a href="https://www.iff.com/responsibilities/strategy-reporting" target="_blank">FAQs</a>
-                <a href="sitemap.html">Contact Us</a>
+                <a href="{{route('faqs')}}">FAQs</a>
+                <a href="{{route('ourOutlet')}}">Our Outlets</a>
+                <a href="{{route('contactUs')}}">Contact Us</a>
             </nav>
             <div>
                 <p class="footer__section-heading">Stay in touch</p>

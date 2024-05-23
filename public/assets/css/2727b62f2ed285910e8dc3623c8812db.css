@@ -724,3 +724,293 @@ body #main-navigation .sub-menu-container .content-wrapper,
     color: #194d02 !important;
     border-bottom: 1px solid #194d02;
 }
+
+.navigation a {
+    margin-right: .5rem;
+    color: #222d35 !important;
+}
+
+a {
+    text-decoration: none !important;
+}
+.main-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.main-title h1 {
+    font-weight: 700;
+    margin: 0 0 10px;
+    font-size: 45px;
+}
+
+.btn-4 {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    border: none;
+    outline: none !important;
+    color: #ffffff;
+    text-transform: capitalize;
+    transition: all 0.6s linear;
+    z-index: 1;
+    overflow: hidden;
+    font-weight: 600;
+    padding: 0 30px;
+    font-size: 15px;
+    border-radius: 3px;
+    letter-spacing: 0.5px;
+    font-family: 'Mulish', sans-serif;
+}
+
+.btn-4:hover {
+    color: #ffffff;
+    background-color: #123901;
+}
+
+.btn-4:hover:after {
+    transform: perspective(200px) scaleX(1.05) rotateX(0deg) translateZ(0);
+    transition: transform 0.6s linear, transform 0.6s linear;
+}
+
+.btn-4:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    content: "";
+    border-radius: 0;
+    transform: perspective(200px) scaleX(0.1) rotateX(90deg) translateZ(-10px);
+    transform-origin: bottom center;
+    transition: transform 0.6s linear, transform 0.6s linear;
+    z-index: -1;
+}
+
+.btn-7 {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    outline: none !important;
+    color: #ffffff;
+    text-transform: capitalize;
+    transition: all 0.3s linear;
+    z-index: 1;
+    overflow: hidden;
+    padding: 0 30px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 46px;
+    border-radius: 3px;
+    letter-spacing: 0.5px;
+    font-family: 'Mulish', sans-serif;
+    background-color: #194d02;
+}
+
+.contact-1 .form-control {
+    width: 100%;
+    font-size: 15px;
+    background: #fff;
+    outline: 0;
+    border-radius: 3px;
+    border: 1px solid #e5e5e5;
+}
+
+.contact-1 .form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    outline: 0;
+}
+
+.contact-1 .btn-7 {
+    line-height: 54px;
+}
+
+.contact-1 .form-floating>label {
+    padding: 1rem 1rem;
+}
+
+.contact-1 .form-floating {
+    color: #535353;
+}
+
+.contact-1 .form-control:focus {
+    box-shadow: none;
+}
+
+.contact-1 .form-floating>.form-control:focus,
+.form-floating>.form-control:not(:placeholder-shown) {
+    padding-top: 1.625rem;
+    padding-bottom: .625rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.contact-1 textarea {
+    min-height: 210px;
+}
+
+.contact-1 .btn-message {
+    border-radius: 50px;
+    padding: 10px 60px 11px;
+}
+
+.contact-1 .contact-details {
+    padding: 40px 40px 40px 35px;
+    border-radius: 5px;
+    margin-left: 50px;
+    background: #fff;
+    border: 1px solid #e6e6e6;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 6%);
+}
+
+.contact-1 .contact-item {
+    position: relative;
+}
+
+.contact-1 .contact-item i {
+    font-size: 40px;
+    line-height: 60px;
+    color: #194d02;
+}
+
+.contact-1 .contact-item .contant {
+    margin-left: 15px;
+}
+
+.contact-1 .contact-item h4 {
+    font-weight: 700;
+    font-size: 20px;
+    margin: 5px 0 5px;
+}
+
+.contact-1 .contact-item p {
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.contact-1 .contact-item p a {
+    color: #5a5959;
+}
+
+.contact-1 .contact-item .icon {
+    width: 40px;
+    text-align: center;
+}
+
+@media (max-width: 992px) {
+    .contact-1 .contact-details {
+        padding: 40px 40px 40px 35px;
+        border-radius: 5px;
+        margin: 50px 0 0 0;
+        background: #fff;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .main-title h1 {
+        display: none;
+    }
+}
+
+/** Faq info start **/
+.faq-info .nav-tabs {
+    background: transparent;
+    border-bottom: none;
+    margin-bottom: 30px;
+}
+
+.faq-info p{
+    margin-bottom: 0;
+}
+
+.faq-info .nav-tabs .nav-link {
+    display: block;
+    padding: 12px 20px 12px;
+    border-radius: 0;
+    background: #fff;
+    color: #535353;
+}
+
+.faq-info .nav-tabs .nav-link.active {
+    color: #fff;
+}
+
+.faq-info .nav-tabs .nav-link:hover{
+    color: #fff;
+}
+
+.faq-info .accordion-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-weight: 500;
+    padding: 20px;
+    font-size: 16px;
+    color: #535353;
+    text-align: left;
+    box-shadow: none;
+    border: 0;
+    border-radius: 0;
+    overflow-anchor: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,border-radius .15s ease;
+    margin-bottom: 10px;
+    font-family: 'Mulish', sans-serif;
+}
+
+.faq-info .accordion-header{
+    background-color: #fff;
+}
+
+.faq-info .accordion-button:focus {
+    z-index: 3;
+    outline: 0;
+    background-color: #fff;
+    box-shadow: none;
+}
+
+.faq-info .accordion-item{
+    border: none;
+    background: transparent;
+}
+
+.faq-info .accordion-button:not(.collapsed) {
+    background-color: #fff;
+}
+
+.faq-info .accordion-body {
+    padding: 30px 20px;
+    margin-bottom: 10px;
+    background: #fff;
+}
+
+.faq-info .accordion-body p{
+    margin-bottom: 0;
+}
+
+.faq-info .accordion-button:not(.collapsed)::after {
+    transform: rotate(-180deg);
+}
+
+.faq-info.other-features .accordion-button {
+    padding: 0;
+    font-size: 16px;
+    color: #383737;
+    font-weight: 600;
+    background-color:transparent;
+    margin-bottom: 30px;
+}
+
+.faq-info.other-features .accordion-body {
+    padding: 0 0 30px;
+}
+
+.faq-info.other-features .checkbox label::before {
+    left: 0;
+    margin-left: -18px;
+    border-radius: 0;
+}
