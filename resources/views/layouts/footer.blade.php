@@ -25,7 +25,7 @@
                     Keep up to date on social media
                 </p>
                 <div id="footer__some-container">
-                    <a href="3" target="_blank" rel="noopener noreferrer"><svg id="" class="" aria-labelledby="desc-9691" role="img">
+                    <a href="#" target="_blank" rel="noopener noreferrer"><svg id="" class="" aria-labelledby="desc-9691" role="img">
                             <desc id="desc-9691"></desc>
                             <use xlink:href="typo3temp/assets/svg/7c37810a546deeab88bf7901f679e1c2.svg#icon-linkedin"></use>
                         </svg></a><a href="" target="_blank" rel="noopener noreferrer"><svg id="" class="" aria-labelledby="desc-6632" role="img">
