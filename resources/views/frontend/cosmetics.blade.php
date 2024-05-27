@@ -26,7 +26,7 @@
                 <div class="flexible__mobile-bodytext">
                     <div class="bodytext large-body">
                         <p>
-                            Unlocking Nature's Haircare Revolution: {{config('app.name')}} Lemongrass Haitrcare Oil
+                            Unlocking Nature's Haircare Revolution: {{config('app.name')}} Lemongrass Haircare Oil
                         </p>
                     </div>
                 </div>
@@ -34,7 +34,7 @@
             <div class="right">
                 <div class="bodytext large-body">
                     <p>
-                        Unlocking Nature's Haircare Revolution: {{config('app.name')}} Lemongrass Haitrcare Oil
+                        Unlocking Nature's Haircare Revolution: {{config('app.name')}} Lemongrass Haircare Oil
                     </p>
                 </div>
             </div>
@@ -49,38 +49,58 @@
                 <div class="h4">{{config('app.name')}} Cosmetics: Hair Care Oil </div>
                 <div class="bodytext large-body">
                     <p>
-                        Gel dishwashing detergents are designed for consumers searching
-                        for greater convenience and improved performance. Our stable
-                        enzymes are designed to deliver concentrated cleaning in active
-                        solutions.
+                        {{config('app.name')}} Lemongrass Haircare Oil isn't settling for ordinary.
+                        It's a pioneering innovation in natural haircare, meticulously formulated to unleash your hair's full potential.
+                        This potent blend, infused with nature's powerhouse – lemongrass – nourishes and strengthens for healthier, longer growth.
+                        Experience a revolution in hair health. {{config('app.name')}} tackles dryness, breakage, and dandruff, leaving your hair revitalized and radiating natural beauty.
+                        Discover the future of haircare – choose {{config('app.name')}}.
                     </p>
                 </div>
             </div>
         </div>
-        <!-- <div id="c225" class="frame frame-default ctype-iffcomponents_flexible tx-iff-components-flexible layout-2 image-width-medium images-1">
-            <div class="left flexible__content background-color-transparent">
-                <div class="h4">Against the clock</div>
-                <div class="bodytext large-body">
-                    <p>
-                        Convenience-driven consumers are setting shorter wash cycles.
-                        With less cleaning time, our enzyme technologies are enabling
-                        detergents to work harder than ever before – without
-                        compromising on cleaning or sustainability.
-                    </p>
-                </div>
+        <div id="c744" class="frame frame-default ctype-iffcomponents_flexible tx-iff-components-flexible layout-5 image-width-medium images-0">
+            <div class="content-section-title">Hair Care</div>
+            <div class="bodytext large-body">
+                <p>{{config('app.name')}} lemongrass haircare oil promotes hair growth, strengthens, moisturizes, and
+                    conditions hair, controls dandruff, adds shine, soothes the scalp, prevents hair loss, and has a refreshing scent.
+                    It is easy to use and provides overall hair health benefits for a vibrant and healthy hair.
+                </p>
             </div>
-            <div class="right flexible__image-container">
-                <div class="flexible__image lazyload" data-lazyload-400-src="https://d3b9n0uye9y0ja.cloudfront.net/typo3temp/assets/images/csm_dish-againstclock_d155ce70fa_e61e2712ad9e61763c42a775797dea01.jpg" data-lazyload-600-src="https://d3b9n0uye9y0ja.cloudfront.net/typo3temp/assets/images/csm_dish-againstclock_3d0d23ad92_019fcf87fab958371fd9e3b5ec549cb0.jpg" data-lazyload-800-src="https://d3b9n0uye9y0ja.cloudfront.net/typo3temp/assets/images/csm_dish-againstclock_66326e3d6f_4df0c9be9b45cd744db979ad489f9bbe.jpg">
+        </div>
+
+        <div id="c189" class="frame frame-default ctype-iffcomponents_multibox with-shape-0">
+            <div class="multibox__boxes">
+                <article class="multibox__box">
+                    <p class="h4">For Haircare</p>
+                    <div class="box__description">
+                        <p>Discover the essence of {{config('app.name')}} Lemongrass Haircare Oil:
+                            a natural, nutrient-rich formula designed to balance scalp pH, stimulate growth, and combat dandruff.
+                            Revel in its soothing aroma and antioxidant protection for Radiant, healthy hair.</p>
+                    </div>
+                </article>
+                <article class="multibox__box">
+                    <p class="h4">For Beards</p>
+                    <div class="box__description">
+                        <p>Elevate your beard care with {{config('app.name')}} Lemongrass Beard Oil.
+                            This natural elixir hydrates, stimulates growth, soothes skin, and protects with its antioxidant-rich,
+                            antimicrobial properties. Embrace the fresh scent and radiant finish for a fuller, healthier beard.
+                            Perfect for effortless grooming and style.</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+        <div id="c112" class="frame frame-default ctype-iffcomponents_flexible tx-iff-components-flexible layout-1 image-width-medium images-1">
+            <div class="left flexible__image-container">
+                <div class="flexible__image lazyload" data-lazyload-400-src="{{URL::asset('assets/images/haircare.png')}}" data-lazyload-600-src="{{URL::asset('assets/images/haircare.png')}}" data-lazyload-800-src="{{URL::asset('assets/images/haircare.png')}}">
                     <div class="background-dimmer"></div>
                 </div>
             </div>
-        </div> -->
-        <div id="c227" class="frame frame-default ctype-iffcomponents_multibox with-shape-1">
-            <div class="multibox__background-shape background-color-purple text-light">
-                <div class="content-wrapper">
-                    <div class="multibox__content">
-                        <div class="h2">Solutions for common consumer problems</div>
-                    </div>
+            <div class="right flexible__content background-color-transparent">
+                <div class="h4">Solutions</div>
+                <div class="bodytext large-body">
+                    <p><strong>1. Dryness and Frizziness </strong><br> {{config('app.name')}} Lemongrass Oil, with its natural hydrating properties, effectively combats dryness and frizziness, leaving hair and beards soft, smooth, and manageable.</p>
+                    <p><strong>2. Slow Growth </strong><br> {{config('app.name')}} Lemongrass Oil contains stimulating ingredients that promote healthy hair follicles, encouraging faster and fuller growth for both hair and beards.</p>
+                    <p><strong>3. Scalp Health and Dermatitis </strong><br> {{config('app.name')}} Lemongrass Oil, with its antimicrobial and soothing properties, effectively alleviates scalp issues like dandruff, itchy hair, edges, and promoting overall hair health.</p>
                 </div>
             </div>
         </div>
@@ -93,7 +113,7 @@
             </div>
             <div class="right">
                 <div class="bodytext large-body">
-                    <p>Click and shop now to explore our premium probiotic solutions!</p>
+                    <p>Nourish and soothe your hair, embracing vibrant radiance, natural shine, and a comforted scalp, where expert haircare meets the essence of nature.</p>
                 </div>
             </div>
         </div>

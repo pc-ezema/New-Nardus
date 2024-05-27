@@ -24,13 +24,13 @@
                 <div class="h2">Essential Oil</div>
                 <div class="flexible__mobile-bodytext">
                     <div class="bodytext large-body">
-                        <p>From nature to your home.</p>
+                        <p>From Nature to Home: Find Serenity with Lemongrass Oil - A Natural Path to Wellness</p>
                     </div>
                 </div>
             </div>
             <div class="right">
                 <div class="bodytext large-body">
-                    <p>From nature to your home.</p>
+                    <p>From Nature to Home: Find Serenity with Lemongrass Oil - A Natural Path to Wellness</p>
                 </div>
             </div>
         </div>
@@ -83,7 +83,7 @@
             </div>
             <div class="right">
                 <div class="bodytext large-body">
-                    <p>Join us on a journey of discovery, and experience the beauty of nature in every bottle. Welcome to {{config('app.name')}} Scents, where the essence of nature meets perfumery.</p>
+                    <p>Revive & Uplift. Invigorate your senses, uplift your mood, and revive your wellbeing, with the refreshing essence of lemongrass.</p>
                 </div>
             </div>
         </div>

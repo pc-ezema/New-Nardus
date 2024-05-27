@@ -68,21 +68,21 @@
                     <div class="card__metadata">
                         <div class="tag variant-orange homeTag">Scents</div>
                     </div>
-                    <p class="h4">IFF Expands Partnership with Kemira to Commercialize New Designed Enzymatic Biomaterials</p><a href="{{route('scents')}}" class="card__link" rel="noopener noreferrer"> Find out more </a>
+                    <p class="h4">Promoting an exceptional fragrance brand that utilizes high-quality health ingredients backed by solid scientific research.</p><a href="{{route('scents')}}" class="card__link" rel="noopener noreferrer"> Find out more </a>
                 </article>
                 <article class="card">
                     <div class="card__image lazyload" data-lazyload-300-src="https://d3b9n0uye9y0ja.cloudfront.net/typo3temp/assets/images/csm_MicrosoftTeams-image__3__ca977d04ae_4ed62194a5a2c8fd4c70d1ed16bd2070.png" data-lazyload-400-src="https://d3b9n0uye9y0ja.cloudfront.net/typo3temp/assets/images/csm_MicrosoftTeams-image__3__b31c8115d8_9d5a644dc1c1e66cf1992087b603f33f.png" data-lazyload-600-src="https://d3b9n0uye9y0ja.cloudfront.net/typo3temp/assets/images/csm_MicrosoftTeams-image__3__5367fdb528_032842168c8b7e98d00784e6ffbc198a.png"></div>
                     <div class="card__metadata">
                         <div class="tag variant-orange homeTag">Cosmetics</div>
                     </div>
-                    <p class="h4">IFF Celebrates Achievements of Leading Scientists Across Multiple Fields</p><a href="{{route('cosmetics')}}" class="card__link" rel="noopener noreferrer"> Find out more </a>
+                    <p class="h4">Unlocking Nature's Haircare Revolution: {{config('app.name')}} Lemongrass Haircare Oil</p><a href="{{route('cosmetics')}}" class="card__link" rel="noopener noreferrer"> Find out more </a>
                 </article>
                 <article class="card">
                     <div class="card__image lazyload" data-lazyload-300-src="https://d3b9n0uye9y0ja.cloudfront.net/typo3temp/assets/images/csm_iff-secures-regulatory-approval-for-use-of-2_-fl-hmo-in-china_914d20b9c9_d45a2ffa39ef36a8915e2386aa4e6a8e.jpg" data-lazyload-400-src="https://d3b9n0uye9y0ja.cloudfront.net/typo3temp/assets/images/csm_iff-secures-regulatory-approval-for-use-of-2_-fl-hmo-in-china_21e5cd7386_b9e3ce92d7f9e950d6aa64ae8c48e0c0.jpg" data-lazyload-600-src="https://d3b9n0uye9y0ja.cloudfront.net/typo3temp/assets/images/csm_iff-secures-regulatory-approval-for-use-of-2_-fl-hmo-in-china_6e98351581_b516dcaa16f823178b18ee8e4376098f.jpg"></div>
                     <div class="card__metadata">
                         <div class="tag variant-orange homeTag">Essential Oil</div>
                     </div>
-                    <p class="h4">IFF Secures Regulatory Approval for Use of 2’-FL HMO in China</p><a href="{{route('essential_oil')}}" class="card__link" rel="noopener noreferrer"> Find out more </a>
+                    <p class="h4">From Nature to Home: Find Serenity with Lemongrass Oil - A Natural Path to Wellness</p><a href="{{route('essential_oil')}}" class="card__link" rel="noopener noreferrer"> Find out more </a>
                 </article>
             </div>
         </div>
