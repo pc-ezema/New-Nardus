@@ -105,11 +105,11 @@
             </div>
         </div>
         <div id="c973" class="frame frame-default ctype-iffcomponents_flexible tx-iff-components-flexible layout-3 image-width-medium images-0">
-            <div class="content-section-title">Click and shop now to explore our premium probiotic solutions!</div>
+            <div class="content-section-title">Click and shop now</div>
             <div class="left">
                 <div class="h2">#Shop With Us</div>
                 <div class="flexible__mobile-bodytext">
-                </div><a href="https://www.linkedin.com/showcase/howaru-premium-probiotics" target="_blank" class="cta-button style-color variant-primary" rel="noopener noreferrer">SHOP NOW</a>
+                </div><a href="#" target="_blank" class="cta-button style-color variant-primary" rel="noopener noreferrer">SHOP NOW</a>
             </div>
             <div class="right">
                 <div class="bodytext large-body">

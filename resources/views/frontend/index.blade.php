@@ -25,7 +25,7 @@
                 <div class="content-section-title">{{config('app.name')}}</div>
                 <div class="h4">Who We Are</div>
                 <div class="bodytext large-body">
-                    <p>The choices we make today, big and small, will impact our world tomorrow. From bread to biofuels, we partner with customers to deliver high-performance products and solutions that are better, safer, and cleaner.</p>
+                    <p>We support health and well-being through alternative medicine from plant extracts. We constantly research and source new products that meet our customers’ growing needs and also make a significant contribution to the world’s need for essential oils.</p>
                 </div><a href="{{route('aboutUs')}}" class="cta-button style-color variant-secondary">Explore</a>
             </div>
             <div class="right flexible__image-container">
@@ -44,7 +44,7 @@
                 <div class="content-section-title">{{config('app.name')}}</div>
                 <div class="h4">What We Do</div>
                 <div class="bodytext large-body">
-                    <p>Explore our holistic approach to sustainable growth, enabling our customers to meet ESG goals and experience market success, while improving the environmental footprint and wellbeing of millions globally.</p>
+                    <p>{{config('app.name')}} Company Limited is a leading global supplier of essential oils and natural ingredients, catering to the Flavour, Fragrance, and Cosmetic industries. We offer an extensive selection of essential oils to meet the diverse needs of our clients.</p>
                 </div><a href="{{route('aboutUs')}}" class="cta-button style-color variant-secondary">find out more</a>
             </div>
         </div>
@@ -87,15 +87,15 @@
             </div>
         </div>
         <div id="c973" class="frame frame-default ctype-iffcomponents_flexible tx-iff-components-flexible layout-3 image-width-medium images-0">
-            <div class="content-section-title">Click and shop now to explore our premium probiotic solutions!</div>
+            <div class="content-section-title">Click and shop now</div>
             <div class="left">
                 <div class="h2">#Shop With Us</div>
                 <div class="flexible__mobile-bodytext">
-                </div><a href="https://www.linkedin.com/showcase/howaru-premium-probiotics" target="_blank" class="cta-button style-color variant-primary" rel="noopener noreferrer">SHOP NOW</a>
+                </div><a href="#" target="_blank" class="cta-button style-color variant-primary" rel="noopener noreferrer">SHOP NOW</a>
             </div>
             <div class="right">
                 <div class="bodytext large-body">
-                    <p>Click and shop now to explore our premium probiotic solutions!</p>
+                    <p>Experience the rich potency value of our natural product, derived through the most ethical extraction and purification process to give a recall moment the world is yet to discover.</p>
                     <p>
                         Ready to speak with our team?
                         <strong><a href="{{route('contactUs')}}">Contact us here.</a></strong>
