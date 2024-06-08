@@ -30,87 +30,463 @@
         <div class="col-lg-10 offset-lg-1 mb-30">
             <div class="faq-info">
                 <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <h5>Lemongrass Essential Oil</h5>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="flush-headingOne">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                                How do I make a reservation at your hotel?
+                                What is Lemongrass Essential Oil, and what are its benefits?
                             </button>
                         </h2>
                         <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                             <div class="accordion-body">
-                                <p>Making a reservation at our hotel is easy! You can book a room directly through our website by selecting your desired check-in and check-out dates, choosing the room type that suits your needs, and completing the booking process. Alternatively, you can contact our reservations team via phone or email, and they will be happy to assist you in making a reservation.</p>
+                                <p>Lemongrass Essential Oil is a natural oil extracted from the leaves of the lemongrass plant, offering a range of benefits including peaceful sleep, stress relief, aromatherapy, pain reduction, and insect repellent properties.</p>
                             </div>
                         </div>
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="flush-headingTwo">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                                What types of rooms does your hotel offer?
+                                How do I use Lemongrass Essential Oil?
                             </button>
                         </h2>
                         <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
                             <div class="accordion-body">
-                                <p>We offer a range of room types to cater to different preferences and needs. Our options include single rooms, mini suites rooms, and double rooms. Each room type is designed with comfort and convenience in mind, featuring modern amenities and stylish decor to ensure a pleasant stay for our guests.</p>
+                                <p>Use a few drops in a diffuser, for massage or skincare, or add to cleaning products for a natural and refreshing scent.</p>
                             </div>
                         </div>
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="flush-headingThree">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                                Can I request additional amenities or services during my stay?
+                                Is Lemongrass Essential Oil safe for skin use?
                             </button>
                         </h2>
                         <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
                             <div class="accordion-body">
-                                <p>Absolutely! We strive to accommodate our guests' requests to make their stay as comfortable as possible. You can request additional amenities such as extra pillows, toiletries, or even specific room preferences like a higher floor or a room with a view. Our friendly staff is available 24/7 to assist you with any special requests or services you may need during your stay.</p>
+                                <p>Yes, and for people with sensitive skin, it's best to avoid using Lemongrass Essential Oil.</p>
                             </div>
                         </div>
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="flush-heading4">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse4" aria-expanded="false" aria-controls="flush-collapse4">
-                                What are the check-in and check-out times at your hotel?
+                                How long does Lemongrass Essential Oil last?
                             </button>
                         </h2>
                         <div id="flush-collapse4" class="accordion-collapse collapse" aria-labelledby="flush-heading4" data-bs-parent="#accordionFlushExample">
                             <div class="accordion-body">
-                                <p>Our standard check-in time is at 3:00 PM, and check-out time is at 12:00 PM. However, we understand that travel plans may vary, so we offer flexibility whenever possible. If you need to adjust your check-in or check-out times, please let us know in advance, and we will do our best to accommodate your request based on availability.</p>
+                                <p>When stored properly, Lemongrass Essential Oil can last up to 5 years.</p>
                             </div>
                         </div>
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="flush-heading5">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse5" aria-expanded="false" aria-controls="flush-collapse5">
-                                Do you have on-site dining options available?
+                                Can I use Lemongrass Essential Oil during pregnancy or breastfeeding?
                             </button>
                         </h2>
                         <div id="flush-collapse5" class="accordion-collapse collapse" aria-labelledby="flush-heading5" data-bs-parent="#accordionFlushExample">
                             <div class="accordion-body">
-                                <p>Yes, we have on-site dining options for our guests to enjoy delicious meals throughout their stay. Our hotel restaurant offers a diverse menu featuring local and international cuisines, along with a cozy ambiance perfect for dining with family or friends. Additionally, we have a bar/lounge area where you can relax and unwind with a selection of beverages and snacks.</p>
+                                <p>Consult your healthcare provider before using Lemongrass Essential Oil during pregnancy or breastfeeding.</p>
                             </div>
                         </div>
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="flush-heading6">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse6" aria-expanded="false" aria-controls="flush-collapse6">
-                                How can I provide feedback or share my experience with your hotel?
+                                Can I use Lemongrass Essential Oil in my skincare routine?
                             </button>
                         </h2>
                         <div id="flush-collapse6" class="accordion-collapse collapse" aria-labelledby="flush-heading6" data-bs-parent="#accordionFlushExample">
                             <div class="accordion-body">
-                                <p>We value feedback from our guests as it helps us improve and enhance our services. You can provide feedback by filling out a guest satisfaction survey during your stay or by contacting our guest relations team directly via email or phone. Your feedback is important to us, and we appreciate you taking the time to share your experience with us.</p>
+                                <p>Yes, Lemongrass Essential Oil has antiseptic and astringent properties that can help reduce acne, tighten pores, and tone the skin.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <h5>Haircare Oil</h5>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-heading8">
+                            <button class="accordion-button collapsed mb-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse8" aria-expanded="false" aria-controls="flush-collapse8">
+                                What is Nardus Lemongrass Haircare Oil, and what are its benefits?
+                            </button>
+                        </h2>
+                        <div id="flush-collapse8" class="accordion-collapse collapse" aria-labelledby="flush-heading8" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <p>Nardus Lemongrass Haircare Oil is a natural, nourishing oil infused with lemongrass essential oil to promote healthy hair growth, reduce dandruff and itchiness, and leave your hair feeling soft and manageable.</p>
                             </div>
                         </div>
                     </div>
                     <div class="accordion-item">
-                        <h2 class="accordion-header" id="flush-heading7">
-                            <button class="accordion-button collapsed mb-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse7" aria-expanded="false" aria-controls="flush-collapse7">
-                                What safety measures do you have in place for guest security?
+                        <h2 class="accordion-header" id="flush-heading9">
+                            <button class="accordion-button collapsed mb-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse9" aria-expanded="false" aria-controls="flush-collapse9">
+                                How do I use Nardus Lemongrass Haircare Oil?
                             </button>
                         </h2>
-                        <div id="flush-collapse7" class="accordion-collapse collapse" aria-labelledby="flush-heading7" data-bs-parent="#accordionFlushExample">
+                        <div id="flush-collapse9" class="accordion-collapse collapse" aria-labelledby="flush-heading9" data-bs-parent="#accordionFlushExample">
                             <div class="accordion-body">
-                                <p>The safety and security of our guests are paramount. We have implemented comprehensive safety measures throughout our hotel, including 24-hour security surveillance, key card access to rooms and elevators, fire safety systems, and trained staff to respond to any emergencies promptly. Additionally, we follow strict cleaning and sanitation protocols to ensure a hygienic environment for our guests.</p>
+                                <p> Apply a generous amount to the ends of your hair, working your way up to the roots.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-heading10">
+                            <button class="accordion-button collapsed mb-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse10" aria-expanded="false" aria-controls="flush-collapse10">
+                                Is Nardus Lemongrass Haircare Oil suitable for all hair types?
+                            </button>
+                        </h2>
+                        <div id="flush-collapse10" class="accordion-collapse collapse" aria-labelledby="flush-heading10" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <p>Yes, our oil is suitable for all hair types, including dry, damaged, oily, or combination hair.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-heading11">
+                            <button class="accordion-button collapsed mb-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse11" aria-expanded="false" aria-controls="flush-collapse11">
+                                How long will a bottle of Nardus Lemongrass Haircare Oil last?
+                            </button>
+                        </h2>
+                        <div id="flush-collapse11" class="accordion-collapse collapse" aria-labelledby="flush-heading11" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <p>Depending on hair length and usage.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-heading12">
+                            <button class="accordion-button collapsed mb-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse12" aria-expanded="false" aria-controls="flush-collapse12">
+                                Is Nardus Lemongrass Haircare Oil made with natural lemongrass oil?
+                            </button>
+                        </h2>
+                        <div id="flush-collapse12" class="accordion-collapse collapse" aria-labelledby="flush-heading12" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <p>YYes, its made with 100% undiluted oil.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-heading13">
+                            <button class="accordion-button collapsed mb-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse13" aria-expanded="false" aria-controls="flush-collapse13">
+                                Can I use Nardus Lemongrass Haircare Oil on my scalp?
+                            </button>
+                        </h2>
+                        <div id="flush-collapse13" class="accordion-collapse collapse" aria-labelledby="flush-heading13" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <p>Yes, our oil can be applied directly to the scalp to help soothe itchiness and promote healthy hair growth.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-heading14">
+                            <button class="accordion-button collapsed mb-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse14" aria-expanded="false" aria-controls="flush-collapse14">
+                                Are there any side effects of using Nardus Lemongrass Haircare Oil?
+                            </button>
+                        </h2>
+                        <div id="flush-collapse14" class="accordion-collapse collapse" aria-labelledby="flush-heading14" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <p>Our oil is made with natural ingredients and is generally gentle. However, if you experience any irritation or discomfort, discontinue use and consult a healthcare professional.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-heading15">
+                            <button class="accordion-button collapsed mb-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse15" aria-expanded="false" aria-controls="flush-collapse15">
+                                Can I use Nardus Lemongrass Haircare Oil during pregnancy or breastfeeding?
+                            </button>
+                        </h2>
+                        <div id="flush-collapse15" class="accordion-collapse collapse" aria-labelledby="flush-heading15" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <p>As with any new haircare product, consult your healthcare provider before using our oil during pregnancy or breastfeeding.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-heading16">
+                            <button class="accordion-button collapsed mb-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse16" aria-expanded="false" aria-controls="flush-collapse16">
+                                How do I use Lemongrass Haircare Oil for my beard?
+                            </button>
+                        </h2>
+                        <div id="flush-collapse16" class="accordion-collapse collapse" aria-labelledby="flush-heading16" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <p>Apply 2-3 drops of Lemongrass Haircare Oil to your beard, massaging it into the hair and skin beneath. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-heading17">
+                            <button class="accordion-button collapsed mb-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse17" aria-expanded="false" aria-controls="flush-collapse17">
+                                What are the benefits of using Lemongrass Haircare Oil for my beard?
+                            </button>
+                        </h2>
+                        <div id="flush-collapse17" class="accordion-collapse collapse" aria-labelledby="flush-heading17" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <p>Lemongrass Haircare Oil helps to condition and moisturize your beard, promoting healthy growth, reducing dandruff and itchiness, and leaving your beard smelling fresh and clean.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-heading18">
+                            <button class="accordion-button collapsed mb-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse18" aria-expanded="false" aria-controls="flush-collapse18">
+                                Can I use Lemongrass Haircare Oil to help reduce beard bumps and ingrown hairs?
+                            </button>
+                        </h2>
+                        <div id="flush-collapse18" class="accordion-collapse collapse" aria-labelledby="flush-heading18" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <p>Yes, Lemongrass Haircare Oil has natural anti-inflammatory properties that can help reduce beard bumps and ingrown hairs. Massage the oil into your beard and skin to help soothe and calm irritated areas.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-heading19">
+                            <button class="accordion-button collapsed mb-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse19" aria-expanded="false" aria-controls="flush-collapse19">
+                                Is Lemongrass Haircare Oil suitable for all beard types?
+                            </button>
+                        </h2>
+                        <div id="flush-collapse19" class="accordion-collapse collapse" aria-labelledby="flush-heading19" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <p>Yes, Lemongrass Haircare Oil is suitable for all beard types, including dry, oily, or combination beards. It helps to balance and nourish your beard, regardless of its type.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-heading20">
+                            <button class="accordion-button collapsed mb-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse20" aria-expanded="false" aria-controls="flush-collapse20">
+                                How often should I use Lemongrass Haircare Oil for my beard?
+                            </button>
+                        </h2>
+                        <div id="flush-collapse20" class="accordion-collapse collapse" aria-labelledby="flush-heading20" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <p>For best results, apply it 1-2 times a week as a nourishing treatment. If you're experiencing beard bumps or ingrown hairs, you can apply a small amount daily on the affected area.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <h5>SleepEase Lemongrass Oil</h5>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-heading21">
+                            <button class="accordion-button collapsed mb-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse21" aria-expanded="false" aria-controls="flush-collapse21">
+                                How do I use SleepEase Lemongrass Oil for a peaceful night's sleep?
+                            </button>
+                        </h2>
+                        <div id="flush-collapse21" class="accordion-collapse collapse" aria-labelledby="flush-heading21" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <p>Add 5-7 drops of SleepEase Lemongrass Oil to your diffuser before bed, or put a few drop on a cotton ball or tissue paper and hide the scented fluff around the bed or sofa.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-heading22">
+                            <button class="accordion-button collapsed mb-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse22" aria-expanded="false" aria-controls="flush-collapse22">
+                                What makes SleepEase Lemongrass Oil effective for sleep?
+                            </button>
+                        </h2>
+                        <div id="flush-collapse22" class="accordion-collapse collapse" aria-labelledby="flush-heading22" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <p>SleepEase Lemongrass Oil is made with Lemongrass Oil, which has a calming and soothing effect on the mind and body, helping to reduce stress and anxiety that can interfere with sleep.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-heading23">
+                            <button class="accordion-button collapsed mb-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse23" aria-expanded="false" aria-controls="flush-collapse23">
+                                Can I use SleepEase Lemongrass Oil if I have trouble falling asleep?
+                            </button>
+                        </h2>
+                        <div id="flush-collapse23" class="accordion-collapse collapse" aria-labelledby="flush-heading23" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <p>Yes, SleepEase Lemongrass  Oil can help calm your mind and body, making it easier to fall asleep and stay asleep throughout the night.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-heading24">
+                            <button class="accordion-button collapsed mb-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse24" aria-expanded="false" aria-controls="flush-collapse24">
+                                Is SleepEase Lemongrass Oil safe to use every night?
+                            </button>
+                        </h2>
+                        <div id="flush-collapse24" class="accordion-collapse collapse" aria-labelledby="flush-heading24" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <p>Yes, SleepEase Lemongrass Oil is made with natural ingredients and is safe to use every night to promote peaceful sleep and relaxation.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <h5>Scents</h5>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-heading25">
+                            <button class="accordion-button collapsed mb-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse25" aria-expanded="false" aria-controls="flush-collapse25">
+                                What are the benefits of lemongrass and oud fragrance?
+                            </button>
+                        </h2>
+                        <div id="flush-collapse25" class="accordion-collapse collapse" aria-labelledby="flush-heading25" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <p>Uplifting, refreshing, grounding, and calming properties.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-heading26">
+                            <button class="accordion-button collapsed mb-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse26" aria-expanded="false" aria-controls="flush-collapse26">
+                                Is lemongrass fragrance suitable for stress relief?
+                            </button>
+                        </h2>
+                        <div id="flush-collapse26" class="accordion-collapse collapse" aria-labelledby="flush-heading26" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <p>Yes, its citrus and herbal notes can help reduce stress and anxiety.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-heading27">
+                            <button class="accordion-button collapsed mb-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse27" aria-expanded="false" aria-controls="flush-collapse27">
+                                Can lemongrass fragrance repel insects?
+                            </button>
+                        </h2>
+                        <div id="flush-collapse27" class="accordion-collapse collapse" aria-labelledby="flush-heading27" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <p>Yes, its citrus and grassy notes are known to repel mosquitoes and other insects.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-heading28">
+                            <button class="accordion-button collapsed mb-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse28" aria-expanded="false" aria-controls="flush-collapse28">
+                                Are your reed diffusers oil base or alcohol base?
+                            </button>
+                        </h2>
+                        <div id="flush-collapse28" class="accordion-collapse collapse" aria-labelledby="flush-heading28" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <p>Our reed diffusers are oil base.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-heading29">
+                            <button class="accordion-button collapsed mb-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse29" aria-expanded="false" aria-controls="flush-collapse29">
+                                Can I use different scents in different rooms?
+                            </button>
+                        </h2>
+                        <div id="flush-collapse29" class="accordion-collapse collapse" aria-labelledby="flush-heading29" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <p>YYes, then you’ll walk from one scent to another. Since scents trigger feelings, reed diffusers can create an environment of feelings that changes from one space to another.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-heading30">
+                            <button class="accordion-button collapsed mb-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse30" aria-expanded="false" aria-controls="flush-collapse30">
+                                How do car diffusers work?
+                            </button>
+                        </h2>
+                        <div id="flush-collapse30" class="accordion-collapse collapse" aria-labelledby="flush-heading30" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <p>Diffusers create a way to fill the air in a space with tiny, breathable particles of beneficial essential and sweet-smelling fragrance.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-heading31">
+                            <button class="accordion-button collapsed mb-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse31" aria-expanded="false" aria-controls="flush-collapse31">
+                                How do I use my car diffuser?
+                            </button>
+                        </h2>
+                        <div id="flush-collapse31" class="accordion-collapse collapse" aria-labelledby="flush-heading31" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <p>To use a car diffuser, open the wooden cap and remove the inner plastic stopper, then screw the wooden cap, and hang the bottle on your mirror.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-heading32">
+                            <button class="accordion-button collapsed mb-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse7" aria-expanded="false" aria-controls="flush-collapse7">
+                                What are the benefits of using a car diffuser?
+                            </button>
+                        </h2>
+                        <div id="flush-collapse7" class="accordion-collapse collapse" aria-labelledby="flush-heading32" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <p>Some benefits include helping you relax, promoting feelings of calm, improving clarity and focus, boosting your mood, helping clear airways for easier breathing, and helping ease mood swings during hormonal times.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-heading33">
+                            <button class="accordion-button collapsed mb-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse33" aria-expanded="false" aria-controls="flush-collapse33">
+                                Is potpourri a natural air freshener?
+                            </button>
+                        </h2>
+                        <div id="flush-collapse33" class="accordion-collapse collapse" aria-labelledby="flush-heading33" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <p>Yes, potpourri is a natural and chemical-free way to freshen the air.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-heading34">
+                            <button class="accordion-button collapsed mb-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse34" aria-expanded="false" aria-controls="flush-collapse34">
+                                Can potpourri be used in craft projects for gifts?
+                            </button>
+                        </h2>
+                        <div id="flush-collapse34" class="accordion-collapse collapse" aria-labelledby="flush-heading34" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <p>Yes, potpourri makes a lovely addition to handmade gifts, such as wreaths, bouquets, or decorative jars.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-heading35">
+                            <button class="accordion-button collapsed mb-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse35" aria-expanded="false" aria-controls="flush-collapse35">
+                                What is ambience scenting?
+                            </button>
+                        </h2>
+                        <div id="flush-collapse35" class="accordion-collapse collapse" aria-labelledby="flush-heading35" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <p>Ambience scenting is the use of fragrances to create a specific atmosphere or mood in a space.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-heading36">
+                            <button class="accordion-button collapsed mb-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse36" aria-expanded="false" aria-controls="flush-collapse36">
+                                Can ambience scenting be customized?
+                            </button>
+                        </h2>
+                        <div id="flush-collapse36" class="accordion-collapse collapse" aria-labelledby="flush-heading36" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <p>Yes, fragrances and intensity can be tailored to individual preferences.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-heading37">
+                            <button class="accordion-button collapsed mb-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse37" aria-expanded="false" aria-controls="flush-collapse37">
+                                Is ambience scenting safe?
+                            </button>
+                        </h2>
+                        <div id="flush-collapse37" class="accordion-collapse collapse" aria-labelledby="flush-heading37" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <p>Generally safe, but may cause issues for those with sensitivities or allergies.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-heading38">
+                            <button class="accordion-button collapsed mb-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse38" aria-expanded="false" aria-controls="flush-collapse38">
+                                How long does ambience scenting last?
+                            </button>
+                        </h2>
+                        <div id="flush-collapse38" class="accordion-collapse collapse" aria-labelledby="flush-heading38" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <p>Depends on the fragrance, diffuser, and space size.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-heading39">
+                            <button class="accordion-button collapsed mb-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse39" aria-expanded="false" aria-controls="flush-collapse39">
+                                Can ambience scenting be used in various settings?
+                            </button>
+                        </h2>
+                        <div id="flush-collapse39" class="accordion-collapse collapse" aria-labelledby="flush-heading39" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <p>Yes, in homes, offices, hotels, restaurants, and public spaces.</p>
                             </div>
                         </div>
                     </div>
