@@ -11,7 +11,8 @@
                 <div class="banner__content text-light">
                     <div class="content-wrapper">
                         <div class="banner__heading h1">WELCOME TO {{ucfirst(config('app.name'))}}</div>
-                        <div class="banner__sub-heading h4">Bioscience for life</div><a href="/iff-bioscience" class="cta-button style-light variant-secondary">Explore</a>
+                        <div class="banner__sub-heading h4">Global provider of essential oils, widely utilized in the flavor, fragrance, and cosmetic sectors.</div>
+                        <!-- <a href="{{route('aboutUs')}}" class="cta-button style-light variant-secondary">Explore</a> -->
                     </div>
                 </div>
             </div>
@@ -25,7 +26,7 @@
                 <div class="content-section-title">{{config('app.name')}}</div>
                 <div class="h4">Who We Are</div>
                 <div class="bodytext large-body">
-                    <p>We support health and well-being through alternative medicine from plant extracts. We constantly research and source new products that meet our customers’ growing needs and also make a significant contribution to the world’s need for essential oils.</p>
+                    <p style="text-align: justify;">We support health and well-being through alternative medicine from plant extracts. We constantly research and source new products that meet our customers’ growing needs and also make a significant contribution to the world’s need for essential oils.</p>
                 </div><a href="{{route('aboutUs')}}" class="cta-button style-color variant-secondary">Explore</a>
             </div>
             <div class="right flexible__image-container">
@@ -44,7 +45,7 @@
                 <div class="content-section-title">{{config('app.name')}}</div>
                 <div class="h4">What We Do</div>
                 <div class="bodytext large-body">
-                    <p>{{config('app.name')}} Company Limited is a leading global supplier of essential oils and natural ingredients, catering to the Flavour, Fragrance, and Cosmetic industries. We offer an extensive selection of essential oils to meet the diverse needs of our clients.</p>
+                    <p style="text-align: justify;">{{config('app.name')}} Company Limited is a leading global supplier of essential oils and natural ingredients, catering to the Flavour, Fragrance, and Cosmetic industries. We offer an extensive selection of essential oils to meet the diverse needs of our clients.</p>
                 </div><a href="{{route('aboutUs')}}" class="cta-button style-color variant-secondary">find out more</a>
             </div>
         </div>
@@ -54,7 +55,7 @@
                     <div class="panel__content background-color-blue text-light">
                         <div class="h3">Our Vision</div>
                         <div class="bodytext large-body">
-                            <p>A company pursuing innovation and excellence in cosmetics, scents and flavour, dedicated to harnessing Creativity that transforms the world.</p>
+                            <p style="text-align: justify;">A company pursuing innovation and excellence in cosmetics, scents and flavour, dedicated to harnessing Creativity that transforms the world.</p>
                         </div>
                     </div>
                 </div>
@@ -95,7 +96,7 @@
             </div>
             <div class="right">
                 <div class="bodytext large-body">
-                    <p>Experience the rich potency value of our natural product, derived through the most ethical extraction and purification process to give a recall moment the world is yet to discover.</p>
+                    <p style="text-align: justify;">Experience the rich potency value of our natural product, derived through the most ethical extraction and purification process to give a recall moment the world is yet to discover.</p>
                     <p>
                         Ready to speak with our team?
                         <strong><a href="{{route('contactUs')}}">Contact us here.</a></strong>

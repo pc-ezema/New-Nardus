@@ -16,7 +16,7 @@
                                             <a href="{{route('aboutUs')}}" class="{{ (request()->is('/about')) ? 'active' : '' }}">About Us</a>
                                         </li>
                                         <li>
-                                            <a href="{{route('faqs')}}" class="{{ (request()->is('/faqs')) ? 'active' : '' }}">FAQs</a>
+                                            <a href="{{route('contactUs')}}" class="{{ (request()->is('/contact-us')) ? 'active' : '' }}">Contact Us</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -24,7 +24,7 @@
                                     <a href="{{route('aboutUs')}}" class="{{ (request()->is('/about')) ? 'active' : '' }}">About Us</a>
                                 </li>
                                 <li>
-                                    <a href="{{route('faqs')}}" class="{{ (request()->is('/faqs')) ? 'active' : '' }}">FAQs</a>
+                                    <a href="{{route('contactUs')}}" class="{{ (request()->is('/contact-us')) ? 'active' : '' }}">Contact Us</a>
                                 </li>
                             </ul>
                         </div>
@@ -40,13 +40,13 @@
                     <a href="{{route('essential_oil')}}" class="{{ (request()->is('essential-oil')) ? 'active' : '' }}">Essential Oil</a>
                 </li>
                 <li>
-                    <a href="">Shop</a>
+                    <a href="https://shop.nardus.ng/shop/" target="_blank">Shop</a>
                 </li>
             </ul>
         </nav>
         <nav class="navigation" id="secondary-navigation text-center">
             <a href="{{route('ourOutlet')}}" class="{{ (request()->is('our-outlets')) ? 'active' : '' }}">Our Outlets</a>
-            <a href="{{route('contactUs')}}" class="{{ (request()->is('contact-us')) ? 'active' : '' }}">Contact Us</a>
+            <a href="{{route('faqs')}}" class="{{ (request()->is('faqs')) ? 'active' : '' }}">FAQs</a>
         </nav>
         <div class="burger"><span></span><span></span><span></span></div>
     </div>

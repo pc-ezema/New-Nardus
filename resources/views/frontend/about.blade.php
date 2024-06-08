@@ -22,7 +22,7 @@
         <div id="c372" class="frame frame-default ctype-iffcomponents_flexible tx-iff-components-flexible layout-5 image-width-medium images-0">
             <div class="content-section-title">MEET {{ucfirst(config('app.name'))}}</div>
             <div class="bodytext large-body">
-                <p>{{config('app.name')}} Company Limited is a global provider of essential oils, widely utilized in the flavor, fragrance, and cosmetic sectors We meticulously select the finest plants and herbs to craft premium-quality products. We offer a diverse range of products tailored to meet the needs of our customers. Our Vision is to be a company pursuing innovation and excellence in cosmetics, scents and flavor, dedicated to harness creativity that transforms the world.</p>
+                <p style="text-align: justify;">{{config('app.name')}} Company Limited is a global provider of essential oils, widely utilized in the flavor, fragrance, and cosmetic sectors. We meticulously select the finest plants and herbs to craft premium-quality products. We offer a diverse range of products tailored to meet the needs of our customers. Our Vision is to be a company pursuing innovation and excellence in cosmetics, scents and flavor, dedicated to harness creativity that transforms the world.</p>
             </div>
         </div>
         <div id="c263" class="frame frame-default ctype-iffcomponents_flexible tx-iff-components-flexible layout-2 image-width-medium images-1">
@@ -48,7 +48,7 @@
             <div class="panel lazyloaded" data-lazyload-576-src="https://d3b9n0uye9y0ja.cloudfront.net/typo3temp/assets/images/csm_deb-headercrop1_e3289e6c80_fd7ff3f11b52a0de03450afb2973a130.jpg" data-lazyload-768-src="https://d3b9n0uye9y0ja.cloudfront.net/typo3temp/assets/images/csm_deb-headercrop1_fd9fcaa103_38f2dd3f9fda59decb190735be196c6b.jpg" data-lazyload-1024-src="https://d3b9n0uye9y0ja.cloudfront.net/typo3temp/assets/images/csm_deb-headercrop1_4d95b5527e_e43a5893ea3fd9b32686e35aa03e9c22.jpg" data-lazyload-1440-src="https://d3b9n0uye9y0ja.cloudfront.net/typo3temp/assets/images/csm_deb-headercrop1_48839ecba5_3a5eea4c063607c61f06a9a8c7ee1c8a.jpg" data-lazyload-2560-src="https://d3b9n0uye9y0ja.cloudfront.net/typo3temp/assets/images/csm_deb-headercrop1_00cb551a5a_6c320f26aa33793db41195fd4098dd6f.jpg" style="background-image: url(&quot;https://d3b9n0uye9y0ja.cloudfront.net/typo3temp/assets/images/csm_deb-headercrop1_00cb551a5a_6c320f26aa33793db41195fd4098dd6f.jpg.webp&quot;);">
                 <div class="content-wrapper">
                     <div class="panel__content background-color-grey text-light">
-                        <div class="h3">A company pursuing innovation and excellence in cosmetics, scents and flavour, dedicated to harnessing Creativity that transforms the world.</div>
+                        <div class="h3" style="text-align: justify;">A company pursuing innovation and excellence in cosmetics, scents and flavour, dedicated to harnessing Creativity that transforms the world.</div>
                     </div>
                 </div>
             </div>

@@ -25,25 +25,18 @@
                     Keep up to date on social media
                 </p>
                 <div id="footer__some-container">
-                    <a href="#" target="_blank" rel="noopener noreferrer"><svg id="" class="" aria-labelledby="desc-9691" role="img">
-                            <desc id="desc-9691"></desc>
-                            <use xlink:href="typo3temp/assets/svg/7c37810a546deeab88bf7901f679e1c2.svg#icon-linkedin"></use>
-                        </svg></a><a href="" target="_blank" rel="noopener noreferrer"><svg id="" class="" aria-labelledby="desc-6632" role="img">
-                            <desc id="desc-6632"></desc>
-                            <use xlink:href="typo3temp/assets/svg/7c37810a546deeab88bf7901f679e1c2.svg#icon-youtube"></use>
-                        </svg></a><a rel="noopener" href="#" target="_blank"><svg id="" class="" aria-labelledby="desc-947" role="img">
-                            <desc id="desc-947"></desc>
-                            <use xlink:href="typo3temp/assets/svg/7c37810a546deeab88bf7901f679e1c2.svg#icon-wechat"></use>
-                        </svg></a><a href="#" target="_blank" rel="noopener noreferrer"><svg id="" class="" aria-labelledby="desc-9461" role="img">
-                            <desc id="desc-9461"></desc>
-                            <use xlink:href="typo3temp/assets/svg/7c37810a546deeab88bf7901f679e1c2.svg#icon-facebook"></use>
-                        </svg></a><a href="#" target="_blank" rel="noopener noreferrer"><svg id="" class="" aria-labelledby="desc-5752" role="img">
-                            <desc id="desc-5752"></desc>
-                            <use xlink:href="typo3temp/assets/svg/7c37810a546deeab88bf7901f679e1c2.svg#icon-twitter"></use>
-                        </svg></a><a href="#" target="_blank" rel="noopener noreferrer"><svg id="" class="" aria-labelledby="desc-3765" role="img">
-                            <desc id="desc-3765"></desc>
-                            <use xlink:href="typo3temp/assets/svg/7c37810a546deeab88bf7901f679e1c2.svg#icon-instagram"></use>
-                        </svg></a>
+                    <a href="#" target="_blank" rel="noopener noreferrer">
+                        <i class="fa fa fa-facebook"></i>
+                    </a>
+                    <a href="" target="_blank" rel="noopener noreferrer">
+                        <i class="fa fa fa-linkedin"></i>
+                    </a>
+                    <a rel="noopener" href="#" target="_blank">
+                        <i class="fa fa fa-twitter"></i>
+                    </a>
+                    <a href="#" target="_blank" rel="noopener noreferrer">
+                        <i class="fa fa fa-instagram"></i>
+                    </a>
                 </div>
             </div>
         </section>
