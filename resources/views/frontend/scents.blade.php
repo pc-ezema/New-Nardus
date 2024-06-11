@@ -79,7 +79,7 @@
             <div class="left">
                 <div class="h2">#Shop With Us</div>
                 <div class="flexible__mobile-bodytext">
-                </div><a href="#" target="_blank" class="cta-button style-color variant-primary" rel="noopener noreferrer">SHOP NOW</a>
+                </div><a href="https://shop.nardus.ng/shop/" target="_blank" class="cta-button style-color variant-primary" rel="noopener noreferrer">SHOP NOW</a>
             </div>
             <div class="right">
                 <div class="bodytext large-body">

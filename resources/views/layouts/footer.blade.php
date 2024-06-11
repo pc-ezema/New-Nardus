@@ -18,6 +18,7 @@
                 <a href="{{route('faqs')}}">FAQs</a>
                 <a href="{{route('ourOutlet')}}">Our Outlets</a>
                 <a href="{{route('contactUs')}}">Contact Us</a>
+                <a href="https://shop.nardus.ng/shop/">Shop</a>
             </nav>
             <div>
                 <p class="footer__section-heading">Stay in touch</p>
