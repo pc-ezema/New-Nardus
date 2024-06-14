@@ -20,7 +20,6 @@
 <main id="content" class="content-wrapper">
     <section id="field_0">
         <div id="c223" class="frame frame-default ctype-iffcomponents_flexible tx-iff-components-flexible layout-3 image-width-medium images-0">
-            <div class="content-section-title">{{config('app.name')}} Cosmetics</div>
             <div class="left">
                 <div class="h2">Cosmetics</div>
                 <div class="flexible__mobile-bodytext">
@@ -46,25 +45,14 @@
                 </div>
             </div>
             <div class="right flexible__content background-color-transparent">
-                <div class="h4">{{config('app.name')}} Cosmetics: Hair Care Oil </div>
+                <div class="h4">Hair Care Oil </div>
                 <div class="bodytext large-body">
                     <p>
-                        {{config('app.name')}} Lemongrass Haircare Oil isn't settling for ordinary.
-                        It's a pioneering innovation in natural haircare, meticulously formulated to unleash your hair's full potential.
-                        This potent blend, infused with nature's powerhouse – lemongrass – nourishes and strengthens for healthier, longer growth.
-                        Experience a revolution in hair health. {{config('app.name')}} tackles dryness, breakage, and dandruff, leaving your hair revitalized and radiating natural beauty.
-                        Discover the future of haircare – choose {{config('app.name')}}.
+                        {{config('app.name')}} lemongrass haircare oil promotes hair growth, strengthens, moisturizes, and
+                        conditions hair, controls dandruff, adds shine, soothes the scalp, prevents hair loss, and has a refreshing scent.
+                        It is easy to use and provides overall hair health benefits for a vibrant and healthy hair.
                     </p>
                 </div>
-            </div>
-        </div>
-        <div id="c744" class="frame frame-default ctype-iffcomponents_flexible tx-iff-components-flexible layout-5 image-width-medium images-0">
-            <div class="content-section-title">Hair Care</div>
-            <div class="bodytext large-body">
-                <p>{{config('app.name')}} lemongrass haircare oil promotes hair growth, strengthens, moisturizes, and
-                    conditions hair, controls dandruff, adds shine, soothes the scalp, prevents hair loss, and has a refreshing scent.
-                    It is easy to use and provides overall hair health benefits for a vibrant and healthy hair.
-                </p>
             </div>
         </div>
 
@@ -73,8 +61,7 @@
                 <article class="multibox__box">
                     <p class="h4">For Haircare</p>
                     <div class="box__description">
-                        <p>Discover the essence of {{config('app.name')}} Lemongrass Haircare Oil:
-                            a natural, nutrient-rich formula designed to balance scalp pH, stimulate growth, and combat dandruff.
+                        <p>A natural, nutrient-rich formula designed to balance scalp pH, stimulate growth, and combat dandruff.
                             Revel in its soothing aroma and antioxidant protection for Radiant, healthy hair.</p>
                     </div>
                 </article>
@@ -107,13 +94,12 @@
         <div id="c973" class="frame frame-default ctype-iffcomponents_flexible tx-iff-components-flexible layout-3 image-width-medium images-0">
             <div class="content-section-title">Click and shop now</div>
             <div class="left">
-                <div class="h2">#Shop With Us</div>
                 <div class="flexible__mobile-bodytext">
                 </div><a href="https://shop.nardus.ng/shop/" target="_blank" class="cta-button style-color variant-primary" rel="noopener noreferrer">SHOP NOW</a>
             </div>
             <div class="right">
                 <div class="bodytext large-body">
-                    <p>Nourish and soothe your hair, embracing vibrant radiance, natural shine, and a comforted scalp, where expert haircare meets the essence of nature.</p>
+                    <p>Nourish and soothe your hair, embracing vibrant radiance, natural shine, and a comforted scalp.</p>
                 </div>
             </div>
         </div>

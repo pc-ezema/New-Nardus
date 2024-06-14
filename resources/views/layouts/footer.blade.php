@@ -22,21 +22,21 @@
             </nav>
             <div>
                 <p class="footer__section-heading">Stay in touch</p>
-                <p class="footer__section-description">
-                    Keep up to date on social media
-                </p>
                 <div id="footer__some-container">
                     <a href="#" target="_blank" rel="noopener noreferrer">
-                        <i class="fa fa fa-facebook"></i>
-                    </a>
-                    <a href="" target="_blank" rel="noopener noreferrer">
-                        <i class="fa fa fa-linkedin"></i>
-                    </a>
-                    <a rel="noopener" href="#" target="_blank">
-                        <i class="fa fa fa-twitter"></i>
+                        <i class="fa fa-whatsapp"></i>
                     </a>
                     <a href="#" target="_blank" rel="noopener noreferrer">
-                        <i class="fa fa fa-instagram"></i>
+                        <i class="fa fa-facebook"></i>
+                    </a>
+                    <a href="" target="_blank" rel="noopener noreferrer">
+                        <i class="fa fa-linkedin"></i>
+                    </a>
+                    <a rel="noopener" href="#" target="_blank">
+                        <i class="fa fa-twitter"></i>
+                    </a>
+                    <a href="#" target="_blank" rel="noopener noreferrer">
+                        <i class="fa fa-instagram"></i>
                     </a>
                 </div>
             </div>

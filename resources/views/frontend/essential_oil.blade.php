@@ -24,22 +24,19 @@
                 <div class="h2">Essential Oil</div>
                 <div class="flexible__mobile-bodytext">
                     <div class="bodytext large-body">
-                        <p>From Nature to Home: Find Serenity with Lemongrass Oil - A Natural Path to Wellness</p>
+                        <p>From Nature to Home: A Natural Path to Wellness</p>
                     </div>
                 </div>
             </div>
             <div class="right">
                 <div class="bodytext large-body">
-                    <p>From Nature to Home: Find Serenity with Lemongrass Oil - A Natural Path to Wellness</p>
+                    <p>From Nature to Home: A Natural Path to Wellness</p>
                 </div>
             </div>
         </div>
         <div id="c32" class="frame frame-default ctype-iffcomponents_multibox with-shape-1">
             <div class="multibox__background-shape background-color-red text-light">
                 <div class="content-wrapper">
-                    <div class="multibox__content">
-                        <div class="h2">Explore our Products</div>
-                    </div>
                 </div>
             </div>
             <div class="multibox__boxes">
@@ -53,9 +50,8 @@
                 <article class="multibox__box">
                     <div class="box__image lazyloaded" data-lazyload-300-src="{{URL::asset('assets/images/essentialoilScentLeafOil.jpg')}}" data-lazyload-400-src="{{URL::asset('assets/images/essentialoilScentLeafOil.jpg')}}" data-lazyload-600-src="{{URL::asset('assets/images/essentialoilScentLeafOil.jpg')}}" style="background-image: url(&quot;{{URL::asset('assets/images/essentialoilScentLeafOil.jpg')}}&quot;);"></div>
                     <p class="h4">{{config('app.name')}} Essential Oil: Scent Leaf Oil</p>
-                    <p>Nature's secret to balanced skin.
-                        Crafted by experts, this oil nourishes & soothes, promoting a healthy complexion. Rich in nutrients,
-                        it combats dryness & irritation for a natural, radiant glow. Embrace the power of plants for beautiful, balanced skin.</p>
+                    <p>Scent leaf oils crafted by experts to nourishes, soothes, and promotes healthy complexion. Rich in nutrients,
+                        it combats dryness & irritation for natural, radiant glow. Embrace nature's secret for beautiful and balanced skin.</p>
                 </article>
             </div>
         </div>
@@ -77,7 +73,6 @@
         <div id="c973" class="frame frame-default ctype-iffcomponents_flexible tx-iff-components-flexible layout-3 image-width-medium images-0">
             <div class="content-section-title">Click and shop now</div>
             <div class="left">
-                <div class="h2">#Shop With Us</div>
                 <div class="flexible__mobile-bodytext">
                 </div><a href="https://shop.nardus.ng/shop/" target="_blank" class="cta-button style-color variant-primary" rel="noopener noreferrer">SHOP NOW</a>
             </div>

@@ -11,7 +11,7 @@
                 <div class="banner__content text-light">
                     <div class="content-wrapper">
                         <div class="banner__heading h1">WELCOME TO {{ucfirst(config('app.name'))}}</div>
-                        <div class="banner__sub-heading h4">Global provider of essential oils, widely utilized in the flavor, fragrance, and cosmetic sectors.</div>
+                        <div class="banner__sub-heading h4">Global provider of essential oil, widely utilized in the fragrance, cosmetics and health sectors.</div>
                         <!-- <a href="{{route('aboutUs')}}" class="cta-button style-light variant-secondary">Explore</a> -->
                     </div>
                 </div>
@@ -21,7 +21,7 @@
 </section>
 <main id="content" class="content-wrapper">
     <section id="field_0">
-        <div id="c54" class="frame frame-default ctype-iffcomponents_flexible tx-iff-components-flexible layout-2 image-width-medium images-1">
+        <!-- <div id="c54" class="frame frame-default ctype-iffcomponents_flexible tx-iff-components-flexible layout-2 image-width-medium images-1">
             <div class="left flexible__content background-color-transparent">
                 <div class="content-section-title">{{config('app.name')}}</div>
                 <div class="h4">Who We Are</div>
@@ -34,7 +34,7 @@
                     <div class="background-dimmer"></div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <div id="c4" class="frame frame-default ctype-iffcomponents_flexible tx-iff-components-flexible layout-1 image-width-medium images-1">
             <div class="left flexible__image-container">
                 <div class="flexible__image lazyload" data-lazyload-400-src="{{URL::asset('assets/images/whatwedo.jpg')}}" data-lazyload-600-src="{{URL::asset('assets/images/whatwedo.jpg')}}" data-lazyload-800-src="{{URL::asset('assets/images/whatwedo.jpg')}}">
@@ -45,8 +45,8 @@
                 <div class="content-section-title">{{config('app.name')}}</div>
                 <div class="h4">What We Do</div>
                 <div class="bodytext large-body">
-                    <p style="text-align: justify;">{{config('app.name')}} Company Limited is a leading global supplier of essential oils and natural ingredients, catering to the Flavour, Fragrance, and Cosmetic industries. We offer an extensive selection of essential oils to meet the diverse needs of our clients.</p>
-                </div><a href="{{route('aboutUs')}}" class="cta-button style-color variant-secondary">find out more</a>
+                    <p style="text-align: justify;">{{config('app.name')}} Company Limited is a leading global supplier of essential oils and natural ingredients, catering to the fragrance, cosmetics and health sector industries. We offer an extensive selection of essential oils to meet the diverse needs of our clients.</p>
+                </div><a href="{{route('aboutUs')}}" class="cta-button style-color variant-secondary">Explore</a>
             </div>
         </div>
         <div id="c57" class="frame frame-default ctype-iffcomponents_panel tx-iff-components-panel size-standard type-signpost">
@@ -55,13 +55,13 @@
                     <div class="panel__content background-color-blue text-light">
                         <div class="h3">Our Vision</div>
                         <div class="bodytext large-body">
-                            <p style="text-align: justify;">A company pursuing innovation and excellence in cosmetics, scents and flavour, dedicated to harnessing Creativity that transforms the world.</p>
+                            <p style="text-align: justify;">A company pursuing innovation and excellence in fragrance, cosmetics and health sectors, dedicated to harnessing creativity that transforms the world.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div id="c56" class="frame frame-default ctype-iffcomponents_cards">
+        <div id="c56" class="frame frame-default ctype-iffcomponents_cards" style="margin-bottom: 15vh;">
             <div class="h2">Our Products</div>
             <div class="cards-container columns-3">
                 <article class="card">
@@ -69,28 +69,27 @@
                     <div class="card__metadata">
                         <div class="tag variant-orange homeTag">Scents</div>
                     </div>
-                    <p class="h4">Promoting an exceptional fragrance brand that utilizes high-quality health ingredients backed by solid scientific research.</p><a href="{{route('scents')}}" class="card__link" rel="noopener noreferrer"> Find out more </a>
+                    <p class="h4">Promoting an exceptional fragrance brand that utilizes high-quality health ingredients backed by solid scientific research.</p><a href="{{route('scents')}}" class="card__link" rel="noopener noreferrer"> Explore </a>
                 </article>
                 <article class="card">
                     <div class="card__image lazyload" data-lazyload-300-src="{{URL::asset('assets/images/Cosmetics.jpg')}}" data-lazyload-400-src="{{URL::asset('assets/images/Cosmetics.jpg')}}" data-lazyload-600-src="{{URL::asset('assets/images/Cosmetics.jpg')}}"></div>
                     <div class="card__metadata">
                         <div class="tag variant-orange homeTag">Cosmetics</div>
                     </div>
-                    <p class="h4">Unlocking Nature's Haircare Revolution: {{config('app.name')}} Lemongrass Haircare Oil</p><a href="{{route('cosmetics')}}" class="card__link" rel="noopener noreferrer"> Find out more </a>
+                    <p class="h4">Unlocking Nature's Haircare Revolution: {{config('app.name')}} Lemongrass Haircare Oil</p><a href="{{route('cosmetics')}}" class="card__link" rel="noopener noreferrer"> Explore </a>
                 </article>
                 <article class="card">
                     <div class="card__image lazyload" data-lazyload-300-src="{{URL::asset('assets/images/EssentialOil.jpg')}}" data-lazyload-400-src="{{URL::asset('assets/images/EssentialOil.jpg')}}" data-lazyload-600-src="{{URL::asset('assets/images/EssentialOil.jpg')}}"></div>
                     <div class="card__metadata">
                         <div class="tag variant-orange homeTag">Essential Oil</div>
                     </div>
-                    <p class="h4">From Nature to Home: Find Serenity with Lemongrass Oil - A Natural Path to Wellness</p><a href="{{route('essential_oil')}}" class="card__link" rel="noopener noreferrer"> Find out more </a>
+                    <p class="h4">From Nature to Home: Find Serenity with Lemongrass Oil - A Natural Path to Wellness</p><a href="{{route('essential_oil')}}" class="card__link" rel="noopener noreferrer"> Explore </a>
                 </article>
             </div>
         </div>
         <div id="c973" class="frame frame-default ctype-iffcomponents_flexible tx-iff-components-flexible layout-3 image-width-medium images-0">
             <div class="content-section-title">Click and shop now</div>
             <div class="left">
-                <div class="h2">#Shop With Us</div>
                 <div class="flexible__mobile-bodytext">
                 </div><a href="https://shop.nardus.ng/shop/" target="_blank" class="cta-button style-color variant-primary" rel="noopener noreferrer">SHOP NOW</a>
             </div>
