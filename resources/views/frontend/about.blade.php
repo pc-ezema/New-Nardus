@@ -22,7 +22,7 @@
         <div id="c372" class="frame frame-default ctype-iffcomponents_flexible tx-iff-components-flexible layout-5 image-width-medium images-0">
             <div class="content-section-title">MEET {{ucfirst(config('app.name'))}}</div>
             <div class="bodytext large-body">
-                <p style="text-align: justify;">{{config('app.name')}} Company Limited is a global provider of essential oils, widely utilized in the flavor, fragrance, and cosmetic sectors. We meticulously select the finest plants and herbs to craft premium-quality products. We offer a diverse range of products tailored to meet the needs of our customers.
+                <p style="text-align: justify;">{{config('app.name')}} Company Limited is a global provider of essential oils, widely utilized in the fragrance, cosmetics and health sectors. We meticulously select the finest plants and herbs to craft premium-quality products. We offer a diverse range of products tailored to meet the needs of our customers.
                 Our Vision is to be a company pursuing innovation and excellence in fragrance, cosmetics and health sectors, dedicated to harnessing creativity that transforms the world.</p>
             </div>
         </div>

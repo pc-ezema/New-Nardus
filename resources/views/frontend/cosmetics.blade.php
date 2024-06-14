@@ -99,7 +99,7 @@
             </div>
             <div class="right">
                 <div class="bodytext large-body">
-                    <p>Nourish and soothe your hair, embracing vibrant radiance, natural shine, and a comforted scalp.</p>
+                    <p>Nourishes and soothes your hair, embracing vibrant radiance and a comforted scalp.</p>
                 </div>
             </div>
         </div>

@@ -21,20 +21,19 @@
 </section>
 <main id="content" class="content-wrapper">
     <section id="field_0">
-        <!-- <div id="c54" class="frame frame-default ctype-iffcomponents_flexible tx-iff-components-flexible layout-2 image-width-medium images-1">
+        <div id="c54" class="frame frame-default ctype-iffcomponents_flexible tx-iff-components-flexible layout-2 image-width-medium images-1">
             <div class="left flexible__content background-color-transparent">
-                <div class="content-section-title">{{config('app.name')}}</div>
                 <div class="h4">Who We Are</div>
                 <div class="bodytext large-body">
-                    <p style="text-align: justify;">We support health and well-being through alternative medicine from plant extracts. We constantly research and source new products that meet our customers’ growing needs and also make a significant contribution to the world’s need for essential oils.</p>
-                </div><a href="{{route('aboutUs')}}" class="cta-button style-color variant-secondary">Explore</a>
+                    <p style="text-align: justify;">We support health and well-being through alternative medicine from plant extracts. We constantly research and source new products that meet our customers' growing needs and also make a significant contribution to the world's need for essential oil.</p>
+                </div>
             </div>
             <div class="right flexible__image-container">
                 <div class="flexible__image lazyload" data-lazyload-400-src="{{URL::asset('assets/images/whoweare.jpg')}}" data-lazyload-600-src="{{URL::asset('assets/images/whoweare.jpg')}}" data-lazyload-800-src="{{URL::asset('assets/images/whoweare.jpg')}}">
                     <div class="background-dimmer"></div>
                 </div>
             </div>
-        </div> -->
+        </div>
         <div id="c4" class="frame frame-default ctype-iffcomponents_flexible tx-iff-components-flexible layout-1 image-width-medium images-1">
             <div class="left flexible__image-container">
                 <div class="flexible__image lazyload" data-lazyload-400-src="{{URL::asset('assets/images/whatwedo.jpg')}}" data-lazyload-600-src="{{URL::asset('assets/images/whatwedo.jpg')}}" data-lazyload-800-src="{{URL::asset('assets/images/whatwedo.jpg')}}">
@@ -42,11 +41,10 @@
                 </div>
             </div>
             <div class="right flexible__content background-color-transparent">
-                <div class="content-section-title">{{config('app.name')}}</div>
                 <div class="h4">What We Do</div>
                 <div class="bodytext large-body">
                     <p style="text-align: justify;">{{config('app.name')}} Company Limited is a leading global supplier of essential oils and natural ingredients, catering to the fragrance, cosmetics and health sector industries. We offer an extensive selection of essential oils to meet the diverse needs of our clients.</p>
-                </div><a href="{{route('aboutUs')}}" class="cta-button style-color variant-secondary">Explore</a>
+                </div>
             </div>
         </div>
         <div id="c57" class="frame frame-default ctype-iffcomponents_panel tx-iff-components-panel size-standard type-signpost">
