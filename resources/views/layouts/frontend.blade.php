@@ -69,8 +69,8 @@
     <!-- Page-Content -->
     @yield('page-content')
     <!-- Page-Content Ends -->
-     <!-- Footer -->
-     @includeIf('layouts.footer')
+    <!-- Footer -->
+    @yield('footer')
     <!-- Footer Ends -->
     <div id="consent_blackbar"></div>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>

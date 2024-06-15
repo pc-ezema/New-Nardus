@@ -103,6 +103,7 @@
                             </div>
                         </div>
                     </div>
+                    <br/><br/>
                     <h5>Haircare Oil</h5>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="flush-heading8">
@@ -260,6 +261,7 @@
                             </div>
                         </div>
                     </div>
+                    <br/><br/>
                     <h5>SleepEase Lemongrass Oil</h5>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="flush-heading21">
@@ -309,6 +311,7 @@
                             </div>
                         </div>
                     </div>
+                    <br/><br/>
                     <h5>Scents</h5>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="flush-heading25">
@@ -495,7 +498,18 @@
         </div>
     </div>
 </main>
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
 @endsection
+
+<!-- Footer -->
+@section('footer')
+@includeIf('layouts.footer', [
+    'whatsapp' => '#',
+    'facebook' => '#',
+    'instagram' => '#',
+    'twitter' => '#',
+])
+@endsection
+<!-- Footer Ends -->

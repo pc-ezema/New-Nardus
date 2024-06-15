@@ -37,7 +37,7 @@
                     <a href="{{route('cosmetics')}}" class="{{ (request()->is('cosmetics')) ? 'active' : '' }}">Cosmetics</a>
                 </li>
                 <li>
-                    <a href="{{route('essential_oil')}}" class="{{ (request()->is('essential-oil')) ? 'active' : '' }}">Essential Oil</a>
+                    <a href="{{route('health')}}" class="{{ (request()->is('health')) ? 'active' : '' }}">Health</a>
                 </li>
                 <li>
                     <a href="https://shop.nardus.ng/shop/" target="_blank">Shop</a>

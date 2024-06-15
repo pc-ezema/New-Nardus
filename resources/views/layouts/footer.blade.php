@@ -11,7 +11,7 @@
                 <a href="{{route('index')}}">Home</a>
                 <a href="{{route('scents')}}">Scent</a>
                 <a href="{{route('cosmetics')}}">Cosmetics</a>
-                <a href="{{route('essential_oil')}}">Essential Oil</a>
+                <a href="{{route('health')}}">Health</a>
             </nav>
             <nav id="footer-other">
                 <a href="{{route('aboutUs')}}">About Us</a>
@@ -23,19 +23,16 @@
             <div>
                 <p class="footer__section-heading">Stay in touch</p>
                 <div id="footer__some-container">
-                    <a href="#" target="_blank" rel="noopener noreferrer">
+                    <a href="{{$whatsapp}}" target="_blank" rel="noopener noreferrer">
                         <i class="fa fa-whatsapp"></i>
                     </a>
-                    <a href="#" target="_blank" rel="noopener noreferrer">
+                    <a href="{{$facebook}}" target="_blank" rel="noopener noreferrer">
                         <i class="fa fa-facebook"></i>
                     </a>
-                    <a href="" target="_blank" rel="noopener noreferrer">
-                        <i class="fa fa-linkedin"></i>
-                    </a>
-                    <a rel="noopener" href="#" target="_blank">
+                    <a rel="noopener" href="{{$twitter}}" target="_blank">
                         <i class="fa fa-twitter"></i>
                     </a>
-                    <a href="#" target="_blank" rel="noopener noreferrer">
+                    <a href="{{$instagram}}" target="_blank" rel="noopener noreferrer">
                         <i class="fa fa-instagram"></i>
                     </a>
                 </div>

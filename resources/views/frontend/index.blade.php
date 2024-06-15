@@ -45,6 +45,7 @@
                 <div class="bodytext large-body">
                     <p style="text-align: justify;">{{config('app.name')}} Company Limited is a leading global supplier of essential oils and natural ingredients, catering to the fragrance, cosmetics and health sector industries. We offer an extensive selection of essential oils to meet the diverse needs of our clients.</p>
                 </div>
+                <a href="{{route('aboutUs')}}" class="cta-button style-color variant-secondary">Explore</a>
             </div>
         </div>
         <div id="c57" class="frame frame-default ctype-iffcomponents_panel tx-iff-components-panel size-standard type-signpost">
@@ -79,9 +80,9 @@
                 <article class="card">
                     <div class="card__image lazyload" data-lazyload-300-src="{{URL::asset('assets/images/EssentialOil.jpg')}}" data-lazyload-400-src="{{URL::asset('assets/images/EssentialOil.jpg')}}" data-lazyload-600-src="{{URL::asset('assets/images/EssentialOil.jpg')}}"></div>
                     <div class="card__metadata">
-                        <div class="tag variant-orange homeTag">Essential Oil</div>
+                        <div class="tag variant-orange homeTag">Health</div>
                     </div>
-                    <p class="h4">From Nature to Home: Find Serenity with Lemongrass Oil - A Natural Path to Wellness</p><a href="{{route('essential_oil')}}" class="card__link" rel="noopener noreferrer"> Explore </a>
+                    <p class="h4">From Nature to Home: Find Serenity with Lemongrass Oil - A Natural Path to Wellness</p><a href="{{route('health')}}" class="card__link" rel="noopener noreferrer"> Explore </a>
                 </article>
             </div>
         </div>
@@ -104,3 +105,14 @@
     </section>
 </main>
 @endsection
+
+<!-- Footer -->
+@section('footer')
+@includeIf('layouts.footer', [
+    'whatsapp' => '#',
+    'facebook' => '#',
+    'instagram' => '#',
+    'twitter' => '#',
+])
+@endsection
+<!-- Footer Ends -->

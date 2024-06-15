@@ -179,3 +179,14 @@
     });
 </script>
 @endsection
+
+<!-- Footer -->
+@section('footer')
+@includeIf('layouts.footer', [
+    'whatsapp' => '#',
+    'facebook' => '#',
+    'instagram' => '#',
+    'twitter' => '#',
+])
+@endsection
+<!-- Footer Ends -->
