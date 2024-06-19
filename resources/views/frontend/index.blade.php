@@ -25,7 +25,7 @@
             <div class="left flexible__content background-color-transparent">
                 <div class="h4">Who We Are</div>
                 <div class="bodytext large-body">
-                    <p style="text-align: justify;">We support health and well-being through alternative medicine from plant extracts. We constantly research and source new products that meet our customers' growing needs and also make a significant contribution to the world's need for essential oil.</p>
+                    <p style="text-align: justify;">We support health and well-being through plant-based products. We constantly research and source new products that meet our customers' growing needs and also make a significant contribution to the world's need for essential oil.</p>
                 </div>
             </div>
             <div class="right flexible__image-container">

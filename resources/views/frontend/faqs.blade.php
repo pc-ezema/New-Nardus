@@ -20,12 +20,6 @@
     </div>
 </section>
 <main id="content" class="content-wrapper">
-    <div class="container">
-        <div class="main-title">
-            <h1></h1>
-            <p>Answers to Your Questions: Frequently Asked Questions (FAQs)</p>
-        </div>
-    </div>
     <div class="row">
         <div class="col-lg-10 offset-lg-1 mb-30">
             <div class="faq-info">
@@ -316,180 +310,75 @@
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="flush-heading25">
                             <button class="accordion-button collapsed mb-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse25" aria-expanded="false" aria-controls="flush-collapse25">
-                                What are the benefits of lemongrass and oud fragrance?
+                                What are the benefits of {{config('app.name')}} scents reed fragrances ?
                             </button>
                         </h2>
                         <div id="flush-collapse25" class="accordion-collapse collapse" aria-labelledby="flush-heading25" data-bs-parent="#accordionFlushExample">
                             <div class="accordion-body">
-                                <p>Uplifting, refreshing, grounding, and calming properties.</p>
+                                <p><b>1. Air Fragrance:</b> Creates a perfect ambience scent.</p>
+                                <p><b>2. Antiseptic:</b> Disinfects the air from bacteria.</p>
+                                <p><b>3. Anti Viral:</b> purifies the air from viral infections.</p>
+                                <p><b>4. Mosquito Repellent:</b> repels mosquitoes and other insects.</p>
                             </div>
                         </div>
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="flush-heading26">
                             <button class="accordion-button collapsed mb-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse26" aria-expanded="false" aria-controls="flush-collapse26">
-                                Is lemongrass fragrance suitable for stress relief?
+                                Are your reed diffuser oil base or alcohol base?
                             </button>
                         </h2>
                         <div id="flush-collapse26" class="accordion-collapse collapse" aria-labelledby="flush-heading26" data-bs-parent="#accordionFlushExample">
                             <div class="accordion-body">
-                                <p>Yes, its citrus and herbal notes can help reduce stress and anxiety.</p>
+                                <p>Our reed diffusers are oil-based.</p>
                             </div>
                         </div>
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="flush-heading27">
                             <button class="accordion-button collapsed mb-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse27" aria-expanded="false" aria-controls="flush-collapse27">
-                                Can lemongrass fragrance repel insects?
+                                How do I use my car diffuser?
                             </button>
                         </h2>
                         <div id="flush-collapse27" class="accordion-collapse collapse" aria-labelledby="flush-heading27" data-bs-parent="#accordionFlushExample">
                             <div class="accordion-body">
-                                <p>Yes, its citrus and grassy notes are known to repel mosquitoes and other insects.</p>
+                                <p>To use a car diffuser, open the wooden cap and remove the inner plastic stopper, then screw the wooden cap, and hang the bottle on your inner mirror or pin to your AC Vent.</p>
                             </div>
                         </div>
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="flush-heading28">
                             <button class="accordion-button collapsed mb-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse28" aria-expanded="false" aria-controls="flush-collapse28">
-                                Are your reed diffusers oil base or alcohol base?
+                                Can I have a customized package?
                             </button>
                         </h2>
                         <div id="flush-collapse28" class="accordion-collapse collapse" aria-labelledby="flush-heading28" data-bs-parent="#accordionFlushExample">
                             <div class="accordion-body">
-                                <p>Our reed diffusers are oil base.</p>
+                                <p>Yes, we can customize a package for you.</p>
                             </div>
                         </div>
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="flush-heading29">
                             <button class="accordion-button collapsed mb-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse29" aria-expanded="false" aria-controls="flush-collapse29">
-                                Can I use different scents in different rooms?
-                            </button>
-                        </h2>
-                        <div id="flush-collapse29" class="accordion-collapse collapse" aria-labelledby="flush-heading29" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body">
-                                <p>YYes, then you’ll walk from one scent to another. Since scents trigger feelings, reed diffusers can create an environment of feelings that changes from one space to another.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="flush-heading30">
-                            <button class="accordion-button collapsed mb-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse30" aria-expanded="false" aria-controls="flush-collapse30">
-                                How do car diffusers work?
-                            </button>
-                        </h2>
-                        <div id="flush-collapse30" class="accordion-collapse collapse" aria-labelledby="flush-heading30" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body">
-                                <p>Diffusers create a way to fill the air in a space with tiny, breathable particles of beneficial essential and sweet-smelling fragrance.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="flush-heading31">
-                            <button class="accordion-button collapsed mb-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse31" aria-expanded="false" aria-controls="flush-collapse31">
-                                How do I use my car diffuser?
-                            </button>
-                        </h2>
-                        <div id="flush-collapse31" class="accordion-collapse collapse" aria-labelledby="flush-heading31" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body">
-                                <p>To use a car diffuser, open the wooden cap and remove the inner plastic stopper, then screw the wooden cap, and hang the bottle on your mirror.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="flush-heading32">
-                            <button class="accordion-button collapsed mb-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse7" aria-expanded="false" aria-controls="flush-collapse7">
-                                What are the benefits of using a car diffuser?
-                            </button>
-                        </h2>
-                        <div id="flush-collapse7" class="accordion-collapse collapse" aria-labelledby="flush-heading32" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body">
-                                <p>Some benefits include helping you relax, promoting feelings of calm, improving clarity and focus, boosting your mood, helping clear airways for easier breathing, and helping ease mood swings during hormonal times.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="flush-heading33">
-                            <button class="accordion-button collapsed mb-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse33" aria-expanded="false" aria-controls="flush-collapse33">
-                                Is potpourri a natural air freshener?
-                            </button>
-                        </h2>
-                        <div id="flush-collapse33" class="accordion-collapse collapse" aria-labelledby="flush-heading33" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body">
-                                <p>Yes, potpourri is a natural and chemical-free way to freshen the air.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="flush-heading34">
-                            <button class="accordion-button collapsed mb-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse34" aria-expanded="false" aria-controls="flush-collapse34">
-                                Can potpourri be used in craft projects for gifts?
-                            </button>
-                        </h2>
-                        <div id="flush-collapse34" class="accordion-collapse collapse" aria-labelledby="flush-heading34" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body">
-                                <p>Yes, potpourri makes a lovely addition to handmade gifts, such as wreaths, bouquets, or decorative jars.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="flush-heading35">
-                            <button class="accordion-button collapsed mb-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse35" aria-expanded="false" aria-controls="flush-collapse35">
                                 What is ambience scenting?
                             </button>
                         </h2>
-                        <div id="flush-collapse35" class="accordion-collapse collapse" aria-labelledby="flush-heading35" data-bs-parent="#accordionFlushExample">
+                        <div id="flush-collapse29" class="accordion-collapse collapse" aria-labelledby="flush-heading29" data-bs-parent="#accordionFlushExample">
                             <div class="accordion-body">
                                 <p>Ambience scenting is the use of fragrances to create a specific atmosphere or mood in a space.</p>
                             </div>
                         </div>
                     </div>
                     <div class="accordion-item">
-                        <h2 class="accordion-header" id="flush-heading36">
-                            <button class="accordion-button collapsed mb-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse36" aria-expanded="false" aria-controls="flush-collapse36">
-                                Can ambience scenting be customized?
-                            </button>
-                        </h2>
-                        <div id="flush-collapse36" class="accordion-collapse collapse" aria-labelledby="flush-heading36" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body">
-                                <p>Yes, fragrances and intensity can be tailored to individual preferences.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="flush-heading37">
-                            <button class="accordion-button collapsed mb-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse37" aria-expanded="false" aria-controls="flush-collapse37">
-                                Is ambience scenting safe?
-                            </button>
-                        </h2>
-                        <div id="flush-collapse37" class="accordion-collapse collapse" aria-labelledby="flush-heading37" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body">
-                                <p>Generally safe, but may cause issues for those with sensitivities or allergies.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="flush-heading38">
-                            <button class="accordion-button collapsed mb-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse38" aria-expanded="false" aria-controls="flush-collapse38">
-                                How long does ambience scenting last?
-                            </button>
-                        </h2>
-                        <div id="flush-collapse38" class="accordion-collapse collapse" aria-labelledby="flush-heading38" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body">
-                                <p>Depends on the fragrance, diffuser, and space size.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="flush-heading39">
-                            <button class="accordion-button collapsed mb-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse39" aria-expanded="false" aria-controls="flush-collapse39">
+                        <h2 class="accordion-header" id="flush-heading30">
+                            <button class="accordion-button collapsed mb-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse30" aria-expanded="false" aria-controls="flush-collapse30">
                                 Can ambience scenting be used in various settings?
                             </button>
                         </h2>
-                        <div id="flush-collapse39" class="accordion-collapse collapse" aria-labelledby="flush-heading39" data-bs-parent="#accordionFlushExample">
+                        <div id="flush-collapse30" class="accordion-collapse collapse" aria-labelledby="flush-heading30" data-bs-parent="#accordionFlushExample">
                             <div class="accordion-body">
-                                <p>Yes, in homes, offices, hotels, restaurants, and public spaces.</p>
+                                <p>Yes, it can be used in homes, offices, hotels, restaurants, and events.</p>
                             </div>
                         </div>
                     </div>
