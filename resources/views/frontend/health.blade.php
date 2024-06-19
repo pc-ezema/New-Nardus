@@ -93,8 +93,8 @@
 @section('footer')
 @includeIf('layouts.footer', [
     'whatsapp' => 'https://wa.me/+2348147870307',
-    'facebook' => '#',
-    'instagram' => '#',
+    'facebook' => 'https://www.facebook.com/narduslemongrassessential',
+    'instagram' => 'https://www.instagram.com/nardusscentsandoils?igsh=dWV0NHoxajl3cWZt',
     'twitter' => '#',
 ])
 @endsection
