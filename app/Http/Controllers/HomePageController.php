@@ -100,4 +100,9 @@ class HomePageController extends Controller
     {
         return view('frontend.essential_oil');
     }
+
+    public function training()
+    {
+        return view('frontend.training');
+    }
 }
