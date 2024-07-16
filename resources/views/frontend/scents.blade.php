@@ -20,7 +20,7 @@
 <main id="content" class="content-wrapper">
     <section id="field_0">
         <div id="c965" class="frame frame-default ctype-iffcomponents_flexible tx-iff-components-flexible layout-5 image-width-medium images-0">
-            <div class="h2" style="text-align: center;">Promoting an exceptional fragrance brand that utilizes high-quality health ingredients backed by solid scientific research.</div>
+            <div class="h2" style="text-align: center; font-size: 30px !important;">Promoting an exceptional fragrance brand that utilizes high-quality health ingredients backed by solid scientific research.</div>
         </div>
         <div id="c967" class="frame frame-default ctype-iffcomponents_flexible tx-iff-components-flexible layout-2 image-width-medium images-1">
             <div class="left flexible__content background-color-transparent">
@@ -30,7 +30,7 @@
                 </div>
             </div>
             <div class="right flexible__image-container">
-                <div class="flexible__image lazyloaded" data-lazyload-400-src="{{URL::asset('assets/images/scentAmbienceScenting.jpg')}}" data-lazyload-600-src="{{URL::asset('assets/images/scentAmbienceScenting.jpg')}}" data-lazyload-800-src="{{URL::asset('assets/images/scentAmbienceScenting.jpg')}}" style="background-image: url(&quot;{{URL::asset('assets/images/scentAmbienceScenting.jpg')}}&quot;);">
+                <div class="flexible__image lazyloaded" data-lazyload-400-src="{{URL::asset('assets/images/scentElectronicDiffuser.jpg')}}" data-lazyload-600-src="{{URL::asset('assets/images/scentElectronicDiffuser.jpg')}}" data-lazyload-800-src="{{URL::asset('assets/images/scentElectronicDiffuser.jpg')}}" style="background-image: url(&quot;{{URL::asset('assets/images/scentElectronicDiffuser.jpg')}}&quot;);">
                     <div class="background-dimmer"></div>
                 </div>
             </div>
@@ -61,7 +61,7 @@
                 </div>
             </div>
         </div>
-        <div id="c968" class="frame frame-default ctype-iffcomponents_flexible tx-iff-components-flexible layout-1 image-width-medium images-1">
+        <!-- <div id="c968" class="frame frame-default ctype-iffcomponents_flexible tx-iff-components-flexible layout-1 image-width-medium images-1">
             <div class="left flexible__image-container">
                 <div class="flexible__image lazyloaded" data-lazyload-400-src="{{URL::asset('assets/images/scentElectronicDiffuser.jpg')}}" data-lazyload-600-src="{{URL::asset('assets/images/scentElectronicDiffuser.jpg')}}" data-lazyload-800-src="{{URL::asset('assets/images/scentElectronicDiffuser.jpg')}}" style="background-image: url(&quot;{{URL::asset('assets/images/scentElectronicDiffuser.jpg')}}&quot;);">
                     <div class="background-dimmer"></div>
@@ -73,10 +73,10 @@
                     <p style="text-align: justify;">Our electronic diffuser uses advanced technology to release a consistent gentle mist of fragrance into the air and creating a welcoming atmosphere in any space. We guarantee that our products meet the highest standards through rigorous testing and careful attention to our details from strain stability to purification.</p>
                 </div>
             </div>
-        </div>
+        </div> -->
 
         <div id="c973" class="frame frame-default ctype-iffcomponents_flexible tx-iff-components-flexible layout-3 image-width-medium images-0">
-            <div class="content-section-title">Click and shop now</div>
+            <!-- <div class="content-section-title">Click and shop now</div> -->
             <div class="left">
                 <div class="flexible__mobile-bodytext">
                 </div><a href="https://shop.nardus.ng/shop/" target="_blank" class="cta-button style-color variant-primary" rel="noopener noreferrer">SHOP NOW</a>

@@ -49,7 +49,7 @@
             <div class="panel lazyloaded" data-lazyload-576-src="https://d3b9n0uye9y0ja.cloudfront.net/typo3temp/assets/images/csm_deb-headercrop1_e3289e6c80_fd7ff3f11b52a0de03450afb2973a130.jpg" data-lazyload-768-src="https://d3b9n0uye9y0ja.cloudfront.net/typo3temp/assets/images/csm_deb-headercrop1_fd9fcaa103_38f2dd3f9fda59decb190735be196c6b.jpg" data-lazyload-1024-src="https://d3b9n0uye9y0ja.cloudfront.net/typo3temp/assets/images/csm_deb-headercrop1_4d95b5527e_e43a5893ea3fd9b32686e35aa03e9c22.jpg" data-lazyload-1440-src="https://d3b9n0uye9y0ja.cloudfront.net/typo3temp/assets/images/csm_deb-headercrop1_48839ecba5_3a5eea4c063607c61f06a9a8c7ee1c8a.jpg" data-lazyload-2560-src="https://d3b9n0uye9y0ja.cloudfront.net/typo3temp/assets/images/csm_deb-headercrop1_00cb551a5a_6c320f26aa33793db41195fd4098dd6f.jpg" style="background-image: url(&quot;https://d3b9n0uye9y0ja.cloudfront.net/typo3temp/assets/images/csm_deb-headercrop1_00cb551a5a_6c320f26aa33793db41195fd4098dd6f.jpg.webp&quot;);">
                 <div class="content-wrapper">
                     <div class="panel__content background-color-grey text-light">
-                        <div class="h3" style="text-align: justify;">A company pursuing innovation and excellence in fragrance, cosmetics and health sectors, dedicated to harnessing creativity that transforms the world.</div>
+                        <div class="h3" style="text-align: center; font-size: 20px !important;">A company pursuing innovation and excellence in fragrance, cosmetics and health sectors, dedicated to harnessing creativity that transforms the world.</div>
                     </div>
                 </div>
             </div>

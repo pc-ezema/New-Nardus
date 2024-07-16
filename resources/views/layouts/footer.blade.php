@@ -11,12 +11,13 @@
                 <a href="{{route('index')}}">Home</a>
                 <a href="{{route('scents')}}">Scent</a>
                 <a href="{{route('cosmetics')}}">Cosmetics</a>
+                <a href="{{route('essentialOil')}}">Essential Oil</a>
                 <a href="{{route('health')}}">Health</a>
             </nav>
             <nav id="footer-other">
                 <a href="{{route('aboutUs')}}">About Us</a>
                 <a href="{{route('faqs')}}">FAQs</a>
-                <a href="{{route('ourOutlet')}}">Our Outlets</a>
+                <a href="{{route('training')}}">Training</a>
                 <a href="{{route('contactUs')}}">Contact Us</a>
                 <a href="https://shop.nardus.ng/shop/">Shop</a>
             </nav>

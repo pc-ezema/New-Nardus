@@ -19,12 +19,12 @@
 </section>
 <main id="content" class="content-wrapper">
     <section id="field_0">
-        <div id="c965" class="frame frame-default ctype-iffcomponents_flexible tx-iff-components-flexible layout-5 image-width-medium images-0">
-            <div class="h2" style="text-align: center;"> Unlocking Nature's Haircare Revolution: {{config('app.name')}} Lemongrass Haircare Oil</div>
+        <div id="c965" class="frame frame-default ctype-iffcomponents_flexible tx-iff-components-flexible layout-5 image-width-medium images-0" style="align-items: center;">
+            <div class="h2" style="text-align: center; font-size: 30px !important;"> Unlocking Nature's Haircare Revolution: {{config('app.name')}} Lemongrass Haircare Oil</div>
         </div>
         <div id="c224" class="frame frame-default ctype-iffcomponents_flexible tx-iff-components-flexible layout-1 image-width-medium images-1">
             <div class="left flexible__image-container">
-                <div class="flexible__image lazyload" data-lazyload-400-src="{{URL::asset('assets/images/cosmetics:HairCareOil.jpg')}}" data-lazyload-600-src="{{URL::asset('assets/images/cosmetics:HairCareOil.jpg')}}" data-lazyload-800-src="{{URL::asset('assets/images/cosmetics:HairCareOil.jpg')}}">
+                <div class="flexible__image lazyload" data-lazyload-400-src="{{URL::asset('assets/images/cosmeticsHairCareOil.jpg')}}" data-lazyload-600-src="{{URL::asset('assets/images/cosmeticsHairCareOil.jpg')}}" data-lazyload-800-src="{{URL::asset('assets/images/cosmeticsHairCareOil.jpg')}}">
                     <div class="background-dimmer"></div>
                 </div>
             </div>
@@ -39,25 +39,20 @@
                 </div>
             </div>
         </div>
-
-        <div id="c189" class="frame frame-default ctype-iffcomponents_multibox with-shape-0">
-            <div class="multibox__boxes">
-                <article class="multibox__box">
-                    <p class="h4">For Haircare</p>
-                    <div class="box__description">
-                        <p style="text-align: justify;">A natural, nutrient-rich formula designed to balance scalp pH, stimulate growth, and combat dandruff.
-                            Revel in its soothing aroma and antioxidant protection for Radiant, healthy hair.</p>
-                    </div>
-                </article>
-                <article class="multibox__box">
-                    <p class="h4">For Beards</p>
-                    <div class="box__description">
-                        <p style="text-align: justify;">Elevate your beard care with {{config('app.name')}} Lemongrass Beard Oil.
-                            This natural elixir hydrates, stimulates growth, soothes skin, and protects with its antioxidant-rich,
-                            antimicrobial properties. Embrace the fresh scent and radiant finish for a fuller, healthier beard.
-                            Perfect for effortless grooming and style.</p>
-                    </div>
-                </article>
+        <div id="c967" class="frame frame-default ctype-iffcomponents_flexible tx-iff-components-flexible layout-2 image-width-medium images-1">
+            <div class="left flexible__content background-color-transparent">
+                <div class="h4">For Beards</div>
+                <div class="bodytext large-body">
+                    <p style="text-align: justify;">Elevate your beard care with {{config('app.name')}} Lemongrass Beard Oil.
+                        This natural elixir hydrates, stimulates growth, soothes skin, and protects with its antioxidant-rich,
+                        antimicrobial properties. Embrace the fresh scent and radiant finish for a fuller, healthier beard.
+                        Perfect for effortless grooming and style.</p>
+                </div>
+            </div>
+            <div class="right flexible__image-container">
+                <div class="flexible__image lazyloaded" data-lazyload-400-src="{{URL::asset('assets/images/scentElectronicDiffuser.jpg')}}" data-lazyload-600-src="{{URL::asset('assets/images/scentElectronicDiffuser.jpg')}}" data-lazyload-800-src="{{URL::asset('assets/images/scentElectronicDiffuser.jpg')}}" style="background-image: url(&quot;{{URL::asset('assets/images/scentElectronicDiffuser.jpg')}}&quot;);">
+                    <div class="background-dimmer"></div>
+                </div>
             </div>
         </div>
         <div id="c112" class="frame frame-default ctype-iffcomponents_flexible tx-iff-components-flexible layout-1 image-width-medium images-1">
@@ -77,7 +72,7 @@
         </div>
 
         <div id="c973" class="frame frame-default ctype-iffcomponents_flexible tx-iff-components-flexible layout-3 image-width-medium images-0">
-            <div class="content-section-title">Click and shop now</div>
+            <!-- <div class="content-section-title">Click and shop now</div> -->
             <div class="left">
                 <div class="flexible__mobile-bodytext">
                 </div><a href="https://shop.nardus.ng/shop/" target="_blank" class="cta-button style-color variant-primary" rel="noopener noreferrer">SHOP NOW</a>
@@ -98,7 +93,7 @@
 @includeIf('layouts.footer', [
     'whatsapp' => 'https://wa.me/+2348147870307',
     'facebook' => 'https://www.facebook.com/narduslemongrassessential',
-    'instagram' => 'https://www.instagram.com/nardusscentsandoils?igsh=dWV0NHoxajl3cWZt',
+    'instagram' => 'https://www.instagram.com/narduscosmetics?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==',
     'twitter' => '#',
 ])
 @endsection

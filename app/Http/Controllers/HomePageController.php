@@ -28,6 +28,11 @@ class HomePageController extends Controller
         return view('frontend.cosmetics');
     }
 
+    public function essentialOil()
+    {
+        return view('frontend.essentialOil');
+    }
+
     public function health()
     {
         return view('frontend.health');

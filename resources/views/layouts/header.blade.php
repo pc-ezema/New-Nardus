@@ -37,6 +37,9 @@
                     <a href="{{route('cosmetics')}}" class="{{ (request()->is('cosmetics')) ? 'active' : '' }}">Cosmetics</a>
                 </li>
                 <li>
+                    <a href="{{route('essentialOil')}}" class="{{ (request()->is('essential-oil')) ? 'active' : '' }}">Essential Oil</a>
+                </li>
+                <li>
                     <a href="{{route('health')}}" class="{{ (request()->is('health')) ? 'active' : '' }}">Health</a>
                 </li>
                 <li>
@@ -45,7 +48,7 @@
             </ul>
         </nav>
         <nav class="navigation" id="secondary-navigation text-center">
-            <a href="{{route('ourOutlet')}}" class="{{ (request()->is('our-outlets')) ? 'active' : '' }}">Our Outlets</a>
+            <a href="{{route('training')}}" class="{{ (request()->is('training')) ? 'active' : '' }}">Training</a>
             <a href="{{route('faqs')}}" class="{{ (request()->is('faqs')) ? 'active' : '' }}">FAQs</a>
         </nav>
         <div class="burger"><span></span><span></span><span></span></div>
