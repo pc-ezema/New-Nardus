@@ -56,7 +56,7 @@
         </div>
         <div id="c59" class="frame frame-default ctype-iffcomponents_flexible tx-iff-components-flexible layout-1 image-width-medium images-1">
             <div class="left flexible__image-container">
-                <div class="flexible__image lazyload" data-lazyload-400-src="https://d3b9n0uye9y0ja.cloudfront.net/typo3temp/assets/images/csm_our-divisons-banner_f6bb324c09_ebf3538df15dbd9f1e27a201e3302f0a.png" data-lazyload-600-src="https://d3b9n0uye9y0ja.cloudfront.net/typo3temp/assets/images/csm_our-divisons-banner_2f016f3bc6_9ce91248255fe534910c115ed5ff95d1.png" data-lazyload-800-src="https://d3b9n0uye9y0ja.cloudfront.net/typo3temp/assets/images/csm_our-divisons-banner_9fd157dcf9_20d2246537b23e206659637750a2c2a1.png">
+                <div class="flexible__image lazyload" data-lazyload-400-src="{{URL::asset('assets/images/ourPurpose.jpg')}}" data-lazyload-600-src="{{URL::asset('assets/images/ourPurpose.jpg')}}" data-lazyload-800-src="{{URL::asset('assets/images/ourPurpose.jpg')}}">
                     <div class="background-dimmer"></div>
                 </div>
             </div>
