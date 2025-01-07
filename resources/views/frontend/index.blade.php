@@ -11,7 +11,7 @@
                 <div class="banner__content text-light">
                     <div class="content-wrapper">
                         <div class="banner__heading h1">WELCOME TO {{ucfirst(config('app.name'))}}</div>
-                        <div class="banner__sub-heading h4">Global provider of essential oil, widely utilized in the fragrance, cosmetics and health sectors.</div>
+                        <div class="banner__sub-heading h4">Promoting Nigeria indigenous plants and herbs for economic diversification.</div>
                         <!-- <a href="{{route('aboutUs')}}" class="cta-button style-light variant-secondary">Explore</a> -->
                     </div>
                 </div>
@@ -25,7 +25,7 @@
             <div class="left flexible__content background-color-transparent">
                 <div class="h4">Who We Are</div>
                 <div class="bodytext large-body">
-                    <p>We support health and well-being through plant-based products. We constantly research and source new products that meet our customers' growing needs and also make a significant contribution to the world's need for essential oil.</p>
+                    <p>We support health and well-being through plant-based products. We constantly research and source new products that meet our customers' growing needs.</p>
                 </div>
             </div>
             <div class="right flexible__image-container">
@@ -43,7 +43,7 @@
             <div class="right flexible__content background-color-transparent">
                 <div class="h4">What We Do</div>
                 <div class="bodytext large-body">
-                    <p>{{config('app.name')}} Company Limited is a leading global supplier of essential oils and natural ingredients, catering to the fragrance, cosmetics and health sector industries. We offer an extensive selection of essential oils to meet the diverse needs of our clients.</p>
+                    <p>We use indigenous plants and herbs from Nigeria with other natural ingredients for essential oils, fragrances, cosmetics, and other healthcare products.</p>
                 </div>
                 <a href="{{route('aboutUs')}}" class="cta-button style-color variant-secondary">Explore</a>
             </div>
