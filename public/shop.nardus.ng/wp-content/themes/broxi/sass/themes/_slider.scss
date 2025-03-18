@@ -1,0 +1,64 @@
+/* Revolution Slider ---------------------------------------------------------*/
+/*------------------- Font Slider -----------------*/
+.silder-font-regular{
+	font-family: $font-family-base !important;
+	font-weight:400 !important;
+}
+.silder-font-semibold{
+	font-family: "CerebriSans SemiBold" !important;
+	font-weight:600 !important;
+}
+.silder-font-medium{
+	 font-family: "CerebriSans Medium" !important;
+	font-weight:500 !important;
+}
+.silder-font-bold{
+	font-family:"CerebriSans Bold" !important;
+	font-weight:700 !important;
+}
+.silder-font-extrabold{
+	font-family: "CerebriSans ExtraBold" !important;
+	font-weight:900 !important;
+}
+.silder-font-light{
+	font-family: "CerebriSans Light" !important;
+	font-weight:300 !important;
+}
+/*------------------- End Font Slider -----------------*/
+
+.elementor-widget-slider_revolution{
+	.slider-1, .slider-4{
+		.bullet-3.tparrows, .bullet-4.tparrows{
+			@media (min-width: $screen-lg){
+				top: calc(50% - 87px) !important;
+				&.tp-leftarrow{
+					transform: translateX(90px) !important;
+				}
+				&.tp-rightarrow{
+					transform: translateX(-135px) !important;
+				}
+			}
+			@media (min-width: $screen-sm) and (max-width: $screen-md-max){
+				top: calc(50% - 50px) !important;
+			}
+		}
+	}
+	.slider-6 .bullet-4.tparrows, .slider-7 .bullet-3.tparrows{
+		@media (min-width: $screen-lg){
+			&.tp-leftarrow{
+				transform: translateX(90px) !important;
+			}
+			&.tp-rightarrow{
+				transform: translateX(-135px) !important;
+			}
+		}
+	}
+}
+.button-slider{
+    line-height: 38px !important;
+	font-size: 16px !important;
+}
+.button-slider2{
+    line-height: 50px !important;
+	font-size: 12px !important;
+}

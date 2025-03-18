@@ -1,0 +1,1140 @@
+/*------------------- Title Block -----------------*/
+.title-block-1{
+	font-size:16px;
+	position:relative;
+	&:before{
+		content:"";
+		position:absolute;
+		bottom:0;
+		@include size(175px,1px);
+		left:calc(50% - 87.5px);
+		background: $theme-color;
+		z-index: 0;
+	}
+	>div{
+		position: relative;
+		padding-bottom: 33px;
+		&:before{
+			position: absolute;
+			content: "";
+			background: $white;
+			bottom: 0;
+			@include size(30px,1px);
+			left:calc(50% - 16px);
+		}
+		&:after{
+			content: "";
+			background: $theme-color;
+			@include square(8px);
+			position: absolute;
+			bottom:-3px;
+			left:calc(50% - 5px);
+			@include transform(rotate(45deg));
+			display: inline-block;
+		}
+	}
+	h2{
+		margin:0 0 10px;
+		font-size:22px;
+		font-family: "CerebriSans SemiBold";
+	}
+	p{
+		margin:0 auto;
+		width: 100%;
+		max-width: 510px;
+	}
+}
+.title-block-2{
+	z-index: -1;
+	@include transform(rotate(90deg));
+	transform-origin: top left;
+	white-space: nowrap
+}
+.title-block-3{
+	font-size:16px;
+	position:relative;
+	color: $white;
+	&:before{
+		content:"";
+		position:absolute;
+		bottom:0;
+		@include size(70px,1px);
+		left:calc(50% - 80px);
+		background: $theme-color;
+	}
+	&:after{
+		content:"";
+		position:absolute;
+		bottom:0;
+		@include size(70px,1px);
+		right:calc(50% - 80px);
+		background: $theme-color;
+	}
+	>div{
+		position: relative;
+		padding-bottom: 33px;
+		&:after{
+			content: "";
+			background: $theme-color;
+			@include square(8px);
+			position: absolute;
+			bottom:-3px;
+			left:calc(50% - 5px);
+			@include transform(rotate(45deg));
+			display: inline-block;
+		}
+	}
+	h2{
+		margin:0 0 10px;
+		font-size:22px;
+		color: $white;
+		font-family: "CerebriSans SemiBold";
+	}
+	p{
+		margin:0 auto;
+		color: $white;
+		width: 100%;
+		max-width: 510px;
+	}
+}
+.title-block-4{
+	font-size:20px;
+	text-align: center;
+	position:relative;
+	font-family: "CerebriSans SemiBold";
+	@media (max-width: $screen-xs-max){
+		font-size: 14px;
+	}
+	&:before{
+		content:"";
+		position:absolute;
+		bottom:0;
+		@include size(70px,1px);
+		left:calc(50% - 80px);
+		background: $theme-color;
+	}
+	&:after{
+		content:"";
+		position:absolute;
+		bottom:0;
+		@include size(70px,1px);
+		right:calc(50% - 80px);
+		background: $theme-color;
+	}
+	>div{
+		position: relative;
+		padding-bottom: 33px;
+		&:after{
+			content: "";
+			background: $theme-color;
+			@include square(8px);
+			position: absolute;
+			bottom:-3px;
+			left:calc(50% - 4px);
+			@include transform(rotate(45deg));
+			display: inline-block;
+		}
+	}
+	h2{
+		margin:0 0 10px;
+		font-size:36px;
+		font-family: "CerebriSans SemiBold";
+		@media (max-width: $screen-xs-max){
+			font-size: 22px;
+		}
+	}
+	p{
+		margin:0 auto;
+		width: 100%;
+		max-width: 510px;
+	}
+}
+.title-block-5{
+	.elementor-text-editor{
+		display: flex;
+		border-bottom: 1px solid $border-color;
+		align-items: baseline;
+		padding-bottom: 12px;
+		@media (max-width: $screen-xs){
+			display: block;
+		}
+		h2{
+			font-family: "CerebriSans SemiBold";
+			font-size: 18px;
+			text-transform: uppercase;
+			margin: 0;
+			@media (max-width: $screen-xs){
+				margin-bottom: 5px;
+			}
+			&:before{
+				content: "";
+				display: inline-block;
+				@include size(36px, 2px);
+				background: $theme-color;
+				vertical-align: middle;
+				@include rtl-margin-right(10px);
+			}
+		}
+		p{
+			margin: 0;
+			@include rtl-margin-left(auto);
+			@include rtl-text-align-right();
+			a{
+				position: relative;
+				font-family: $font-family-monospace;
+				font-size: 14px;
+				font-weight: 700;
+				&:after{
+					content: "\f0da";
+					display: inline-block;
+					font-family: FontAwesome;
+					@include rtl-margin-left(10px);
+				}
+				&:hover{
+					color: $theme-color;
+				}
+			}
+		}
+	}
+}
+.title-block-6{
+	font-size:20px;
+	line-height: 24px;
+	h2{
+		margin:0 0 15px;
+		font-size:28px;
+		font-family: "CerebriSans SemiBold";
+	}
+	p{
+		margin:0 auto;
+		width: 100%;
+		max-width: 510px;
+	}
+}
+.title-block-7{
+	color: $white;
+	font-size:20px;
+	line-height: 24px;
+	h2{
+		margin:0 0 15px;
+		font-size:28px;
+		color: $white;
+		font-family: "CerebriSans SemiBold";
+	}
+	p{
+		margin:0 auto;
+		width: 100%;
+		max-width: 510px;
+	}
+}
+.title-block-8{
+	text-align: center;
+	.elementor-text-editor{
+		position:  relative;
+		&:before{
+			content: "";
+			@include size(90px, 2px);
+			@include rtl-left(calc(50% - 45px));
+			background: $theme-color;
+			position: absolute;
+			bottom: 0;
+		}
+	}
+	h2, h3{
+		margin: 0;
+	}
+	h2{
+		font-size: 28px;
+		padding: 40px 0;
+		font-family: "CerebriSans SemiBold";
+	}
+	h3{
+		position:absolute;
+		top: 0;
+		@include rtl-left(50%);
+		@include rtl-margin-right(-50%);
+		@include transform(translate(-50%, 0));
+		font-size: 85px;
+		color: rgba($white, 0.1);
+		-webkit-text-stroke: 2px rgba(#000000, 0.1);
+	}
+}
+.title-block-9{
+	text-align: center;
+	h2{
+		font-size: 22px;
+		padding-bottom: 15px;
+		font-family: "CerebriSans SemiBold";
+		position:  relative;
+		margin-bottom: 12px;
+		text-transform: uppercase;
+		&:before{
+			content: "";
+			@include size(54px, 2px);
+			@include rtl-left(calc(50% - 27px));
+			background: $theme-color;
+			position: absolute;
+			bottom: 0;
+		}
+	}
+}
+.title-block-10{
+	h2{
+		font-family: "CerebriSans SemiBold";
+	}
+}
+.text-block-1{
+	h2{
+		span{
+			font-weight:300;
+		}
+	}
+}
+.title-outline{
+	h2{
+		-webkit-text-stroke: 2px rgba($text-color,0.2);
+	}
+}
+.title-outline2{
+	h2{
+		-webkit-text-stroke: 2px #83513b;
+	}
+}
+.title-outline3{
+	h2{
+		-webkit-text-stroke: 2px #949699;
+		writing-mode: vertical-lr;
+		@include transform(rotate(180deg));
+	}
+}
+.text-block-wapper-1{
+	color: $white;
+	font-size: 18px;
+	line-height: 26px;
+	.elementor-text-editor{
+		max-width: 530px;
+	}
+	h2{
+		color: $white;
+		font-family: "CerebriSans SemiBold";
+		font-size: 60px;
+		text-transform: uppercase;
+		margin-top: 2px;
+		margin-bottom: 5px;
+		@media (max-width: $screen-xs-max){
+			font-size: 40px;
+		}
+	}
+	h3{
+		color: $white;
+		font-family: "CerebriSans SemiBold";
+		font-size: 30px;	
+		text-transform: uppercase;
+		margin: 0;
+		@media (max-width: $screen-xs-max){
+			font-size: 20px;
+		}
+	}
+	a{
+		display: inline-block;
+		line-height: 34px;
+		border: 2px solid $white;
+		padding: 0 25px;
+		color: $white;
+		height: 38px;
+		font-weight: 500;
+		font-size: 16px;
+		font-family: $font-family-second;
+		@include transition(all 0.2s ease);
+		margin-top: 20px;
+		&:hover{
+			background: $white;
+			color: $gray-dark;
+		}
+	}
+}
+.text-block-wapper-2{
+	h3{
+		font-size: 18px;
+		text-transform: uppercase;
+		font-family: "CerebriSans SemiBold";
+		margin: 0;
+		color:rgba($gray-dark,0.35);
+	}
+	h2{
+		font-size: 40px;
+		margin-top: 12px;
+		margin-bottom: 15px;
+		font-family: "CerebriSans SemiBold";
+	}
+	p{
+		font-size: 14px;
+		line-height: 24px;
+	}
+	a{
+		display: inline-block;
+		font-size: 12px;
+		text-transform: uppercase;
+		line-height: 45px;
+		height: 45px;
+		padding: 0 40px;
+		margin-top: 15px;
+		background: $gray-dark;
+		color: $white;
+		&:hover{
+			background:$theme-color;
+		}
+	}
+}
+.text-block-wapper-3{
+	h2{
+		margin:0;
+		position:relative;
+		font-size:18px;
+		color:$white;
+		display:inline-flex;
+		align-items:center;
+		@include rtl-border-right(1px solid rgba($white,0.28));
+		@include rtl-padding(20px ,60px ,25px ,0);
+		@include rtl-margin-right(45px);
+		white-space: nowrap;
+		font-weight:700;
+		&:before{
+			content: "\e90c";
+			font-family:icomoon;
+			font-size:68px;
+			@include rtl-padding-right(30px);
+			position:relative;
+			top:-10px;
+			font-weight:400;
+		}
+	}
+	p{
+		display:inline-block;
+		margin:0;
+	}
+	.elementor-text-editor{
+		display:flex;
+		align-items:center;
+	}
+	@media (max-width:$screen-md-max){
+		@include rtl-padding-right(0);
+		.elementor-text-editor{
+			justify-content:center;
+		}
+		h2{
+			@include rtl-padding(10px ,20px ,15px ,0);
+			@include rtl-margin-right(25px);
+		}
+	}
+	@media (max-width:$screen-xs-max){
+		.elementor-text-editor{
+			flex-wrap:wrap;
+			text-align:center;
+		}
+		h2{
+			flex-wrap:wrap;
+			border:0;
+			padding:0;
+			margin:0 0 20px;
+			justify-content:center;
+			&:before{
+				display:block;
+				width:100%;
+				padding:0;
+			}
+		}
+	}
+}
+.text-block-wapper-4{
+	h2{
+		margin:0;
+		position:relative;
+		font-size:24px;
+		color:$white;
+		display:inline-flex;
+		align-items:center;
+		@include rtl-border-right(1px solid rgba($white,0.28));
+		@include rtl-padding(20px ,60px ,25px ,0);
+		@include rtl-margin-right(45px);
+		font-weight:500;
+		font-family: $font-family-second;
+		@include rtl-padding-left(65px);
+		@media (min-width: $screen-md){
+		    @include rtl-border-right(1px solid $white);	
+		    @include rtl-padding-left(100px);
+		}
+		&:before{
+			content: "\e909";
+			font-family:icomoon;
+			position: absolute;
+			@include square(50px);
+			line-height: 49px;
+			background: $white;
+			@include border-radius(50%);
+			color: $theme-color;
+			display: inline-block;
+			text-align: center;
+			@include rtl-left(0);
+			font-weight: 400;
+			font-size: 20px;
+			top: 50%;
+			@include transform(translate(0, -50%));
+			@media (min-width: $screen-md){
+		    	@include square(80px);
+		    	font-size: 35px;
+		    	line-height: 79px;
+			}
+		}
+	}
+	p{
+		display:inline-block;
+		margin:0;
+	}
+	.elementor-text-editor{
+		display:flex;
+		align-items:center;
+	}
+	@media (max-width:$screen-md-max){
+		@include rtl-padding-right(0);
+		.elementor-text-editor{
+			justify-content:center;
+		}
+	}
+	@media (max-width:$screen-xs-max){
+		.elementor-text-editor{
+			flex-wrap:wrap;
+			text-align:center;
+		}
+		h2{
+			flex-wrap:wrap;
+			border:0;
+			margin:0 0 20px;
+			padding: 0;
+			padding-top: 60px;
+			&:before{
+				top: 20px;
+				@include rtl-left(calc(50% - 25px));
+			}
+		}
+	}
+}
+.text-block-wapper-4-1{
+	h2{
+		color:$white;
+	}
+}
+.text-block-wapper-4-2{
+	h2{
+		color:$white;
+		&:before{
+			color:#51c36f;
+			border-color:#51c36f;
+		}
+	}
+}
+.text-block-wapper-5{
+	h2{
+		-webkit-text-stroke: 2px rgba(#54362e, 0.21);
+		@include transform(rotate(360deg));
+		writing-mode: vertical-lr;
+	}
+}
+.text-block-wapper-5-1{
+	h2{
+		-webkit-text-stroke: 2px rgba(#111111, 0.21);
+		@include transform(rotate(360deg));
+		writing-mode: vertical-lr;
+	}
+}
+/*------------------- End Title Block -----------------*/
+
+
+/*------------------- About -----------------*/
+.title-about{
+	h2{
+		margin:0 0 15px;
+		font-size:40px;
+	}
+	p{
+		font-size:12px;
+		text-transform:uppercase;
+		font-weight:700;
+		&:before{
+			display:inline-block;
+			content:"";
+			@include size(45px,2px);
+			background:$theme-color;
+			@include rtl-margin-right(18px);
+			position:relative;
+			top:-3px;
+		}
+		@media (max-width:$screen-sm-max){
+			letter-spacing:2px;
+		}
+	}
+}
+/*------------------- End About -----------------*/
+.img-menu{
+	img{
+		@include box-shadow(3px 4px 18px 0px rgba(0, 0, 0, 0.05) !important);
+	}
+}
+.elementor-icon-box-title,.elementor-image-box-title{
+	margin-top:0;
+}
+
+/*------------------- newlest -----------------*/
+.newlest-home-1{
+	.wpbingo-newsletter.newsletter-default{
+		.content-newsletter{
+			max-width:480px;
+			input[type="email"]{
+				line-height:53px;
+			}
+			.clearfix{
+				position:relative;
+				&:before{
+					display:none;
+				}
+				input[type="submit"]{
+					font-size:16px;
+					font-weight:400;
+					line-height:53px;
+				}
+			}
+		}
+	}
+}
+.newlest-home-2{
+	.wpbingo-newsletter.newsletter-default{
+		.content-newsletter{
+			max-width:520px;
+			margin:auto;
+			@include border-radius(4px);
+			overflow:hidden;
+			input[type="email"]{
+				line-height:55px;
+				background:$white;
+			}
+			.clearfix{
+				position:relative;
+				&:before{
+					display:none;
+				}
+				input[type="submit"]{
+					font-size:12px;
+					line-height:55px;
+					text-transform:uppercase;
+					letter-spacing:1.6px;
+				}
+			}
+		}
+	}
+}
+.newlest-home-3{
+	.wpcf7 form.invalid .wpcf7-response-output, .wpcf7 form.unaccepted .wpcf7-response-output{
+		color: $white;
+	}
+	.wpbingo-newsletter.newsletter-default{
+		.content-newsletter{
+			max-width:520px;
+			@include rtl-margin-left(auto);
+			overflow:hidden;
+			@media (max-width:$screen-md-max){
+				margin: 0 auto;
+			}
+			input[type="email"]{
+				line-height:55px;
+				background:$white;
+			}
+			.clearfix{
+				position:relative;
+				background: transparent;
+				&:before{
+					display:none;
+				}
+				input[type="submit"]{
+					font-size:12px;
+					line-height:55px;
+					text-transform:uppercase;
+					background: $gray-dark;
+					&:hover{
+						background:lighten($gray-dark,30%);
+					}
+				}
+				.ajax-loader{
+					left: auto;
+					right: 0;
+					top: 20px;
+				}
+			}
+		}
+	}
+}
+.newlest-home-3-1{
+	.wpbingo-newsletter.newsletter-default{
+		.content-newsletter{
+			max-width:520px;
+			@include rtl-margin-left(auto);
+			overflow:hidden;
+			input[type="email"]{
+				line-height:55px;
+				background:#f4f4f4;
+			}
+			.clearfix{
+				position:relative;
+				&:hover{
+					background:lighten($gray-dark,30%);
+				}
+				&:before{
+					display:none;
+				}
+				input[type="submit"]{
+					font-size:14px;
+					line-height:55px;
+					text-transform:uppercase;
+					padding:0 35px;
+				}
+			}
+			@media (max-width:$screen-md-max){
+				margin:auto;
+			}
+		}
+	}
+}
+.newlest-home-4{
+	.wpbingo-newsletter.newsletter-default{
+		max-width:690px;
+		margin:auto;
+		.content-newsletter{
+			input[type="email"]{
+				background:transparent;
+				border-bottom:2px solid $gray-dark;
+				padding:0;
+			}
+		}
+		.clearfix{
+			position:relative;
+			@include rtl-margin-left(15px);
+			background:transparent !important;
+			&:before{
+				display:none;
+			}
+			input[type="submit"]{
+				padding:0 35px;
+				font-size:14px;
+				text-transform:uppercase;
+				color:$gray-dark;
+				background:transparent;
+				border-bottom:2px solid $gray-dark;
+				font-weight:500;
+				&:hover{
+					color:$theme-color;
+					border-color:$theme-color;
+				}
+				@media (max-width:$screen-xs){
+					padding:0 15px;
+				}
+			}
+		}
+	}
+}
+
+.box-newsletter{
+	@media (max-width:$screen-md-max){
+		.text-block-wapper-3{
+			padding:0 30px;
+		}
+		.newlest-home-3{
+			.wpbingo-newsletter.newsletter-default {
+				.content-newsletter{
+					margin:auto;
+				}
+			}
+		}
+	}
+	@media (max-width:$screen-xs){
+		.text-block-wapper-3{
+			padding:0 15px;
+		}
+	}
+}
+/*------------------- End newlest -----------------*/
+
+
+
+/*------------------- Button Block -----------------*/
+.button-wapper-1{
+	.elementor-button-icon{
+		font-size:22px;
+		line-height:1;
+		height:50px;
+		svg{
+			height:50px;
+		}
+	}
+}
+/*------------------- End Button Block -----------------*/
+
+
+/*------------------- Content layout -----------------*/
+.content-left-1{
+	>.elementor-column-wrap{
+		justify-content:flex-end;
+		.elementor-widget-wrap{
+			max-width:720px;
+			padding:0 15px;
+		}
+	}
+}
+
+.content-policy{
+	margin-left:7.5px;
+	margin-right:7.5px;
+}
+/*------------------- End Content layout -----------------*/
+
+
+/*------------------- Vertical layout -----------------*/
+.vertical-menu-home{
+	.verticalmenu{
+		border:1px solid #e3e3e3;
+		top:calc(100% + 10px);
+	}
+	.widget-title{
+		background:$theme-color;
+		&:before{
+			background:$gray-dark;
+		}
+	}
+	.bwp-vertical-navigation{
+		>div{
+			border:1px solid #e3e3e3;
+			margin-top:8px;
+		}
+	}
+	.categories-vertical-menu .bwp-vertical-navigation > div ul.menu li.level-0 > a{
+		padding:10.8px 15px;
+	}
+}
+.vertical-menu-home2{
+	.verticalmenu{
+		border:1px solid #e3e3e3;
+		top:calc(100% + 10px);
+	}
+	.widget-title{
+		background:#ececec;
+		color:$gray-dark;
+		&:before{
+			background:$gray-dark;
+		}
+	}
+	.bwp-vertical-navigation{
+		>div{
+			border:1px solid #e3e3e3;
+			margin-top:8px;
+		}
+	}
+}
+
+.box-vertical{
+	width:285px !important;
+	.categories-vertical-menu .bwp-vertical-navigation > div{
+		margin-top:10px;
+	}
+}
+.box-slider{
+	width:calc(100% - 285px) !important;
+}
+@media (max-width:$screen-md-max){
+	.box-vertical{
+		width:250px !important;
+	}
+	.box-slider{
+		width:calc(100% - 250px) !important;
+	}
+}
+@media (max-width:1400px){
+	.box-slider2-left{
+		width:calc(100% - 255px) !important;
+	}
+	.box-slider2-right{
+		width:255px !important;
+	}
+}
+@media (max-width:777px){
+	.box-slider2-left{
+		width:100% !important;
+		>div{
+			padding: 0 !important;
+		}
+	}
+	.box-slider2-right{
+		width:100% !important;
+		>div{
+			padding: 0 !important;
+		}
+	}
+}
+.box-slider2-right{
+	.bwp_product_list.slider2{
+		margin: 30px 40px;
+        @media (max-width: 1800px){
+            margin: 30px 15px;
+        }
+	}
+}
+@media (max-width:$screen-sm-max){
+	.box-vertical{
+		width:100% !important;
+	}
+	.box-slider{
+		width:100% !important;
+	}
+}
+.box-vertical2{
+	width:300px !important;
+}
+.box-slider2{
+	width:calc(100% - 300px) !important;
+}
+@media (max-width:$screen-md-max){
+	.box-vertical2{
+		width:270px !important;
+	}
+	.box-slider2{
+		width:calc(100% - 272px) !important;
+	}
+}
+@media (max-width:$screen-sm-max){
+	.box-vertical2{
+		width:100% !important;
+	}
+	.box-slider2{
+		width:100% !important;
+	}
+}
+/*------------------- End Vertical layout -----------------*/
+
+
+/*------------------- Other layout -----------------*/
+.policy-center{
+	.elementor-icon-box-wrapper{
+		justify-content:center;
+		.elementor-icon-box-content{
+			flex-grow: inherit;
+		}
+	}
+}
+.policy-1{
+	.elementor-icon-box-wrapper{
+		justify-content:center;
+		.elementor-icon-box-content{
+			flex-grow: inherit;
+		}
+	}
+	.elementor-icon-box-icon{
+		border-right:1px solid rgba($gray-dark,0.1);
+		padding:20px 30px 30px 0;
+	}
+	@media (max-width:$screen-md-max){
+		.elementor-icon-box-icon{
+			padding:20px 20px 30px 0;
+		}
+	}
+	@media (max-width:$screen-xs-max){
+		.elementor-icon-box-icon{
+			padding:0;
+			border:0;
+		}
+	}
+}
+.policy-border{
+	h2.elementor-icon-box-title{
+		font-family: $font-family-second;
+		margin-top: 5px;
+	}
+	.elementor-row{
+		align-items: center;
+		justify-content: center;
+		>*{
+			position: relative;
+			&:not(:last-child){
+				&:before{
+					position: absolute;
+					content: "";
+					background: $border-color;
+					@include size(1px, 100%);
+					top: 0;
+					@include rtl-right(0);
+				}
+			}
+		}
+		.elementor-widget-icon-box{
+			margin: 0 auto;
+			padding: 2px 0;
+		}
+	}
+}
+.list-category{
+	li{
+		a{
+			padding:0 15px;
+		}
+	}
+}
+/*------------------- End layout -----------------*/
+
+/*------------------- Faq layout -----------------*/
+.wpb-accordion{
+	.elementor-accordion{
+		.elementor-tab-title{
+			border-bottom:1px solid #e1e1e1 !important;
+			&.elementor-active{
+				border-bottom:0 !important;
+			}
+		}
+		.elementor-accordion-item{
+			&:first-child{
+				.elementor-tab-title{
+					border-top:1px solid #e1e1e1 !important;
+				}
+			}
+		}
+		.elementor-accordion-icon{
+			width:11px !important;
+		}
+	}
+}
+/*------------------- End Faq layout -----------------*/
+.content-about-1{
+	>div{
+		@include rtl-margin-left(auto !important);
+		@include rtl-margin-right(unset !important);
+	}
+}
+.content-about-2{
+	>div{
+		@include rtl-margin-right(auto !important);
+		@include rtl-margin-left(unset !important);
+	}
+}
+
+.box-policy h3.elementor-icon-box-title{
+	font-family: "CerebriSans SemiBold";
+}
+
+.list-deal-2{
+	.bwp_product_list.list-deal{
+		@include border-radius(10px);
+		padding: 0 30px 0;
+		@media (max-width:$screen-xs){
+			padding: 0 15px 0;
+		}
+		.countdown-deal{
+			@include border-radius(30px);
+		}
+		.list-product{
+			padding-top: 10px;
+		}
+	}
+	.products-list.grid .product-wapper .products-thumb .product-button{
+		margin-top: 15px;
+		.product-quickview{
+			display: none;                       
+		}
+		.compare-button{
+			>a{
+				@include square(35px);
+				line-height: 33px; 
+				&:before{
+					font-size: 15px;
+					line-height: 33px;
+				}
+			}
+			.loading {
+				&:before {
+					font-size: 15px;
+				}
+			} 
+		}
+		.product_type_grouped,
+		.add_to_cart_button,
+		.product_type_external, .read_more,
+		.added_to_cart, .product_type_variable{  
+			line-height: 35px;
+			height: 35px;
+			font-size: 11px;
+			&:before{
+				font-size: 15px;
+			}
+			&.loading {                     
+				&:before {
+					font-size: 15px;
+				}
+			}     
+		}               
+	}
+	@media (max-width:$screen-md-max){
+		.bwp_product_list.list-deal .title-deal{
+			@include rtl-margin-left(0);
+		}
+	}
+	@media (max-width:1024px){
+		.bwp_product_list.list-deal{
+			margin-top: 20px;
+			.title-deal{
+				display:block;
+			}
+			.title-block{
+				@include rtl-margin-right(0);
+				margin-bottom:20px;
+			}
+			.title-deal{
+				@include rtl-margin-left(0);
+				text-align:center;
+			}
+			.countdown-deal{
+				.countdown-content{
+					>span{
+						&:before{
+							margin:0 5px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+.contact-border{
+	max-width: 440px;
+	padding: 0 40px 25px;
+	position: relative;
+	@media (max-width: $screen-xs){
+		padding: 0 20px 25px;
+	}
+	&:before{
+		position: absolute;
+		content: "";
+		top: 25px;
+		@include rtl-left(0);
+		@include size(100%, calc(100% - 25px));
+		border: 2px solid $border-color;
+	}
+	h3.elementor-icon-box-title{
+		margin: 0;
+	}
+}
+
+.bg-class{
+	background-size:auto 80%;
+}
+.social-border{
+	.elementor-icon-box-icon{
+		.elementor-icon{
+			border-color:$light-gray !important;
+		}
+	}
+}
