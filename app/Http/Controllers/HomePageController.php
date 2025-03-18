@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Order;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Validator;
@@ -104,5 +105,77 @@ class HomePageController extends Controller
     public function training()
     {
         return view('frontend.training');
+    }
+
+    public function wealthline()
+    {
+        return view('frontend.wealthline');
+    }
+
+    public function submitOrder(Request $request)
+    {
+        // Validate the incoming request data
+        $validator = Validator::make($request->all(), [
+            'name' => 'required|string|max:100',
+            'school' => 'required|string|max:255',
+            'address' => 'required|string|max:255',
+            'level' => 'required|string|max:50',
+            'year_of_graduation' => 'required|integer|min:1900|max:' . date('Y'),
+            'order' => 'required|string',
+            'location' => 'required|string|max:255',
+            'proof_of_payment' => 'required|file|mimes:jpg,png,pdf|max:2048', // Adjust as needed
+        ]);
+
+        // If validation fails, return errors
+        if ($validator->fails()) {
+            return response()->json([
+                'success' => false,
+                'errors' => $validator->errors()
+            ], 422);
+        }
+
+        // Handle file upload
+        $proofPath = null;
+        if ($request->hasFile('proof_of_payment')) {
+            $proofPath = $request->file('proof_of_payment')->store('proofs', 'public');
+        }
+
+        // Create a new order
+        $order = new Order();
+        $order->name = $request->name;
+        $order->school = $request->school;
+        $order->address = $request->address;
+        $order->level = $request->level;
+        $order->year_of_graduation = $request->year_of_graduation;
+        $order->order = $request->order;
+        $order->location = $request->location;
+        $order->proof_of_payment = $proofPath; // Store file path
+        $order->save();
+
+        // Process form data (e.g., send email, save to database)
+        /** Store information to include in mail in $data as an array */
+        $data = array(
+            'name' => $request->name,
+            'school' => $request->school,
+            'address' => $request->address,
+            'level' => $request->level,
+            'year_of_graduation' => $request->year_of_graduation,
+            'order' => $request->order,
+            'location' => $request->location,
+            'proof_of_payment' => $proofPath, // Store file path
+            'created_at' => now(),
+            'admin' => 'info@nardus.ng',
+        );
+
+        /** Send message to the admin */
+        Mail::send('emails.order', $data, function ($m) use ($data) {
+            $m->to($data['admin'])->subject(config('app.name').' New Wealthline Submission');
+        });
+
+        // Return success response
+        return response()->json([
+            'success' => true,
+            'message' => 'Wealthline submitted successfully!'
+        ]);
     }
 }

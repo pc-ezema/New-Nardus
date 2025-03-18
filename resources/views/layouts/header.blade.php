@@ -48,7 +48,7 @@
             </ul>
         </nav>
         <nav class="navigation" id="secondary-navigation text-center">
-            <a href="{{route('training')}}" class="{{ (request()->is('training')) ? 'active' : '' }}">Training</a>
+            <a href="{{route('wealthline')}}" class="{{ (request()->is('wealthline')) ? 'active' : '' }}">Wealthline</a>
             <a href="{{route('faqs')}}" class="{{ (request()->is('faqs')) ? 'active' : '' }}">FAQs</a>
         </nav>
         <div class="burger"><span></span><span></span><span></span></div>

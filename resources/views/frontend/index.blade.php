@@ -23,44 +23,47 @@
     <section id="field_0">
         <div id="c54" class="frame frame-default ctype-iffcomponents_flexible tx-iff-components-flexible layout-2 image-width-medium images-1">
             <div class="left flexible__content background-color-transparent">
-                <div class="h4">Who We Are</div>
+                <div class="h4">Scents</div>
                 <div class="bodytext large-body">
-                    <p>We support health and well-being through plant-based products. We constantly research and source new products that meet our customers' growing needs and also make a significant contribution to the world's need for essential oil.</p>
+                    <p>Promoting an exceptional fragrance brand that utilizes high-quality health ingredients backed by solid scientific research.</p>
                 </div>
+                <a href="{{route('scents')}}" class="cta-button style-color variant-secondary">Explore</a>
             </div>
             <div class="right flexible__image-container">
-                <div class="flexible__image lazyload" data-lazyload-400-src="{{URL::asset('assets/images/whoweare.jpg')}}" data-lazyload-600-src="{{URL::asset('assets/images/whoweare.jpg')}}" data-lazyload-800-src="{{URL::asset('assets/images/whoweare.jpg')}}">
+                <div class="flexible__image lazyload" data-lazyload-400-src="{{URL::asset('assets/images/Scent.jpg')}}" data-lazyload-600-src="{{URL::asset('assets/images/Scent.jpg')}}" data-lazyload-800-src="{{URL::asset('assets/images/Scent.jpg')}}">
                     <div class="background-dimmer"></div>
                 </div>
             </div>
         </div>
         <div id="c4" class="frame frame-default ctype-iffcomponents_flexible tx-iff-components-flexible layout-1 image-width-medium images-1">
             <div class="left flexible__image-container">
-                <div class="flexible__image lazyload" data-lazyload-400-src="{{URL::asset('assets/images/whatwedo.jpg')}}" data-lazyload-600-src="{{URL::asset('assets/images/whatwedo.jpg')}}" data-lazyload-800-src="{{URL::asset('assets/images/whatwedo.jpg')}}">
+                <div class="flexible__image lazyload" data-lazyload-400-src="{{URL::asset('assets/images/Cosmetics.jpg')}}" data-lazyload-600-src="{{URL::asset('assets/images/Cosmetics.jpg')}}" data-lazyload-800-src="{{URL::asset('assets/images/Cosmetics.jpg')}}">
                     <div class="background-dimmer"></div>
                 </div>
             </div>
             <div class="right flexible__content background-color-transparent">
-                <div class="h4">What We Do</div>
+                <div class="h4">Cosmetics</div>
                 <div class="bodytext large-body">
-                    <p>{{config('app.name')}} Company Limited is a leading global supplier of essential oils and natural ingredients, catering to the fragrance, cosmetics and health sector industries. We offer an extensive selection of essential oils to meet the diverse needs of our clients.</p>
+                    <p>Unlocking Nature's Haircare Revolution: {{config('app.name')}} Lemongrass Haircare Oil</p>
                 </div>
-                <a href="{{route('aboutUs')}}" class="cta-button style-color variant-secondary">Explore</a>
+                <a href="{{route('cosmetics')}}" class="cta-button style-color variant-secondary">Explore</a>
             </div>
         </div>
-        <div id="c57" class="frame frame-default ctype-iffcomponents_panel tx-iff-components-panel size-standard type-signpost">
-            <div class="panel lazyload" data-lazyload-576-src="{{URL::asset('assets/images/vision.jpg')}}" data-lazyload-768-src="{{URL::asset('assets/images/vision.jpg')}}" data-lazyload-1024-src="{{URL::asset('assets/images/vision.jpg')}}" data-lazyload-1440-src="{{URL::asset('assets/images/vision.jpg')}}" data-lazyload-2560-src="{{URL::asset('assets/images/vision.jpg')}}">
-                <div class="content-wrapper">
-                    <div class="panel__content background-color-blue text-light">
-                        <div class="h3">Our Vision</div>
-                        <div class="bodytext large-body">
-                            <p>A company pursuing innovation and excellence in fragrance, cosmetics and health sectors, dedicated to harnessing creativity that transforms the world.</p>
-                        </div>
-                    </div>
+        <div id="c54" class="frame frame-default ctype-iffcomponents_flexible tx-iff-components-flexible layout-2 image-width-medium images-1">
+            <div class="left flexible__content background-color-transparent">
+                <div class="h4">Health</div>
+                <div class="bodytext large-body">
+                    <p>From Nature to Home: Find Serenity with Lemongrass Oil - A Natural Path to Wellness</p>
+                </div>
+                <a href="{{route('health')}}" class="cta-button style-color variant-secondary">Explore</a>
+            </div>
+            <div class="right flexible__image-container">
+                <div class="flexible__image lazyload" data-lazyload-400-src="{{URL::asset('assets/images/EssentialOil.jpg')}}" data-lazyload-600-src="{{URL::asset('assets/images/EssentialOil.jpg')}}" data-lazyload-800-src="{{URL::asset('assets/images/EssentialOil.jpg')}}">
+                    <div class="background-dimmer"></div>
                 </div>
             </div>
         </div>
-        <div id="c56" class="frame frame-default ctype-iffcomponents_cards" style="margin-bottom: 15vh;">
+        <!-- <div id="c56" class="frame frame-default ctype-iffcomponents_cards" style="margin-bottom: 15vh;">
             <div class="h2">Our Products</div>
             <div class="cards-container columns-3">
                 <article class="card">
@@ -85,7 +88,7 @@
                     <p style="font-size: 20px;">From Nature to Home: Find Serenity with Lemongrass Oil - A Natural Path to Wellness</p><a href="{{route('health')}}" class="card__link" rel="noopener noreferrer"> Explore </a>
                 </article>
             </div>
-        </div>
+        </div> -->
         <div id="c973" class="frame frame-default ctype-iffcomponents_flexible tx-iff-components-flexible layout-3 image-width-medium images-0">
             <!-- <div class="content-section-title">Click and shop now</div> -->
             <div class="left">

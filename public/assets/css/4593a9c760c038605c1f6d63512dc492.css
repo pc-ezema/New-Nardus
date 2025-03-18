@@ -125,7 +125,7 @@
   .tx-iff-components-flexible.layout-3 .right > .bodytext,
   .tx-iff-components-flexible.layout-4 .left > .bodytext,
   .tx-iff-components-flexible.layout-4 .right > .bodytext {
-    display: none;
+    /* display: none; */
   }
 
   .tx-iff-components-flexible .left,

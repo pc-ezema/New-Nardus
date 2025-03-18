@@ -24,4 +24,6 @@ Route::get('/contact-us', [HomePageController::class, 'contactUs'])->name('conta
 Route::post('/submit/contact-us', [HomePageController::class, 'submitContact'])->name('submitContact');
 Route::get('/faqs', [HomePageController::class, 'faqs'])->name('faqs');
 Route::get('/training', [HomePageController::class, 'training'])->name('training');
+Route::get('/wealthline', [HomePageController::class, 'wealthline'])->name('wealthline');
+Route::post('/submit-order', [HomePageController::class, 'submitOrder'])->name('submitOrder');
 Route::get('/testimonial', [HomePageController::class, 'testimonial'])->name('testimonial');
