@@ -13649,3 +13649,15 @@ Stack trace:
 [18-Mar-2025 00:39:13 UTC] PHP Warning:  mysqli_real_connect(): (08004/1040): Too many connections in /home/nardusng/nardus/public/shop.nardus.ng/wp-includes/class-wpdb.php on line 1982
 [18-Mar-2025 00:55:26 UTC] PHP Warning:  mysqli_real_connect(): (HY000/1040): Too many connections in /home/nardusng/nardus/public/shop.nardus.ng/wp-includes/class-wpdb.php on line 1982
 [18-Mar-2025 00:55:48 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/nardusng/nardus/public/shop.nardus.ng/wp-includes/class-wpdb.php on line 1982
+[18-Mar-2025 20:51:50 UTC] PHP Warning:  require_once(/home/nardusng/nardus/public/shop.nardus.ng/wp-load.php): Failed to open stream: No such file or directory in /home/nardusng/nardus/public/shop.nardus.ng/wp-blog-header.php on line 13
+[18-Mar-2025 20:51:50 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/nardusng/nardus/public/shop.nardus.ng/wp-load.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/nardusng/nardus/public/shop.nardus.ng/wp-blog-header.php:13
+Stack trace:
+#0 /home/nardusng/nardus/public/shop.nardus.ng/index.php(17): require()
+#1 {main}
+  thrown in /home/nardusng/nardus/public/shop.nardus.ng/wp-blog-header.php on line 13
+[18-Mar-2025 20:52:32 UTC] PHP Warning:  require_once(/home/nardusng/nardus/public/shop.nardus.ng/wp-load.php): Failed to open stream: No such file or directory in /home/nardusng/nardus/public/shop.nardus.ng/wp-blog-header.php on line 13
+[18-Mar-2025 20:52:32 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/nardusng/nardus/public/shop.nardus.ng/wp-load.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/nardusng/nardus/public/shop.nardus.ng/wp-blog-header.php:13
+Stack trace:
+#0 /home/nardusng/nardus/public/shop.nardus.ng/index.php(17): require()
+#1 {main}
+  thrown in /home/nardusng/nardus/public/shop.nardus.ng/wp-blog-header.php on line 13
