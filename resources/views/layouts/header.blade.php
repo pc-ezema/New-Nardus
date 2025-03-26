@@ -30,14 +30,14 @@
                         </div>
                     </div>
                 </li>
+                <li>
+                    <a href="{{route('essentialOil')}}" class="{{ (request()->is('essential-oil')) ? 'active' : '' }}">Essential Oils</a>
+                </li>
                 <li class="">
                     <a href="{{route('scents')}}" class="{{ (request()->is('scents')) ? 'active' : '' }}">Scents</a>
                 </li>
                 <li>
                     <a href="{{route('cosmetics')}}" class="{{ (request()->is('cosmetics')) ? 'active' : '' }}">Cosmetics</a>
-                </li>
-                <li>
-                    <a href="{{route('essentialOil')}}" class="{{ (request()->is('essential-oil')) ? 'active' : '' }}">Essential Oil</a>
                 </li>
                 <li>
                     <a href="{{route('health')}}" class="{{ (request()->is('health')) ? 'active' : '' }}">Health</a>

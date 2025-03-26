@@ -36,6 +36,19 @@
                     <a href="{{$instagram}}" target="_blank" rel="noopener noreferrer">
                         <i class="fa fa-instagram"></i>
                     </a>
+                    <a href="https://www.linkedin.com/company/nardus-scents-and-oils/posts/?feedView=all" target="_blank" rel="noopener noreferrer">
+                        <i class="fa fa-linkedin"></i>
+                    </a>
+                </div>
+
+                <p class="footer__section-heading" style="margin-top: .5rem;">Office Address</p>
+                <div id="footer__some-container" style="margin-top: -1rem;">
+                    {{config('app.address')}}
+                </div>
+
+                <p class="footer__section-heading" style="margin-top: .5rem;">Phone Number</p>
+                <div id="footer__some-container" style="margin-top: -1rem;">
+                    {{config('app.phone1')}}
                 </div>
             </div>
         </section>

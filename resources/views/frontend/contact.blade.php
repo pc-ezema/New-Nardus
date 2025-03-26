@@ -91,12 +91,24 @@
                         </div>
                         <div class="contact-item d-flex mb-3">
                             <div class="icon">
+                                <i class="fa fa-map-marker"></i>
+                            </div>
+                            <div class="contant">
+                                <h4>Factory Address</h4>
+                                <p>{{config('app.factoryAddress')}}</p>
+                            </div>
+                        </div>
+                        <div class="contact-item d-flex mb-3">
+                            <div class="icon">
                                 <i class="fa fa-phone"></i>
                             </div>
                             <div class="contant">
                                 <h4>Phone Number</h4>
                                 <p>
                                     <a href="tel:{{config('app.phone1')}}">Office: {{config('app.phone1')}}</a>
+                                </p>
+                                <p>
+                                    <a href="tel:{{config('app.phone1')}}">Office: {{config('app.phone2')}}</a>
                                 </p>
                             </div>
                         </div>

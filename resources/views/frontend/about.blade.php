@@ -22,13 +22,13 @@
         <div id="c372" class="frame frame-default ctype-iffcomponents_flexible tx-iff-components-flexible layout-5 image-width-medium images-0">
             <div class="content-section-title">MEET {{ucfirst(config('app.name'))}}</div>
             <div class="bodytext large-body">
-                <p style="text-align: justify;">{{config('app.name')}} Company Limited is a global provider of essential oils, widely utilized in the fragrance, cosmetics and health sectors. We meticulously select the finest plants and herbs to craft premium-quality products. We offer a diverse range of products tailored to meet the needs of our customers.
-                Our Vision is to be a company pursuing innovation and excellence in fragrance, cosmetics and health sectors, dedicated to harnessing creativity that transforms the world.</p>
+                <p style="text-align: justify;">{{config('app.name')}} is a leading provider of premium essential oils, with over 700 farmers supporting our backward integration. We promote the cultivation of a variety of aromatic plants and herbs  such as Lemongrass, Basil, Thyme, Turmeric, and Ginger processed with various techniques to produce high-quality essential oils.</p>
+                <p style="text-align: justify;">Our products are widely utilized in the flavor, fragrance, and cosmetic industries. We also extend our value chain to include production of natural scents and cosmetics With a commitment to excellence, we meticulously select the finest plants and herbs to craft superior-grade offerings tailored to our customers' specifications.</p>
             </div>
         </div>
         <div id="c54" class="frame frame-default ctype-iffcomponents_flexible tx-iff-components-flexible layout-2 image-width-medium images-1">
             <div class="left flexible__content background-color-transparent">
-                <div class="h4">Who We Are</div>
+                <div class="h3">Who We Are</div>
                 <div class="bodytext large-body">
                     <p>We support health and well-being through plant-based products. We constantly research and source new products that meet our customers' growing needs and also make a significant contribution to the world's need for essential oil.</p>
                 </div>
@@ -46,87 +46,36 @@
                 </div>
             </div>
             <div class="right flexible__content background-color-transparent">
-                <div class="h4">What We Do</div>
+                <div class="h3">What We Do</div>
                 <div class="bodytext large-body">
                     <p>{{config('app.name')}} Company Limited is a leading global supplier of essential oils and natural ingredients, catering to the fragrance, cosmetics and health sector industries. We offer an extensive selection of essential oils to meet the diverse needs of our clients.</p>
                 </div>
-                <a href="{{route('aboutUs')}}" class="cta-button style-color variant-secondary">Explore</a>
             </div>
         </div>
-        <div id="c263" class="frame frame-default ctype-iffcomponents_flexible tx-iff-components-flexible layout-2 image-width-medium images-1">
-            <div class="left flexible__content background-color-transparent">
-                <div class="h4">Core Value</div>
-                <div class="bodytext large-body">
-                    <ul>
-                        <li>Sustainability</li>
-                        <li>Wealth Creation </li>
-                        <li>Innovation</li>
-                        <li>Creativity</li>
-                        <li>Excellence</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="right flexible__image-container">
-                <div class="flexible__image lazyload" data-lazyload-400-src="https://d3b9n0uye9y0ja.cloudfront.net/typo3temp/assets/images/csm_CFG_Biotech_2k_2fabb839f2_dac313f76451c85db8ef32cbe5695714.jpg" data-lazyload-600-src="https://d3b9n0uye9y0ja.cloudfront.net/typo3temp/assets/images/csm_CFG_Biotech_2k_a34e3fa244_ff6db0bd6e20688f033ec50e0063d2a4.jpg" data-lazyload-800-src="https://d3b9n0uye9y0ja.cloudfront.net/typo3temp/assets/images/csm_CFG_Biotech_2k_820134bdef_bfc9d033d7feb0edba753e6ed31f1b18.jpg">
-                    <div class="background-dimmer"></div>
-                </div>
-            </div>
-        </div>
-        <div id="c57" class="frame frame-default ctype-iffcomponents_panel tx-iff-components-panel size-standard type-signpost">
-            <div class="panel lazyload" data-lazyload-576-src="{{URL::asset('assets/images/vision.jpg')}}" data-lazyload-768-src="{{URL::asset('assets/images/vision.jpg')}}" data-lazyload-1024-src="{{URL::asset('assets/images/vision.jpg')}}" data-lazyload-1440-src="{{URL::asset('assets/images/vision.jpg')}}" data-lazyload-2560-src="{{URL::asset('assets/images/vision.jpg')}}">
-                <div class="content-wrapper">
-                    <div class="panel__content background-color-blue text-light">
-                        <div class="h3">Our Vision</div>
-                        <div class="bodytext large-body">
-                            <p>A company pursuing innovation and excellence in fragrance, cosmetics and health sectors, dedicated to harnessing creativity that transforms the world.</p>
-                        </div>
+        <div id="c56" class="frame frame-default ctype-iffcomponents_cards" style="margin-bottom: 15vh;">
+            <div class="h3">Our Products</div>
+            <div class="cards-container columns-3">
+                <article class="card">
+                    <div class="card__image lazyload" data-lazyload-300-src="{{URL::asset('assets/images/EssentialOil.jpg')}}" data-lazyload-400-src="{{URL::asset('assets/images/EssentialOil.jpg')}}" data-lazyload-600-src="{{URL::asset('assets/images/EssentialOil.jpg')}}"></div>
+                    <div class="card__metadata">
+                        <div class="tag variant-orange homeTag">Essential Oils</div>
                     </div>
-                </div>
-            </div>
-        </div>
-        <!-- <div id="c552" class="frame frame-default ctype-iffcomponents_panel tx-iff-components-panel size-standard type-breaker">
-            <div class="panel lazyloaded" data-lazyload-576-src="https://d3b9n0uye9y0ja.cloudfront.net/typo3temp/assets/images/csm_deb-headercrop1_e3289e6c80_fd7ff3f11b52a0de03450afb2973a130.jpg" data-lazyload-768-src="https://d3b9n0uye9y0ja.cloudfront.net/typo3temp/assets/images/csm_deb-headercrop1_fd9fcaa103_38f2dd3f9fda59decb190735be196c6b.jpg" data-lazyload-1024-src="https://d3b9n0uye9y0ja.cloudfront.net/typo3temp/assets/images/csm_deb-headercrop1_4d95b5527e_e43a5893ea3fd9b32686e35aa03e9c22.jpg" data-lazyload-1440-src="https://d3b9n0uye9y0ja.cloudfront.net/typo3temp/assets/images/csm_deb-headercrop1_48839ecba5_3a5eea4c063607c61f06a9a8c7ee1c8a.jpg" data-lazyload-2560-src="https://d3b9n0uye9y0ja.cloudfront.net/typo3temp/assets/images/csm_deb-headercrop1_00cb551a5a_6c320f26aa33793db41195fd4098dd6f.jpg" style="background-image: url(&quot;https://d3b9n0uye9y0ja.cloudfront.net/typo3temp/assets/images/csm_deb-headercrop1_00cb551a5a_6c320f26aa33793db41195fd4098dd6f.jpg.webp&quot;);">
-                <div class="content-wrapper">
-                    <div class="panel__content background-color-grey text-light">
-                        <div class="h3" style="text-align: center; font-size: 20px !important;">A company pursuing innovation and excellence in fragrance, cosmetics and health sectors, dedicated to harnessing creativity that transforms the world.</div>
+                    <p style="font-size: 20px;">From Nature to Home: Find Serenity with Lemongrass Oil - A Natural Path to Wellness</p><a href="{{route('essentialOil')}}" class="card__link" rel="noopener noreferrer"> Explore </a>
+                </article>
+                <article class="card">
+                    <div class="card__image lazyload" data-lazyload-300-src="{{URL::asset('assets/images/Scent.jpg')}}" data-lazyload-400-src="{{URL::asset('assets/images/Scent.jpg')}}" data-lazyload-600-src="{{URL::asset('assets/images/Scent.jpg')}}"></div>
+                    <div class="card__metadata">
+                        <div class="tag variant-orange homeTag">Scents</div>
                     </div>
-                </div>
-            </div>
-        </div> -->
-        <div id="c59" class="frame frame-default ctype-iffcomponents_flexible tx-iff-components-flexible layout-1 image-width-medium images-1">
-            <div class="left flexible__image-container">
-                <div class="flexible__image lazyload" data-lazyload-400-src="https://d3b9n0uye9y0ja.cloudfront.net/typo3temp/assets/images/csm_our-divisons-banner_f6bb324c09_ebf3538df15dbd9f1e27a201e3302f0a.png" data-lazyload-600-src="https://d3b9n0uye9y0ja.cloudfront.net/typo3temp/assets/images/csm_our-divisons-banner_2f016f3bc6_9ce91248255fe534910c115ed5ff95d1.png" data-lazyload-800-src="https://d3b9n0uye9y0ja.cloudfront.net/typo3temp/assets/images/csm_our-divisons-banner_9fd157dcf9_20d2246537b23e206659637750a2c2a1.png">
-                    <div class="background-dimmer"></div>
-                </div>
-            </div>
-            <div class="right flexible__content background-color-blue text-light">
-                <div class="h4">Our Purpose</div>
-                <div class="bodytext large-body">
-                    <ul>
-                        <li>To make a significant contribution to the world's need for essential oil.</li>
-                        <li>To constantly research and source new products that meet our customers’ growing needs.</li>
-                        <li>To diffuse the perfect fragrance in every space.</li>
-                        <li>To nourish, protect and glow with our natural ingredients.</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div id="c968" class="frame frame-default ctype-iffcomponents_flexible tx-iff-components-flexible layout-1 image-width-medium images-1">
-            <div class="left flexible__image-container">
-                <div class="flexible__image lazyloaded" data-lazyload-400-src="{{URL::asset('assets/images/scentReedDiffuser.jpg')}}" data-lazyload-600-src="{{URL::asset('assets/images/scentReedDiffuser.jpg')}}" data-lazyload-800-src="{{URL::asset('assets/images/scentReedDiffuser.jpg')}}" style="background-image: url(&quot;{{URL::asset('assets/images/scentReedDiffuser.jpg')}}&quot;);">
-                    <div class="background-dimmer"></div>
-                </div>
-            </div>
-            <div class="right flexible__content background-color-transparent">
-                <div class="h4">Services</div>
-                <div class="bodytext large-body">
-                    <ul>
-                        <li><span style="font-weight: bolder;">Excellent Delivery Service:</span> A smart nationwide logistics network that guarantees safe and fast delivery.</li>
-                        <li><span style="font-weight: bolder;">Experience & Talent</span>: Our work is founded on 5+ years of experience and driven by a line-up of remarkable corporate talents.</li>
-                        <li><span style="font-weight: bolder;">Customer Support:</span> We have an experienced customer support team that responds to inquiries in real-time.</li>
-                        <li><span style="font-weight: bolder;">Research & Development:</span> Continuous research on organics with a focus on promoting a healthier world.</li>
-                    </ul>
-                </div>
+                    <p style="font-size: 20px;">Promoting an exceptional fragrance brand that utilizes high-quality health ingredients backed by solid scientific research.</p><a href="{{route('scents')}}" class="card__link" rel="noopener noreferrer"> Explore </a>
+                </article>
+                <article class="card">
+                    <div class="card__image lazyload" data-lazyload-300-src="{{URL::asset('assets/images/Cosmetics.jpg')}}" data-lazyload-400-src="{{URL::asset('assets/images/Cosmetics.jpg')}}" data-lazyload-600-src="{{URL::asset('assets/images/Cosmetics.jpg')}}"></div>
+                    <div class="card__metadata">
+                        <div class="tag variant-orange homeTag">Cosmetics</div>
+                    </div>
+                    <p style="font-size: 20px;">Unlocking Nature's Haircare Revolution: {{config('app.name')}} Lemongrass Haircare Oil</p><a href="{{route('cosmetics')}}" class="card__link" rel="noopener noreferrer"> Explore </a>
+                </article>
             </div>
         </div>
     </section>

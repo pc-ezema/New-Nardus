@@ -17,9 +17,10 @@ return [
     */
 
     'name' => env('APP_NAME', 'Laravel'),
-    'address' => '18 Osborne Foreshore estate ikoyi Lagos State Nigeria ',
-    'phone1' => '+2348166946598',
-    'phone2' => '+2348168337648',
+    'address' => '18 Osborne Foreshore estate ikoyi, Lagos State, Nigeria',
+    'factoryAddress' => 'Food Industrial Park Abeokuta , Off Ayetoro Road, Abeokuta North LGA, Ogun State, Nigeria',
+    'phone1' => '+234 816 694 6598',
+    'phone2' => '+234 814 787 0307',
     'email' => 'Info@nardus.ng',
 
     /*
