@@ -18,6 +18,7 @@
 }
 .frame {
     margin-bottom: 10vh;
+    margin-top: 5vh;
 }
 .ctype-text {
     margin-left: auto;
@@ -65,7 +66,7 @@ h1,
 .h1 {
     font-size: 48px;
     font-weight: 900;
-    letter-spacing: 7.2px;
+    /* letter-spacing: 7.2px; */
     line-height: 56px;
 }
 h2,
@@ -77,7 +78,7 @@ h3,
 .h3 {
     font-size: 36px;
     font-weight: 700;
-    letter-spacing: 5.4px;
+    /* letter-spacing: 5.4px; */
     line-height: 44px;
 }
 h4,
@@ -89,7 +90,7 @@ h5,
 .h5 {
     font-size: 20px;
     font-weight: 900;
-    letter-spacing: 3px;
+    /* letter-spacing: 3px; */
     line-height: 26px;
 }
 h6,
