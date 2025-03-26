@@ -29,7 +29,7 @@
                     <div class="background-dimmer"></div>
                 </div>
             </div>
-            <div class="right flexible__content background-color-transparent" style="padding: 0px 0px 0px 80px !important; display: inline-block !important;">
+            <div class="right flexible__content background-color-transparent">
                 <div class="h3">Our Mission</div>
                 <div class="bodytext large-body">
                     <p>A company pursuing innovation and excellence in essential oils, scents and cosmetics, dedicated to harnessing creativity that transforms the world.</p>
