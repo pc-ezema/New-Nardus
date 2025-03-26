@@ -1,0 +1,65 @@
+@font-face{
+  font-family:Flaticon;
+  src:url(../fonts/Flaticon.eot);
+  src:url(../fonts/Flaticon.eot?#iefix) format("embedded-opentype"),url(../fonts/Flaticon.woff2) format("woff2"),url(../fonts/Flaticon.woff) format("woff"),url(../fonts/Flaticon.ttf) format("truetype"),url(../fonts/Flaticon.svg#Flaticon) format("svg");
+  font-weight:400;
+  font-style:normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0){
+  @font-face{
+    font-family:Flaticon;
+    src:url(Flaticon.svg#Flaticon) format("svg");
+  }
+}
+
+[class*=" flat-icon-"],[class^=flat-icon-]{
+      display:inline-block;
+  font-family:Flaticon;
+  font-style:normal;
+  font-weight:400;
+  font-variant:normal;
+  line-height:1;
+  text-decoration:inherit;
+  text-rendering:optimizeLegibility;
+  text-transform:none;
+  -moz-osx-font-smoothing:grayscale;
+  -webkit-font-smoothing:antialiased;
+  font-smoothing:antialiased;
+    display:block;
+}
+
+.flat-icon-bacon:before{ content:"\f100"; }
+.flat-icon-bbq:before{ content:"\f101"; }
+.flat-icon-burger:before{ content:"\f102"; }
+.flat-icon-beef:before{ content:"\f103"; }
+.flat-icon-spaghetti:before{ content:"\f104"; }
+.flat-icon-cheddar:before{ content:"\f105"; content:"\f106"; }
+.flat-icon-chicken:before{ content:"\f107"; }
+.flat-icon-crab:before{ content:"\f108"; }
+.flat-icon-egg:before{ content:"\f109"; }
+.flat-icon-fish:before{ content:"\f10a"; }
+.flat-icon-french-fries:before{ content:"\f10b"; }
+.flat-icon-pork:before{ content:"\f10c"; }
+.flat-icon-hot-dog:before{ content:"\f10d"; }
+.flat-icon-kebab:before{ content:"\f10e"; }
+.flat-icon-kofta:before{ content:"\f10f"; }
+.flat-icon-lamb:before{ content:"\f110"; }
+.flat-icon-lobster:before{ content:"\f111"; }
+.flat-icon-meat:before{ content:"\f112"; }
+.flat-icon-onion:before{ content:"\f113"; }
+.flat-icon-oyster:before{ content:"\f114"; }
+.flat-icon-pancake:before{ content:"\f115"; }
+.flat-icon-ham:before{ content:"\f116"; }
+.flat-icon-pepperoni:before{ content:"\f117"; }
+.flat-icon-pizza:before{ content:"\f118"; }
+.flat-icon-pork:before{ content:"\f119"; content:"\f11a"; }
+.flat-icon-salami:before{ content:"\f11b"; }
+.flat-icon-sandwich:before{ content:"\f11c"; }
+.flat-icon-sausage:before{ content:"\f11d"; }
+.flat-icon-shrimp:before{ content:"\f11e"; }
+.flat-icon-soup:before{ content:"\f11f"; }
+.flat-icon-steak:before{ content:"\f120"; }
+.flat-icon-stew:before{ content:"\f121"; }
+.flat-icon-toast:before{ content:"\f122"; }
+.flat-icon-tomato:before{ content:"\f123"; }

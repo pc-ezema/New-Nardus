@@ -29,7 +29,7 @@
             </div>
             <div class="multibox__boxes">
                 <article class="multibox__box">
-                    <div class="box__image lazyloaded" data-lazyload-300-src="{{URL::asset('assets/images/essentialoilLemongrassOil.jpg')}}" data-lazyload-400-src="{{URL::asset('assets/images/essentialoilLemongrassOil.jpg')}}" data-lazyload-600-src="{{URL::asset('assets/images/essentialoilLemongrassOil.jpg')}}" style="background-image: url(&quot;{{URL::asset('assets/images/essentialoilLemongrassOil.jpg')}}&quot;);"></div>
+                    <div class="box__image lazyloaded" data-lazyload-300-src="{{URL::asset('assets/images/essentialLemongrassOil.jpg')}}" data-lazyload-400-src="{{URL::asset('assets/images/essentialLemongrassOil.jpg')}}" data-lazyload-600-src="{{URL::asset('assets/images/essentialLemongrassOil.jpg')}}" style="background-image: url(&quot;{{URL::asset('assets/images/essentialLemongrassOil.jpg')}}&quot;);"></div>
                     <p class="h4">Lemongrass Oil</p>
                     <p style="text-align: justify; font-size: 20px !important;">Lemongrass Essential Oil offers the natural solution consumers seek.
                         Our experts have perfected a range of premium-grade lemongrass essential oils designed to help you address

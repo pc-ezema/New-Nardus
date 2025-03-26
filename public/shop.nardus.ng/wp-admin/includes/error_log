@@ -1,0 +1,16 @@
+[10-Sep-2023 22:25:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function load_textdomain() in /home/nardusng/app/public/shop.nardus.ng/wp-admin/includes/admin.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/nardusng/app/public/shop.nardus.ng/wp-admin/includes/admin.php on line 16
+[10-Sep-2023 22:25:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function load_textdomain() in /home/nardusng/app/public/shop.nardus.ng/wp-admin/includes/admin.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/nardusng/app/public/shop.nardus.ng/wp-admin/includes/admin.php on line 16
+[13-Sep-2023 04:39:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function load_textdomain() in /home/nardusng/app/public/shop.nardus.ng/wp-admin/includes/admin.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/nardusng/app/public/shop.nardus.ng/wp-admin/includes/admin.php on line 16
+[13-Sep-2023 04:39:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function load_textdomain() in /home/nardusng/app/public/shop.nardus.ng/wp-admin/includes/admin.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/nardusng/app/public/shop.nardus.ng/wp-admin/includes/admin.php on line 16

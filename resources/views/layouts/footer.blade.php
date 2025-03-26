@@ -5,6 +5,7 @@
                 <a href="{{route('index')}}" id="footer-logo" aria-label="{{config('app.name')}} logo">
                     <img src="{{ URL::asset('assets/images/nardus-white.png') }}" style="max-width: 200px;" />
                 </a>
+                <p>Promoting Nigeria indigenous plants and herbs for economic diversification.</p>
             </div>
             <nav>
                 <p class="footer__section-heading">Quick links</p>
