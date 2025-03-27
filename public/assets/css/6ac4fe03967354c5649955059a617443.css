@@ -177,6 +177,15 @@
     .banner__content.text-light .content-wrapper .banner__sub-heading {
         color: #222d35;
     }
+
+    .scroll-down {
+        display: none !important;
+    }
+
+    #logo {
+        max-width: 70px !important;
+        margin-top: .6rem !important;
+    }
 }
 
 .arrow-link {

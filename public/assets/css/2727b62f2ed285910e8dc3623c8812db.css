@@ -554,7 +554,7 @@ body #main-navigation .sub-menu-container .content-wrapper,
         width: 44px;
     }
     body.mobile-menu-open .burger span {
-        background-color: #194d02;
+        /* background-color: #194d02; */
         position: absolute;
     }
     body.mobile-menu-open .burger span:first-child {
