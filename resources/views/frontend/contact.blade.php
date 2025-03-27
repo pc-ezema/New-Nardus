@@ -12,11 +12,14 @@
                 <div class="banner__overlay variant-dark"></div>
                 <div class="banner__content text-light">
                     <div class="content-wrapper">
-                        <div class="banner__heading h1">CONTACT US</div>
+                        <div class="banner__heading h1" style="font-weight:normal !important">CONTACT US</div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
+    <div class="scroll-down" id="scrollArrow">
+        &#x2193; <!-- Down Arrow -->
     </div>
 </section>
 

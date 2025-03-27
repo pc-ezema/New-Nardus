@@ -10,11 +10,14 @@
                 <div class="banner__overlay variant-dark"></div>
                 <div class="banner__content text-light">
                     <div class="content-wrapper">
-                        <div class="banner__heading h1">WHAT WE DO</div>
+                        <div class="banner__heading h1" style="font-weight:normal !important">WHAT WE DO</div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
+    <div class="scroll-down" id="scrollArrow">
+        &#x2193; <!-- Down Arrow -->
     </div>
 </section>
 <main id="content" class="content-wrapper">
@@ -84,11 +87,11 @@
 
 <!-- Footer -->
 @section('footer')
-@includeIf('layouts.footer', [
-    'whatsapp' => '#',
-    'facebook' => '#',
-    'instagram' => '#',
-    'twitter' => '#',
-])
+    @includeIf('layouts.footer', [
+        'whatsapp' => '#',
+        'facebook' => '#',
+        'instagram' => '#',
+        'twitter' => '#',
+    ])
 @endsection
 <!-- Footer Ends -->

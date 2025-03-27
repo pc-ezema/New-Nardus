@@ -91,5 +91,56 @@
     <script integrity="sha384-9+v1xRxfTneN6Tvr+/tcPz1Kd87QNSZPP4yQD3pQXZne+7inE1PMEMj1NdF9Hidj" crossorigin="anonymous" src="{{URL::asset('assets/js/4ae451a0302b1059cfff669b6e11aace.js')}}"></script>
     <script integrity="sha384-VuOwFzI//Oldv+QAE4hVr77E4t+HSt9p8McwIG74Fe1obkf+NAK3ODGubuERxo1q" crossorigin="anonymous" src="{{URL::asset('assets/js/40553c60e1cd1e4d8dfa5e7a32c412f1.js')}}"></script>
     <script integrity="sha384-n+WtPwescrks0W28iIR6pwgdaS1BrxIAlysyhnQIrdl0E+G8eU3UGj5/UdrX4cbg" crossorigin="anonymous" src="{{URL::asset('assets/js/c30665b3374d5ab7e66d7dcb83f4c47e.js')}}"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            let scrollArrow = document.getElementById("scrollArrow");
+            let header = document.getElementById("main-header");
+            let headerLinks = document.querySelectorAll(".main-header-link");
+            let headerLinkActive = document.querySelectorAll(".active");
+            let logo = document.getElementById("logo");
+            let burgerLines = document.querySelectorAll(".burger-line");
+
+            // Check if elements exist to avoid errors
+            if (!header || !logo) return;
+
+            let lightLogo = logo.getAttribute("data-light");
+            let darkLogo = logo.getAttribute("data-dark");
+
+            // Scroll down event
+            if (scrollArrow) {
+                scrollArrow.addEventListener("click", function() {
+                    window.scrollBy({
+                        top: window.innerHeight,
+                        behavior: "smooth"
+                    });
+                });
+            }
+
+            window.addEventListener("scroll", function() {
+                if (window.scrollY > 50) {
+                    if (scrollArrow) {
+                        scrollArrow.style.opacity = "0";
+                        scrollArrow.style.pointerEvents = "none";
+                    }
+                    header.classList.add("scrolled");
+                    headerLinks.forEach(link => link.classList.add("scrolled"));
+                    headerLinkActive.forEach(link => link.classList.add("scrolled"));
+                    logo.src = darkLogo;
+                    burgerLines.forEach(line => line.classList.add("scrolled"));
+                } else {
+                    if (scrollArrow) {
+                        scrollArrow.style.opacity = "1";
+                        scrollArrow.style.pointerEvents = "auto";
+                    }
+                    header.classList.remove("scrolled");
+                    headerLinks.forEach(link => link.classList.remove("scrolled"));
+                    headerLinkActive.forEach(link => link.classList.remove("scrolled"));
+                    logo.src = lightLogo;
+                    burgerLines.forEach(line => line.classList.remove("scrolled"));
+                }
+            });
+        });
+    </script>
 </body>
+
 </html>
