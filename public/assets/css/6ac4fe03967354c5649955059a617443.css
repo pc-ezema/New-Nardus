@@ -13,7 +13,7 @@
     margin-bottom: 120px;
 }
 #banner__container.size-standard {
-    height: 80vh;
+    height: 100vh;
 }
 #banner__container.size-small {
     height: 50vh;
@@ -117,7 +117,7 @@
     background-color: rgba(255, 255, 255, 0.2);
 }
 .banner__content {
-    bottom: 25%;
+    bottom: 33%;
     left: 0;
     position: absolute;
     width: 100%;
@@ -177,4 +177,96 @@
     .banner__content.text-light .content-wrapper .banner__sub-heading {
         color: #222d35;
     }
+}
+
+.arrow-link {
+    font-size: 1rem;
+    font-weight: normal !important;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.arrow-circle {
+    width: 30px;
+    height: 30px;
+    background-color: #194d02; /* Circle Background */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%; /* Makes it a circle */
+    transition: background 0.3s, transform 0.3s;
+}
+
+.arrow-circle i {
+    font-size: 14px;
+}
+
+.arrow-link:hover .arrow-circle {
+    background-color: #fff; /* Hover Effect */
+    color: #194d02;
+    transform: scale(1.1);
+}
+
+.scroll-down {
+    width: 50px;
+    height: 50px;
+    background-color: #194d02; /* Circle Background Color */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    border-radius: 50%; /* Makes it a circle */
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+    animation: bounce 1.5s infinite;
+}
+
+.scroll-down:hover {
+    background-color: #fff; /* Hover Effect */
+    color: #194d02;
+    transform: translateX(-50%) scale(1.1);
+}
+
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateX(-50%) translateY(0);
+    }
+    50% {
+        transform: translateX(-50%) translateY(10px);
+    }
+}
+
+.next {
+    height: 100vh;
+    background: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#main-header.scrolled {
+    background: #fff; /* Dark background when scrolled */
+    color: #194d02 !important;
+}
+
+.main-header-link.scrolled {
+    background: #fff; /* White background when scrolled */
+    color: #194d02 !important;
+}
+
+.active.scrolled {
+    border-bottom: 2px solid #194d02 !important;
+}
+
+.burger-line.scrolled {
+    background-color: #194d02;
 }

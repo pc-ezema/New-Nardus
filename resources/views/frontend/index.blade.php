@@ -11,14 +11,20 @@
                 <div class="banner__overlay variant-dark"></div>
                 <div class="banner__content text-light">
                     <div class="content-wrapper">
-                        <div class="banner__heading h1" style="margin-bottom: 1.5rem; font-weight:normal !important">Discover <br> our <br> natural Oils</div>
-                        <a href="{{route('aboutUs')}}" class="style-light variant-secondary h5" style="font-size: 1rem; font-weight:normal !important">Get to know us <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
-                        <!-- <div class="banner__sub-heading h5">Leading provider of premium essential oils, widely utilized in the flavor, fragrance, and cosmetic industries.</div> -->
-                        <!-- <a href="{{route('aboutUs')}}" class="cta-button style-light variant-secondary">Get to know us</a> -->
+                        <div class="banner__heading h1" style="margin-bottom: 2rem; font-weight:normal !important">Discover <br> our <br> natural Oils</div>
+                        <a href="{{route('aboutUs')}}" class="style-light variant-secondary h5 arrow-link">
+                            Get to know us
+                            <span class="arrow-circle">
+                                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                            </span>
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
+    <div class="scroll-down" id="scrollArrow">
+        &#x2193; <!-- Down Arrow -->
     </div>
 </section>
 <main id="content" class="content-wrapper">
@@ -86,13 +92,8 @@
             </div>
         </div>
         <div id="c973" class="frame frame-default ctype-iffcomponents_flexible tx-iff-components-flexible layout-3 image-width-medium images-0">
-            <div class="left">
-                <div class="bodytext large-body">
-                    <p>Experience the rich potency value of our natural product, derived through the most ethical extraction and purification process to give a recall moment the world is yet to discover.</p>
-                </div>
-            </div>
-            <div class="right">
-                <div class="h4">Speak with our team?</div>
+            <div class="col">
+                <div class="h3">Send a message to {{config('app.name')}} Corporate Team</div>
                 <div id="successMessage" class="alert alert-success d-none"></div>
                 <div class="contact-form">
                     <form id="contactForm" enctype="multipart/form-data">
