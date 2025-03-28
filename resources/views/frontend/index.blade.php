@@ -48,7 +48,7 @@
                     <div class="panel__content background-color-blue text-light">
                         <div class="h3">Our Vision</div>
                         <div class="bodytext large-body">
-                            <p>Leading the sustainable growth of Nigeria's indigenous plants and herbs for economic impact and global reach. The image for this is the lemongrass field.</p>
+                            <p>Leading the sustainable growth of Nigeria's indigenous plants and herbs for economic impact and global reach.</p>
                         </div>
                     </div>
                 </div>

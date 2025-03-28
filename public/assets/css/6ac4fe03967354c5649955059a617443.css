@@ -141,7 +141,7 @@
     }
     #banner__container .banner .banner__images,
     #banner__container .banner .banner__overlay {
-        height: 40vh;
+        height: 100vh;
     }
     #banner__container .cta-button.style-light {
         background-color: #0075cf;
@@ -168,8 +168,8 @@
         margin-bottom: 20px;
     }
     .banner__content {
-        bottom: 0;
-        position: relative;
+        /* bottom: 0;
+        position: relative; */
     }
     .banner__content.text-light .content-wrapper .banner__heading {
         color: #0075cf;
@@ -178,9 +178,9 @@
         color: #222d35;
     }
 
-    .scroll-down {
+    /* .scroll-down {
         display: none !important;
-    }
+    } */
 
     #logo {
         max-width: 70px !important;
