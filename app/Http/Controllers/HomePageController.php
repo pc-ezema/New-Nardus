@@ -44,6 +44,11 @@ class HomePageController extends Controller
         return view('frontend.contact');
     }
 
+    public function researchDevelopment()
+    {
+        return view('frontend.researchDevelopment');
+    }
+
     public function submitContact(Request $request)
     {
         // Define your validation rules

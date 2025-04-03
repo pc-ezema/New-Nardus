@@ -11,13 +11,32 @@
                 <div class="banner__overlay variant-dark"></div>
                 <div class="banner__content text-light">
                     <div class="content-wrapper">
-                        <div class="banner__heading h1" style="margin-bottom: 2rem; font-weight:normal !important">Discover <br> our <br> natural Oils</div>
-                        <a href="{{route('aboutUs')}}" class="style-light variant-secondary h5 arrow-link">
-                            Get to know us
-                            <span class="arrow-circle">
-                                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-                            </span>
-                        </a>
+                        <ul class="responsive-list">
+                            <li class="style-light variant-secondary arrow-link h1" style="margin-bottom: 3rem; margin-right: 2rem; font-weight:normal !important">
+                                <a href="{{route('essentialOil')}}" class="style-light variant-secondary h1 arrow-link {{ (request()->is('essential-oil')) ? 'active' : '' }}">
+                                    <span class="arrow-circle">
+                                        <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                                    </span>
+                                    Essential Oils
+                                </a>
+                            </li>
+                            <li class="style-light variant-secondary arrow-link h1" style="margin-bottom: 3rem; margin-right: 2rem; font-weight:normal !important">
+                                <a href="{{route('scents')}}" class="style-light variant-secondary h1 arrow-link {{ (request()->is('scents')) ? 'active' : '' }}">
+                                    <span class="arrow-circle">
+                                        <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                                    </span>
+                                    Scents
+                                </a>
+                            </li>
+                            <li class="style-light variant-secondary arrow-link h1" style="margin-bottom: 3rem; margin-right: 2rem; font-weight:normal !important">
+                                <a href="{{route('cosmetics')}}" class="style-light variant-secondary h1 arrow-link {{ (request()->is('cosmetics')) ? 'active' : '' }}">
+                                    <span class="arrow-circle">
+                                        <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                                    </span>
+                                    Cosmetics
+                                </a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -36,9 +55,9 @@
                 </div>
             </div>
             <div class="right flexible__content background-color-transparent">
-                <div class="h3">Our Mission</div>
+                <div class="h3">Our Vision</div>
                 <div class="bodytext large-body">
-                    <p>A company pursuing innovation and excellence in essential oils, scents and cosmetics, dedicated to harnessing creativity that transforms the world.</p>
+                    <p>Leading the sustainable growth of Nigeria's indigenous plants and herbs for economic impact and global reach.</p>
                 </div>
             </div>
         </div>
@@ -46,9 +65,9 @@
             <div class="panel lazyload" data-lazyload-576-src="{{URL::asset('assets/images/vision.jpg')}}" data-lazyload-768-src="{{URL::asset('assets/images/vision.jpg')}}" data-lazyload-1024-src="{{URL::asset('assets/images/vision.jpg')}}" data-lazyload-1440-src="{{URL::asset('assets/images/vision.jpg')}}" data-lazyload-2560-src="{{URL::asset('assets/images/vision.jpg')}}">
                 <div class="content-wrapper">
                     <div class="panel__content background-color-blue text-light">
-                        <div class="h3">Our Vision</div>
+                        <div class="h3">Our Mission</div>
                         <div class="bodytext large-body">
-                            <p>Leading the sustainable growth of Nigeria's indigenous plants and herbs for economic impact and global reach.</p>
+                            <p>A company pursuing innovation and excellence in essential oils, scents and cosmetics, dedicated to harnessing creativity that transforms the world.</p>
                         </div>
                     </div>
                 </div>

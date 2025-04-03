@@ -21,6 +21,7 @@ Route::get('/cosmetics', [HomePageController::class, 'cosmetics'])->name('cosmet
 Route::get('/essential-oil', [HomePageController::class, 'essentialOil'])->name('essentialOil');
 Route::get('/health', [HomePageController::class, 'health'])->name('health');
 Route::get('/contact-us', [HomePageController::class, 'contactUs'])->name('contactUs');
+Route::get('/research-and-development', [HomePageController::class, 'researchDevelopment'])->name('researchDevelopment');
 Route::post('/submit/contact-us', [HomePageController::class, 'submitContact'])->name('submitContact');
 Route::get('/faqs', [HomePageController::class, 'faqs'])->name('faqs');
 Route::get('/training', [HomePageController::class, 'training'])->name('training');

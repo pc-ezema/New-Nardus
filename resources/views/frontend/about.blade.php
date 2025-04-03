@@ -33,7 +33,7 @@
             <div class="left flexible__content background-color-transparent">
                 <div class="h3">Who We Are</div>
                 <div class="bodytext large-body">
-                    <p>We support health and well-being through plant-based products. We constantly research and source new products that meet our customers' growing needs and also make a significant contribution to the world's need for essential oil.</p>
+                    <p>We support health and well-being through plant-based products. We constantly research and source new products that meet our customers' growing needs.</p>
                 </div>
             </div>
             <div class="right flexible__image-container">
@@ -51,7 +51,7 @@
             <div class="right flexible__content background-color-transparent">
                 <div class="h3">What We Do</div>
                 <div class="bodytext large-body">
-                    <p>{{config('app.name')}} Company Limited is a leading global supplier of essential oils and natural ingredients, catering to the fragrance, cosmetics and health sector industries. We offer an extensive selection of essential oils to meet the diverse needs of our clients.</p>
+                    <p>We use indigenous plants and herbs from Nigeria with other natural ingredients for essential oils, fragrances, cosmetics, and other healthcare products.</p>
                 </div>
             </div>
         </div>
