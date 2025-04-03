@@ -73,6 +73,24 @@
                 </div>
             </div>
         </div>
+        <div id="c59" class="frame frame-default ctype-iffcomponents_flexible tx-iff-components-flexible layout-1 image-width-medium images-1">
+            <div class="left flexible__image-container">
+                <div class="flexible__image lazyload" style="min-height: 550px !important;" data-lazyload-400-src="{{URL::asset('assets/images/ourPurpose.jpeg')}}" data-lazyload-600-src="{{URL::asset('assets/images/ourPurpose.jpeg')}}">
+                    <div class="background-dimmer"></div>
+                </div>
+            </div>
+            <div class="right flexible__content background-color-blue text-light" style="padding-top: 60px !important;">
+                <div class="h3">Our Purpose</div>
+                <div class="bodytext large-body">
+                    <ul>
+                        <li>To constantly research and source new products that meet our customers’ growing needs.</li>
+                        <li>To make a significant contribution to the world's need for essential oil.⁠</li>
+                        <li>To diffuse the perfect fragrance in every space.</li>
+                        <li>To promote natural ingredient in cosmetics production.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
         <div id="c263" class="frame frame-default ctype-iffcomponents_flexible tx-iff-components-flexible layout-2 image-width-medium images-1">
             <div class="left flexible__content background-color-transparent">
                 <div class="h3">Our Core Values</div>
@@ -89,24 +107,6 @@
             <div class="right flexible__image-container">
                 <div class="flexible__image lazyload" data-lazyload-400-src="{{URL::asset('assets/images/corevalue.jpg')}}" data-lazyload-600-src="{{URL::asset('assets/images/corevalue.jpg')}}" data-lazyload-800-src="{{URL::asset('assets/images/corevalue.jpg')}}">
                     <div class="background-dimmer"></div>
-                </div>
-            </div>
-        </div>
-        <div id="c59" class="frame frame-default ctype-iffcomponents_flexible tx-iff-components-flexible layout-1 image-width-medium images-1">
-            <div class="left flexible__image-container">
-                <div class="flexible__image lazyload" style="min-height: 550px !important;" data-lazyload-400-src="{{URL::asset('assets/images/ourPurpose.jpeg')}}" data-lazyload-600-src="{{URL::asset('assets/images/ourPurpose.jpeg')}}">
-                    <div class="background-dimmer"></div>
-                </div>
-            </div>
-            <div class="right flexible__content background-color-blue text-light" style="padding-top: 60px !important;">
-                <div class="h3">Our Purpose</div>
-                <div class="bodytext large-body">
-                    <ul>
-                        <li>To constantly research and source new products that meet our customers’ growing needs.</li>
-                        <li>To make a significant contribution to the world's need for essential oil.⁠</li>
-                        <li>To diffuse the perfect fragrance in every space.</li>
-                        <li>To promote natural ingredient in cosmetics production.</li>
-                    </ul>
                 </div>
             </div>
         </div>
