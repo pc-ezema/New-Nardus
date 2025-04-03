@@ -117,10 +117,11 @@
     background-color: rgba(255, 255, 255, 0.2);
 }
 .banner__content {
-    bottom: 33%;
+    bottom: 38%;
     left: 0;
     position: absolute;
     width: 100%;
+    text-align: center;
 }
 .banner__heading,
 .banner__sub-heading {
@@ -200,8 +201,8 @@
 .arrow-circle {
     width: 30px;
     height: 30px;
-    background-color: #194d02; /* Circle Background */
-    color: white;
+    background-color: #fff; /* Circle Background */
+    color: #194d02;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -214,16 +215,16 @@
 }
 
 .arrow-link:hover .arrow-circle {
-    background-color: #fff; /* Hover Effect */
-    color: #194d02;
+    background-color: #194d02; /* Hover Effect */
+    color: #fff;
     transform: scale(1.1);
 }
 
 .scroll-down {
     width: 50px;
     height: 50px;
-    background-color: #194d02; /* Circle Background Color */
-    color: white;
+    background-color: #fff; /* Circle Background Color */
+    color: #194d02;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -239,8 +240,8 @@
 }
 
 .scroll-down:hover {
-    background-color: #fff; /* Hover Effect */
-    color: #194d02;
+    background-color: #194d02; /* Hover Effect */
+    color: #fff;
     transform: translateX(-50%) scale(1.1);
 }
 
