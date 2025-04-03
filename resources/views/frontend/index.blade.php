@@ -12,24 +12,24 @@
                 <div class="banner__content text-light">
                     <div class="content-wrapper">
                         <ul class="responsive-list">
-                            <li class="style-light variant-secondary arrow-link h1" style="margin-bottom: 3rem; margin-right: 2rem; font-weight:normal !important">
-                                <a href="{{route('essentialOil')}}" class="style-light variant-secondary h1 arrow-link {{ (request()->is('essential-oil')) ? 'active' : '' }}">
+                            <li class="style-light variant-secondary arrow-link h1" style="margin-bottom: 3rem; margin-right: 5rem; font-weight:normal !important">
+                                <a href="{{route('essentialOil')}}" class="style-light variant-secondary h3 arrow-link {{ (request()->is('essential-oil')) ? 'active' : '' }}">
                                     <span class="arrow-circle">
                                         <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
                                     </span>
                                     Essential Oils
                                 </a>
                             </li>
-                            <li class="style-light variant-secondary arrow-link h1" style="margin-bottom: 3rem; margin-right: 2rem; font-weight:normal !important">
-                                <a href="{{route('scents')}}" class="style-light variant-secondary h1 arrow-link {{ (request()->is('scents')) ? 'active' : '' }}">
+                            <li class="style-light variant-secondary arrow-link h1" style="margin-bottom: 3rem; margin-right: 5rem; font-weight:normal !important">
+                                <a href="{{route('scents')}}" class="style-light variant-secondary h3 arrow-link {{ (request()->is('scents')) ? 'active' : '' }}">
                                     <span class="arrow-circle">
                                         <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
                                     </span>
                                     Scents
                                 </a>
                             </li>
-                            <li class="style-light variant-secondary arrow-link h1" style="margin-bottom: 3rem; margin-right: 2rem; font-weight:normal !important">
-                                <a href="{{route('cosmetics')}}" class="style-light variant-secondary h1 arrow-link {{ (request()->is('cosmetics')) ? 'active' : '' }}">
+                            <li class="style-light variant-secondary arrow-link h1" style="margin-bottom: 3rem; margin-right: 5rem; font-weight:normal !important">
+                                <a href="{{route('cosmetics')}}" class="style-light variant-secondary h3 arrow-link {{ (request()->is('cosmetics')) ? 'active' : '' }}">
                                     <span class="arrow-circle">
                                         <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
                                     </span>
