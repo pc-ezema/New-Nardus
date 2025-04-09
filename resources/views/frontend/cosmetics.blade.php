@@ -27,7 +27,7 @@
         </div>
         <div id="c224" class="frame frame-default ctype-iffcomponents_flexible tx-iff-components-flexible layout-1 image-width-medium images-1">
             <div class="left flexible__image-container">
-                <div class="flexible__image lazyload" data-lazyload-400-src="{{URL::asset('assets/images/cosmeticsHairCareOil.jpg')}}" data-lazyload-600-src="{{URL::asset('assets/images/cosmeticsHairCareOil.jpg')}}" data-lazyload-800-src="{{URL::asset('assets/images/cosmeticsHairCareOil.jpg')}}">
+                <div class="flexible__image lazyload" data-lazyload-400-src="{{URL::asset('assets/images/Haircare.jpg')}}" data-lazyload-600-src="{{URL::asset('assets/images/Haircare.jpg')}}" data-lazyload-800-src="{{URL::asset('assets/images/Haircare.jpg')}}">
                     <div class="background-dimmer"></div>
                 </div>
             </div>
@@ -35,9 +35,41 @@
                 <div class="h4">Hair Care Oil </div>
                 <div class="bodytext large-body">
                     <p style="text-align: justify;">
-                        {{config('app.name')}} lemongrass haircare oil promotes hair growth, strengthens, moisturizes, and
-                        conditions hair, controls dandruff, adds shine, soothes the scalp, prevents hair loss, and has a refreshing scent.
-                        It is easy to use and provides overall hair health benefits for a vibrant and healthy hair.
+                        Our {{config('app.name')}} Nardus Lemongrass Natural Haircare Oil is your go-to solution for a healthy scalp, strong hair, and a well-groomed beard. Made with pure, natural ingredients, it stops scalp itchiness, eliminates dandruff,
+                        and clears buildup for faster hair growth. For men, it softens beard hair, soothes irritation, and promotes a fuller, healthier look. No stress—just apply and let the nourishment work from root to tip
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div id="c967" class="frame frame-default ctype-iffcomponents_flexible tx-iff-components-flexible layout-2 image-width-medium images-1">
+            <div class="left flexible__content background-color-transparent">
+                <div class="h4">Black Soap</div>
+                <div class="bodytext large-body">
+                    <p style="text-align: justify;">A soap that cleans deeply without stripping your skin. Nardus Lemongrass Natural Black Soap cleans deeply without stripping your skin and creates a rich, creamy lather that washes away dirt and excess oil while leaving your skin feeling fresh, smooth, and hydrated. It’s gentle yet effective,
+                        making it perfect for daily use on all skin types, including oily and acne-prone skin.</p>
+                    <p style="text-align: justify;">t gives the moisturizing feel, lasting freshness, and great value and  large bar lasts long, ensuring you get the best out of every use. If you're looking for a soap that nourishes while it cleans, this is it.</p>
+                </div>
+            </div>
+            <div class="right flexible__image-container">
+                <div class="flexible__image lazyloaded" data-lazyload-400-src="{{URL::asset('assets/images/Soap.jpg')}}" data-lazyload-600-src="{{URL::asset('assets/images/Soap.jpg')}}" data-lazyload-800-src="{{URL::asset('assets/images/Soap.jpg')}}" style="background-image: url(&quot;{{URL::asset('assets/images/Soap.jpg')}}&quot;);">
+                    <div class="background-dimmer"></div>
+                </div>
+            </div>
+        </div>
+        <div id="c224" class="frame frame-default ctype-iffcomponents_flexible tx-iff-components-flexible layout-1 image-width-medium images-1">
+            <div class="left flexible__image-container">
+                <div class="flexible__image lazyload" data-lazyload-400-src="{{URL::asset('assets/images/Powder.jpg')}}" data-lazyload-600-src="{{URL::asset('assets/images/Powder.jpg')}}" data-lazyload-800-src="{{URL::asset('assets/images/Powder.jpg')}}">
+                    <div class="background-dimmer"></div>
+                </div>
+            </div>
+            <div class="right flexible__content background-color-transparent">
+                <div class="h4">Powder </div>
+                <div class="bodytext large-body">
+                    <p style="text-align: justify;">
+                        {{config('app.name')}} Lemongrass Body Powder is your go-to solution for dry, irritated skin and unwanted odor. Made with natural lemongrass oil, it helps prevent sweat rashes, soothe chafing, and keep you fresh all day.
+                    </p>
+                    <p style="text-align: justify;">
+                        Whether you need relief from friction-prone areas, a gentle alternative to harsh deodorants, or a way to stay dry after showering, this powder has you covered. Stay comfortable, confident, and odor-free—every single day.
                     </p>
                 </div>
             </div>

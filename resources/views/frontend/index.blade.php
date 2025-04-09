@@ -36,19 +36,20 @@
                 </div>
             </div>
             <div class="right flexible__content background-color-transparent">
-                <div class="h3">Our Mission</div>
+                <div class="h3">Our Vision</div>
                 <div class="bodytext large-body">
-                    <p>A company pursuing innovation and excellence in essential oils, scents and cosmetics, dedicated to harnessing creativity that transforms the world.</p>
+                    <p>Leading the sustainable growth of Nigeria's indigenous plants and herbs for economic impact and global reach.</p>
                 </div>
+
             </div>
         </div>
         <div id="c57" class="frame frame-default ctype-iffcomponents_panel tx-iff-components-panel size-standard type-signpost">
             <div class="panel lazyload" data-lazyload-576-src="{{URL::asset('assets/images/vision.jpg')}}" data-lazyload-768-src="{{URL::asset('assets/images/vision.jpg')}}" data-lazyload-1024-src="{{URL::asset('assets/images/vision.jpg')}}" data-lazyload-1440-src="{{URL::asset('assets/images/vision.jpg')}}" data-lazyload-2560-src="{{URL::asset('assets/images/vision.jpg')}}">
                 <div class="content-wrapper">
                     <div class="panel__content background-color-blue text-light">
-                        <div class="h3">Our Vision</div>
+                        <div class="h3">Our Mission</div>
                         <div class="bodytext large-body">
-                            <p>Leading the sustainable growth of Nigeria's indigenous plants and herbs for economic impact and global reach.</p>
+                            <p>A company pursuing innovation and excellence in essential oils, scents and cosmetics, dedicated to harnessing creativity that transforms the world.</p>
                         </div>
                     </div>
                 </div>
