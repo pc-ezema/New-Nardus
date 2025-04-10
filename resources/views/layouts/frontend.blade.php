@@ -32,6 +32,8 @@
     <link href="{{URL::asset('assets/css/88f75f23ed911c349f072debc9c9abe9.css')}}" rel="stylesheet" />
     <script integrity="sha384-16t9ZHYALapzurTezumKK2l5KKm5loTK4iAt3Nv8Nu3ah5CKfT3dl6I4FZ35pqkM" crossorigin="anonymous" src="{{URL::asset('assets/js/8635fc5f85459296e05cfb0f053d2d26.js')}}"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 
     <script>
         var ua = window.navigator.userAgent;
@@ -91,6 +93,8 @@
     <script integrity="sha384-9+v1xRxfTneN6Tvr+/tcPz1Kd87QNSZPP4yQD3pQXZne+7inE1PMEMj1NdF9Hidj" crossorigin="anonymous" src="{{URL::asset('assets/js/4ae451a0302b1059cfff669b6e11aace.js')}}"></script>
     <script integrity="sha384-VuOwFzI//Oldv+QAE4hVr77E4t+HSt9p8McwIG74Fe1obkf+NAK3ODGubuERxo1q" crossorigin="anonymous" src="{{URL::asset('assets/js/40553c60e1cd1e4d8dfa5e7a32c412f1.js')}}"></script>
     <script integrity="sha384-n+WtPwescrks0W28iIR6pwgdaS1BrxIAlysyhnQIrdl0E+G8eU3UGj5/UdrX4cbg" crossorigin="anonymous" src="{{URL::asset('assets/js/c30665b3374d5ab7e66d7dcb83f4c47e.js')}}"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             let scrollArrow = document.getElementById("scrollArrow");
@@ -140,7 +144,24 @@
                 }
             });
         });
+
+        var swiper = new Swiper('.banner-swiper', {
+            loop: true,
+            autoplay: {
+                delay: 5000,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
     </script>
+    <!-- Swiper JS -->
 </body>
 
 </html>

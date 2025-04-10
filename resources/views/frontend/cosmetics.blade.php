@@ -32,22 +32,33 @@
                 </div>
             </div>
             <div class="right flexible__content background-color-transparent">
-                <div class="h4">Hair Care Oil </div>
+                <div class="h4">Lemongrass Haircare Oil </div>
                 <div class="bodytext large-body">
                     <p style="text-align: justify;">
-                        Our {{config('app.name')}} Nardus Lemongrass Natural Haircare Oil is your go-to solution for a healthy scalp, strong hair, and a well-groomed beard. Made with pure, natural ingredients, it stops scalp itchiness, eliminates dandruff,
-                        and clears buildup for faster hair growth. For men, it softens beard hair, soothes irritation, and promotes a fuller, healthier look. No stress—just apply and let the nourishment work from root to tip
+                        Our {{config('app.name')}} Lemongrass Natural Haircare Oil is your go-to solution for a healthy scalp, strong hair, and a well-groomed beard. Made with pure, natural ingredients, it stops scalp itchiness, eliminates dandruff,
+                        and clears buildup for faster hair growth.</p>
+                    <p style="text-align: justify;">
+                        For men, it softens beard hair, soothes irritation, and promotes a fuller, healthier look.
+                    </p>
+                    <p style="text-align: justify;">
+                        No stress—just apply and let the nourishment work from root to tip
                     </p>
                 </div>
             </div>
         </div>
         <div id="c967" class="frame frame-default ctype-iffcomponents_flexible tx-iff-components-flexible layout-2 image-width-medium images-1">
             <div class="left flexible__content background-color-transparent">
-                <div class="h4">Black Soap</div>
+                <div class="h4">Lemongrass Natural Black Soap</div>
                 <div class="bodytext large-body">
-                    <p style="text-align: justify;">A soap that cleans deeply without stripping your skin. Nardus Lemongrass Natural Black Soap cleans deeply without stripping your skin and creates a rich, creamy lather that washes away dirt and excess oil while leaving your skin feeling fresh, smooth, and hydrated. It’s gentle yet effective,
-                        making it perfect for daily use on all skin types, including oily and acne-prone skin.</p>
-                    <p style="text-align: justify;">t gives the moisturizing feel, lasting freshness, and great value and  large bar lasts long, ensuring you get the best out of every use. If you're looking for a soap that nourishes while it cleans, this is it.</p>
+                    <p style="text-align: justify;">
+                        A soap that cleans deeply without stripping your skin and creates a rich, creamy lather that washes away dirt while leaving your skin feeling fresh, smooth, and hydrated.
+                    </p>
+                    <p style="text-align: justify;">
+                        It’s gentle yet effective, making it perfect for daily use on all skin types, including oily, dry and acne-prone skin.
+                    </p>
+                    <p style="text-align: justify;">
+                        It gives the moisturizing feel, lasting freshness, and great value and  large bar lasts long, ensuring you get the best out of every use.
+                    </p>
                 </div>
             </div>
             <div class="right flexible__image-container">
@@ -74,37 +85,6 @@
                 </div>
             </div>
         </div>
-        <div id="c967" class="frame frame-default ctype-iffcomponents_flexible tx-iff-components-flexible layout-2 image-width-medium images-1">
-            <div class="left flexible__content background-color-transparent">
-                <div class="h4">For Beards</div>
-                <div class="bodytext large-body">
-                    <p style="text-align: justify;">Elevate your beard care with {{config('app.name')}} Lemongrass Beard Oil.
-                        This natural elixir hydrates, stimulates growth, soothes skin, and protects with its antioxidant-rich,
-                        antimicrobial properties. Embrace the fresh scent and radiant finish for a fuller, healthier beard.
-                        Perfect for effortless grooming and style.</p>
-                </div>
-            </div>
-            <div class="right flexible__image-container">
-                <div class="flexible__image lazyloaded" data-lazyload-400-src="{{URL::asset('assets/images/scentElectronicDiffuser.jpg')}}" data-lazyload-600-src="{{URL::asset('assets/images/scentElectronicDiffuser.jpg')}}" data-lazyload-800-src="{{URL::asset('assets/images/scentElectronicDiffuser.jpg')}}" style="background-image: url(&quot;{{URL::asset('assets/images/scentElectronicDiffuser.jpg')}}&quot;);">
-                    <div class="background-dimmer"></div>
-                </div>
-            </div>
-        </div>
-        <div id="c112" class="frame frame-default ctype-iffcomponents_flexible tx-iff-components-flexible layout-1 image-width-medium images-1">
-            <div class="left flexible__image-container">
-                <div class="flexible__image lazyload" data-lazyload-400-src="{{URL::asset('assets/images/haircare.png')}}" data-lazyload-600-src="{{URL::asset('assets/images/haircare.png')}}" data-lazyload-800-src="{{URL::asset('assets/images/haircare.png')}}">
-                    <div class="background-dimmer"></div>
-                </div>
-            </div>
-            <div class="right flexible__content background-color-transparent">
-                <div class="h4">Solutions</div>
-                <div class="bodytext large-body">
-                    <p style="text-align: justify;"><strong>1. Dryness and Frizzness </strong><br> {{config('app.name')}} Lemongrass Haircare Oil, with its natural hydrating properties effectively combat dryness and frizzness, leaving the hair and beard soft, smooth and silky.</p>
-                    <p style="text-align: justify;"><strong>2. Slow Growth </strong><br> Improving blood circulation to the scalp, which deliver more nutrients to the hair follicles and promote hair growth.</p>
-                    <p style="text-align: justify;"><strong>3. Scalp Health and Dermatitis </strong><br> The oil consist of antimicrobial and smoothing properties that cures itchy scalp, dandruff and promoting overall hair health.</p>
-                </div>
-            </div>
-        </div>
 
         <div id="c973" class="frame frame-default ctype-iffcomponents_flexible tx-iff-components-flexible layout-3 image-width-medium images-0">
             <!-- <div class="content-section-title">Click and shop now</div> -->
@@ -114,7 +94,7 @@
             </div>
             <div class="right">
                 <div class="bodytext large-body">
-                    <p>Nourishes and soothes your hair, embracing vibrant radiance and a comforted scalp.</p>
+                    <p>Nardus – Where Nature Meets Elegance.</p>
                 </div>
             </div>
         </div>

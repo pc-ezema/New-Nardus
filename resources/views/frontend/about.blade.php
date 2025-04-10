@@ -10,7 +10,7 @@
                 <div class="banner__overlay variant-dark"></div>
                 <div class="banner__content text-light">
                     <div class="content-wrapper">
-                        <div class="banner__heading h1" style="font-weight:normal !important">WHAT WE DO</div>
+                        <div class="banner__heading h1" style="font-weight:normal !important">ABOUT US</div>
                     </div>
                 </div>
             </div>
@@ -37,14 +37,14 @@
                 </div>
             </div>
             <div class="right flexible__image-container">
-                <div class="flexible__image lazyload" data-lazyload-400-src="{{URL::asset('assets/images/whoweare.jpg')}}" data-lazyload-600-src="{{URL::asset('assets/images/whoweare.jpg')}}" data-lazyload-800-src="{{URL::asset('assets/images/whoweare.jpg')}}">
+                <div class="flexible__image lazyload" style="min-height: 400px !important;" data-lazyload-400-src="{{URL::asset('assets/images/whoweare.jpg')}}" data-lazyload-600-src="{{URL::asset('assets/images/whoweare.jpg')}}" data-lazyload-800-src="{{URL::asset('assets/images/whoweare.jpg')}}">
                     <div class="background-dimmer"></div>
                 </div>
             </div>
         </div>
         <div id="c4" class="frame frame-default ctype-iffcomponents_flexible tx-iff-components-flexible layout-1 image-width-medium images-1">
             <div class="left flexible__image-container">
-                <div class="flexible__image lazyload" data-lazyload-400-src="{{URL::asset('assets/images/whatwedo.jpg')}}" data-lazyload-600-src="{{URL::asset('assets/images/whatwedo.jpg')}}" data-lazyload-800-src="{{URL::asset('assets/images/whatwedo.jpg')}}">
+                <div class="flexible__image lazyload" style="min-height: 350px !important;" data-lazyload-400-src="{{URL::asset('assets/images/whatwedo.jpg')}}" data-lazyload-600-src="{{URL::asset('assets/images/whatwedo.jpg')}}" data-lazyload-800-src="{{URL::asset('assets/images/whatwedo.jpg')}}">
                     <div class="background-dimmer"></div>
                 </div>
             </div>
@@ -52,6 +52,68 @@
                 <div class="h3">What We Do</div>
                 <div class="bodytext large-body">
                     <p>{{config('app.name')}} Company Limited is a leading global supplier of essential oils and natural ingredients, catering to the fragrance, cosmetics and health sector industries. We offer an extensive selection of essential oils to meet the diverse needs of our clients.</p>
+                </div>
+            </div>
+        </div>
+        <div id="c4" class="frame frame-default ctype-iffcomponents_flexible tx-iff-components-flexible layout-1 image-width-medium images-1">
+            <div class="left flexible__content background-color-transparent">
+                <div class="h3">Our Vision</div>
+                <div class="bodytext large-body">
+                    <p>Leading the sustainable growth of Nigeria's indigenous plants and herbs for economic impact and global reach.</p>
+                </div>
+            </div>
+            <div class="right flexible__image-container">
+                <div class="flexible__image lazyload" style="min-height: 350px !important;" data-lazyload-400-src="{{URL::asset('assets/images/whatwedo.jpg')}}" data-lazyload-600-src="{{URL::asset('assets/images/whatwedo.jpg')}}" data-lazyload-800-src="{{URL::asset('assets/images/whatwedo.jpg')}}">
+                    <div class="background-dimmer"></div>
+                </div>
+            </div>
+        </div>
+        <div id="c57" class="frame frame-default ctype-iffcomponents_panel tx-iff-components-panel size-standard type-signpost">
+            <div class="panel lazyload" data-lazyload-576-src="{{URL::asset('assets/images/vision.jpg')}}" data-lazyload-768-src="{{URL::asset('assets/images/vision.jpg')}}" data-lazyload-1024-src="{{URL::asset('assets/images/vision.jpg')}}" data-lazyload-1440-src="{{URL::asset('assets/images/vision.jpg')}}" data-lazyload-2560-src="{{URL::asset('assets/images/vision.jpg')}}">
+                <div class="content-wrapper">
+                    <div class="panel__content background-color-blue text-light">
+                        <div class="h3">Our Mission</div>
+                        <div class="bodytext large-body">
+                            <p>A company pursuing innovation and excellence in essential oils, scents and cosmetics, dedicated to harnessing creativity that transforms the world.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="c263" class="frame frame-default ctype-iffcomponents_flexible tx-iff-components-flexible layout-2 image-width-medium images-1">
+            <div class="left flexible__content background-color-transparent">
+                <div class="h3">Our Core Values</div>
+                <div class="bodytext large-body">
+                    <ul>
+                        <li>Sustainability</li>
+                        <li>Wealth Creation </li>
+                        <li>Innovation</li>
+                        <li>Creativity</li>
+                        <li>Excellence</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="right flexible__image-container">
+                <div class="flexible__image lazyload" data-lazyload-400-src="https://d3b9n0uye9y0ja.cloudfront.net/typo3temp/assets/images/csm_CFG_Biotech_2k_2fabb839f2_dac313f76451c85db8ef32cbe5695714.jpg" data-lazyload-600-src="https://d3b9n0uye9y0ja.cloudfront.net/typo3temp/assets/images/csm_CFG_Biotech_2k_a34e3fa244_ff6db0bd6e20688f033ec50e0063d2a4.jpg" data-lazyload-800-src="https://d3b9n0uye9y0ja.cloudfront.net/typo3temp/assets/images/csm_CFG_Biotech_2k_820134bdef_bfc9d033d7feb0edba753e6ed31f1b18.jpg">
+                    <div class="background-dimmer"></div>
+                </div>
+            </div>
+        </div>
+        <div id="c59" class="frame frame-default ctype-iffcomponents_flexible tx-iff-components-flexible layout-1 image-width-medium images-1">
+            <div class="left flexible__image-container">
+                <div class="flexible__image lazyload" style="min-height: 550px !important;" data-lazyload-400-src="{{URL::asset('assets/images/ourPurpose.jpeg')}}" data-lazyload-600-src="{{URL::asset('assets/images/ourPurpose.jpeg')}}">
+                    <div class="background-dimmer"></div>
+                </div>
+            </div>
+            <div class="right flexible__content background-color-blue text-light" style="padding-top: 60px !important;">
+                <div class="h3">Our Purpose</div>
+                <div class="bodytext large-body">
+                    <ul>
+                        <li>To constantly research and source new products that meet our customers’ growing needs.</li>
+                        <li>To make a significant contribution to the world's need for essential oil.⁠</li>
+                        <li>To diffuse the perfect fragrance in every space.</li>
+                        <li>To promote natural ingredient in cosmetics production.</li>
+                    </ul>
                 </div>
             </div>
         </div>

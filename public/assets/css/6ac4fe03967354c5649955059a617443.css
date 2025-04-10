@@ -29,8 +29,10 @@
 #banner__container .banner video,
 #banner__container .banner .banner__images,
 #banner__container .banner .banner__image {
-    height: 100%;
-    width: 100%;
+    /* height: 100%;
+    width: 100%; */
+    height: 100vh;
+    width: 100vw;
 }
 #banner__container .banner .banner__image {
     background-position: center;
