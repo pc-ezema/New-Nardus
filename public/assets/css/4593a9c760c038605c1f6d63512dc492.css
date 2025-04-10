@@ -136,4 +136,8 @@
   .flexible__mobile-bodytext {
     display: block;
   }
+
+  .bodytext p {
+    margin-top: 1rem;
+  }
 }

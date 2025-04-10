@@ -30,7 +30,7 @@ body.popup-active {
 .content-wrapper {
     margin: 0 auto;
     max-width: 1200px;
-    padding-left: 92px;
+    padding-left: 22px;
     padding-right: 22px;
     width: 100%;
 }
@@ -1040,8 +1040,9 @@ a {
     justify-content: center;
     align-items: flex-start;
     gap: 40px;
-    padding: 60px 0;
-    flex-wrap: wrap;
+    padding: 0 0 60px 0;
+    /* flex-wrap: wrap; */
+    position: relative;
 }
 
 .rd-left-card {
@@ -1115,7 +1116,7 @@ a {
     border-radius: 18px;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 768px) {
     .rd {
         flex-direction: column;
         align-items: center;
@@ -1196,7 +1197,7 @@ a {
     color: #fff;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 768px) {
     .sustainability {
         flex-direction: column;
         align-items: center;
@@ -1236,7 +1237,6 @@ a {
 }
 
 /* News Card Styles */
-
 .news-card {
     background-color: #fff;
     border-radius: 0;

@@ -13,8 +13,8 @@
                 </div>
                 <div class="banner__overlay variant-dark"></div>
                 <div class="banner__content text-light">
-                    <div class="content-wrapper">
-                        <div class="banner__heading h1">Discover <br> our <br> natural Oils</div>
+                    <div class="content-wrapper" style="padding-left: 72px">
+                        <div class="banner__heading h1">Promoting Nigeria <br>indigenous plants <br> and herbs for <br>economic diversification</div>
                         <a href="{{route('aboutUs')}}" class="style-light variant-secondary h5 arrow-link">
                             Get to know us
                             <span class="arrow-circle"><i class="fa fa-long-arrow-right"></i></span>
@@ -31,7 +31,7 @@
                 <div class="banner__overlay variant-dark"></div>
                 <div class="banner__content text-light">
                     <div class="content-wrapper">
-                        <div class="banner__heading h1">Pure <br> Essential <br> Goodness</div>
+                    <div class="banner__heading h1">Promoting Nigeria <br>indigenous plants <br> and herbs for <br>economic diversification</div>
                         <a href="{{route('aboutUs')}}" class="style-light variant-secondary h5 arrow-link">
                             Learn more
                             <span class="arrow-circle"><i class="fa fa-long-arrow-right"></i></span>
@@ -48,7 +48,7 @@
                 <div class="banner__overlay variant-dark"></div>
                 <div class="banner__content text-light">
                     <div class="content-wrapper">
-                        <div class="banner__heading h1">Experience <br> Aromatic <br> Wellness</div>
+                    <div class="banner__heading h1">Promoting Nigeria <br>indigenous plants <br> and herbs for <br>economic diversification</div>
                         <a href="{{route('aboutUs')}}" class="style-light variant-secondary h5 arrow-link">
                             See how
                             <span class="arrow-circle"><i class="fa fa-long-arrow-right"></i></span>
@@ -68,7 +68,7 @@
 
 <main id="content" class="content-wrapper">
     <section id="field_0">
-        <div id="c57" class="rd frame frame-default ctype-iffcomponents_flexible tx-iff-components-flexible layout-2 image-width-medium images-1">
+        <div id="c54" class="rd frame frame-default ctype-iffcomponents_flexible tx-iff-components-flexible layout-2 image-width-medium images-1">
             <div class="rd-left-card">
                 <h2>Reseach and Development</h2>
                 <p>Nardus Limited is presently working on various Nigeria underutilised Indigenous plants for value addition and product development.</p>

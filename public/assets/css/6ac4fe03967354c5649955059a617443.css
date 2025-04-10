@@ -172,6 +172,7 @@
     .banner__content {
         /* bottom: 0;
         position: relative; */
+        bottom: 35%;
     }
     .banner__content.text-light .content-wrapper .banner__heading {
         color: #0075cf;
