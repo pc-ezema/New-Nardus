@@ -108,7 +108,7 @@
                 <!-- News Card 1 -->
                 <div class="news-card">
                     <div class="news-image">
-                        <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-ClU6gmqfOeQDTiziuLaLR9xI97rko9.png" alt="Jack Daniel's and Coca-Cola cans">
+                        <img src="{{URL::asset('assets/images/whoweare.jpg')}}" alt="Jack Daniel's and Coca-Cola cans">
                     </div>
                     <div class="news-content">
                         <h3 class="news-title">N65 Fragrance</h3>
@@ -129,7 +129,7 @@
                 <!-- News Card 2 -->
                 <div class="news-card">
                     <div class="news-image">
-                        <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-ClU6gmqfOeQDTiziuLaLR9xI97rko9.png" alt="Coca-Cola and OREO products">
+                        <img src="{{URL::asset('assets/images/whoweare.jpg')}}" alt="Coca-Cola and OREO products">
                     </div>
                     <div class="news-content">
                         <h3 class="news-title">Nardus Signs $100M Essential Oil Offtake MoU with Raadio Tech Company</h3>
