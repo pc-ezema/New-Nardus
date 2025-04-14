@@ -5,7 +5,7 @@
         <div id="banner__slider" style="width: 100%;">
             <div class="banner">
                 <div class="banner__images">
-                    <div class="banner__image lazyloaded" data-lazyload-576-src="{{URL::asset('assets/images/essentialoilBanner.jpg')}}" data-lazyload-768-src="{{URL::asset('assets/images/essentialoilBanner.jpg')}}" data-lazyload-992-src="{{URL::asset('assets/images/essentialoilBanner.jpg')}}" data-lazyload-1200-src="{{URL::asset('assets/images/essentialoilBanner.jpg')}}" data-lazyload-1400-src="{{URL::asset('assets/images/essentialoilBanner.jpg')}}" data-lazyload-1920-src="{{URL::asset('assets/images/essentialoilBanner.jpg')}}" data-lazyload-2560-src="{{URL::asset('assets/images/essentialoilBanner.jpg')}}" style="background-image: url(&quot;{{URL::asset('assets/images/essentialoilBanner.jpg')}}&quot;);"></div>
+                    <div class="banner__image lazyloaded" data-lazyload-576-src="{{URL::asset('assets/images/essentialOilSlider.png')}}" data-lazyload-768-src="{{URL::asset('assets/images/essentialOilSlider.png')}}" data-lazyload-992-src="{{URL::asset('assets/images/essentialOilSlider.png')}}" data-lazyload-1200-src="{{URL::asset('assets/images/essentialOilSlider.png')}}" data-lazyload-1400-src="{{URL::asset('assets/images/essentialOilSlider.png')}}" data-lazyload-1920-src="{{URL::asset('assets/images/essentialOilSlider.png')}}" data-lazyload-2560-src="{{URL::asset('assets/images/essentialOilSlider.png')}}" style="background-image: url(&quot;{{URL::asset('assets/images/essentialOilSlider.png')}}&quot;);"></div>
                 </div>
                 <div class="banner__overlay variant-dark"></div>
                 <div class="banner__content text-light">
@@ -29,7 +29,7 @@
             <div class="grid">
                 <div class="flip-card">
                     <div class="flip-card-inner">
-                        <div class="flip-card-front" style="background-image: url('{{URL::asset('assets/images/essentialoilThymeOil.jpg')}}');">
+                        <div class="flip-card-front" style="background-image: url('{{URL::asset('assets/images/essentialoil/lemongrass-oil.png')}}');">
                             Lemongrass Oil
                         </div>
                         <div class="flip-card-back">
@@ -41,7 +41,7 @@
 
                 <div class="flip-card">
                     <div class="flip-card-inner">
-                        <div class="flip-card-front" style="background-image: url('{{URL::asset('assets/images/essentialoilThymeOil.jpg')}}');">
+                        <div class="flip-card-front" style="background-image: url('{{URL::asset('assets/images/essentialOil/thyme-oil.png')}}');">
                             Thyme Oil
                         </div>
                         <div class="flip-card-back">
@@ -65,7 +65,7 @@
 
                 <div class="flip-card">
                     <div class="flip-card-inner">
-                        <div class="flip-card-front" style="background-image: url('{{URL::asset('assets/images/essentialOil/bitter-leaf-oil.png')}}');">
+                        <div class="flip-card-front" style="background-image: url('{{URL::asset('assets/images/essentialOil/bitterleaf-oil.png')}}');">
                             Bitter Leaf Oil
                         </div>
                         <div class="flip-card-back">
@@ -101,7 +101,7 @@
 
                 <div class="flip-card">
                     <div class="flip-card-inner">
-                        <div class="flip-card-front" style="background-image: url('{{URL::asset('assets/images/essentialoilThymeOil.jpg')}}');">
+                        <div class="flip-card-front" style="background-image: url('{{URL::asset('assets/images/essentialoil/ginger-oil.png')}}');">
                             Ginger Oil
                         </div>
                         <div class="flip-card-back">
@@ -137,7 +137,7 @@
 
                 <div class="flip-card">
                     <div class="flip-card-inner">
-                        <div class="flip-card-front" style="background-image: url('{{URL::asset('assets/images/essentialOil/sweat-basil-oil.png')}}');">
+                        <div class="flip-card-front" style="background-image: url('{{URL::asset('assets/images/essentialOil/sweet-basil-oil.png')}}');">
                             Sweet Basil Oil
                         </div>
                         <div class="flip-card-back">

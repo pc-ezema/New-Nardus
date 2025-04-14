@@ -21,9 +21,9 @@
                 <li>
                     <a href="{{route('cosmetics')}}" class="main-header-link {{ (request()->is('cosmetics')) ? 'active' : '' }}">Cosmetics</a>
                 </li>
-                <li>
+                <!-- <li>
                     <a href="{{route('health')}}" class="main-header-link {{ (request()->is('health')) ? 'active' : '' }}">Health</a>
-                </li>
+                </li> -->
                 <li>
                     <a href="https://shop.nardus.ng/shop/" target="_blank" class="main-header-link">Shop</a>
                 </li>

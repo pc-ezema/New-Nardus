@@ -126,7 +126,7 @@
 }
 .banner__heading,
 .banner__sub-heading {
-    max-width: 590px;
+    max-width: 900px;
 }
 @media (max-width: 1024px) {
     #banner__container.multiple-banners {

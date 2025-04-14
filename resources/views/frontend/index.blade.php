@@ -9,12 +9,12 @@
             <!-- Slide 1 -->
             <div class="swiper-slide banner">
                 <div class="banner__images">
-                    <div class="banner__image" style="background-image: url('{{URL::asset('assets/images/homeBanner.jpg')}}');"></div>
+                    <div class="banner__image" style="background-image: url('{{URL::asset('assets/images/essentialOilSlider.png')}}');"></div>
                 </div>
                 <div class="banner__overlay variant-dark"></div>
                 <div class="banner__content text-light">
-                    <div class="content-wrapper" style="padding-left: 72px">
-                        <div class="banner__heading h1">Promoting Nigeria <br>indigenous plants <br> and herbs for <br>economic diversification</div>
+                    <div class="content-wrapper" style="display: flex; align-items: center; flex-direction: column; text-align: center;">
+                        <div class="banner__heading h1">Promoting Nigeria indigenous plants <br> and herbs for <br>economic diversification</div>
                         <a href="{{route('aboutUs')}}" class="style-light variant-secondary h5 arrow-link">
                             Get to know us
                             <span class="arrow-circle"><i class="fa fa-long-arrow-right"></i></span>
@@ -26,12 +26,12 @@
             <!-- Slide 2 -->
             <div class="swiper-slide banner">
                 <div class="banner__images">
-                    <div class="banner__image" style="background-image: url('{{URL::asset('assets/images/homeBanner.jpg')}}');"></div>
+                    <div class="banner__image" style="background-image: url('{{URL::asset('assets/images/scentSlider.png')}}');"></div>
                 </div>
                 <div class="banner__overlay variant-dark"></div>
                 <div class="banner__content text-light">
-                    <div class="content-wrapper">
-                    <div class="banner__heading h1">Promoting Nigeria <br>indigenous plants <br> and herbs for <br>economic diversification</div>
+                    <div class="content-wrapper" style="display: flex; align-items: center; flex-direction: column; text-align: center;">
+                    <div class="banner__heading h1">Promoting Nigeria indigenous plants <br> and herbs for <br>economic diversification</div>
                         <a href="{{route('aboutUs')}}" class="style-light variant-secondary h5 arrow-link">
                             Learn more
                             <span class="arrow-circle"><i class="fa fa-long-arrow-right"></i></span>
@@ -43,12 +43,12 @@
             <!-- Slide 3 -->
             <div class="swiper-slide banner">
                 <div class="banner__images">
-                    <div class="banner__image" style="background-image: url('{{URL::asset('assets/images/homeBanner.jpg')}}');"></div>
+                    <div class="banner__image" style="background-image: url('{{URL::asset('assets/images/cosmeticsSlider.png')}}');"></div>
                 </div>
                 <div class="banner__overlay variant-dark"></div>
                 <div class="banner__content text-light">
-                    <div class="content-wrapper">
-                    <div class="banner__heading h1">Promoting Nigeria <br>indigenous plants <br> and herbs for <br>economic diversification</div>
+                    <div class="content-wrapper" style="display: flex; align-items: center; flex-direction: column; text-align: center;">
+                    <div class="banner__heading h1">Promoting Nigeria indigenous plants <br> and herbs for <br>economic diversification</div>
                         <a href="{{route('aboutUs')}}" class="style-light variant-secondary h5 arrow-link">
                             See how
                             <span class="arrow-circle"><i class="fa fa-long-arrow-right"></i></span>
@@ -159,7 +159,7 @@
 <div class="display-banner">
     <div class="display-banner-overlay">
         <h1 class="display-banner-title">About {{config('app.name')}}</h1>
-        <p class="display-banner-subtitle">Nardus is a leading provider of premium essential oils widely utilized in the flavor, fragrance, and cosmetic industries.</p>
+        <p class="display-banner-subtitle">Nardus is a leading provider of <br>premium essential oils widely utilized in the <br>flavor, fragrance, and cosmetic industries.</p>
         <a href="{{route('aboutUs')}}" class="display-cta-button">Learn More</a>
     </div>
 </div>

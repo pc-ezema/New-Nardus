@@ -5,7 +5,7 @@
         <div id="banner__slider" style="width: 100%;">
             <div class="banner">
                 <div class="banner__images">
-                    <div class="banner__image lazyloaded" data-lazyload-576-src="{{URL::asset('assets/images/scentbanner.jpg')}}" data-lazyload-768-src="{{URL::asset('assets/images/scentbanner.jpg')}}" data-lazyload-992-src="{{URL::asset('assets/images/scentbanner.jpg')}}" data-lazyload-1200-src="{{URL::asset('assets/images/scentbanner.jpg')}}" data-lazyload-1400-src="{{URL::asset('assets/images/scentbanner.jpg')}}" data-lazyload-1920-src="{{URL::asset('assets/images/scentbanner.jpg')}}" data-lazyload-2560-src="{{URL::asset('assets/images/scentbanner.jpg')}}" style="background-image: url(&quot;{{URL::asset('assets/images/scentbanner.jpg')}}&quot;);"></div>
+                    <div class="banner__image lazyloaded" data-lazyload-576-src="{{URL::asset('assets/images/scentSlider.png')}}" data-lazyload-768-src="{{URL::asset('assets/images/scentSlider.png')}}" data-lazyload-992-src="{{URL::asset('assets/images/scentSlider.png')}}" data-lazyload-1200-src="{{URL::asset('assets/images/scentSlider.png')}}" data-lazyload-1400-src="{{URL::asset('assets/images/scentSlider.png')}}" data-lazyload-1920-src="{{URL::asset('assets/images/scentSlider.png')}}" data-lazyload-2560-src="{{URL::asset('assets/images/scentSlider.png')}}" style="background-image: url(&quot;{{URL::asset('assets/images/scentSlider.png')}}&quot;);"></div>
                 </div>
                 <div class="banner__overlay variant-dark"></div>
                 <div class="banner__content text-light">
@@ -59,7 +59,7 @@
                 </div>
             </div>
             <div class="right flexible__image-container">
-                <div class="flexible__image lazyloaded" data-lazyload-400-src="{{URL::asset('assets/images/scentPotpourii.jpg')}}" data-lazyload-600-src="{{URL::asset('assets/images/scentPotpourii.jpg')}}" data-lazyload-800-src="{{URL::asset('assets/images/scentPotpourii.jpg')}}" style="background-image: url(&quot;{{URL::asset('assets/images/scentPotpourii.jpg')}}&quot;);">
+                <div class="flexible__image lazyloaded" data-lazyload-400-src="{{URL::asset('assets/images/scentPotpourii.png')}}" data-lazyload-600-src="{{URL::asset('assets/images/scentPotpourii.png')}}" data-lazyload-800-src="{{URL::asset('assets/images/scentPotpourii.png')}}" style="background-image: url(&quot;{{URL::asset('assets/images/scentPotpourii.png')}}&quot;);">
                     <div class="background-dimmer"></div>
                 </div>
             </div>
