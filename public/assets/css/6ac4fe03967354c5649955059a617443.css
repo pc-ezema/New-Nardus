@@ -177,7 +177,7 @@
     .banner__content {
         /* bottom: 0;
         position: relative; */
-        bottom: 35%;
+        bottom: 41%;
     }
     .banner__content.text-light .content-wrapper .banner__heading {
         color: #0075cf;
@@ -194,6 +194,16 @@
         max-width: 70px !important;
         margin-top: .6rem !important;
     }
+
+    .banner__heading {
+        font-size: 1.2rem !important;
+        max-width: 200px;
+    }
+
+    .arrow-link {
+        font-size: 1rem !important;
+    }
+
 }
 
 .arrow-link {
