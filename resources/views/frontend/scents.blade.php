@@ -27,6 +27,97 @@
         </div>
         <div id="c967" class="frame frame-default ctype-iffcomponents_flexible tx-iff-components-flexible layout-2 image-width-medium images-1">
             <div class="left flexible__content background-color-transparent">
+                <div class="h4">Lemongrass & Oud Natural Oil</div>
+                <div class="bodytext large-body">
+                    <p>It is a refreshing blend that harmonizes the crisp, citrusy notes of lemongrass with the deep, woody richness of oud, creating a fragrance that is both invigorating and grounding.</p>
+                    <p>The sweet, grassy freshness of lemongrass uplifts your spirit, while the earthy depth of oud adds a touch of elegance and calm. Infused with exotic undertones, this blend is crafted to enhance your space, evoke emotion, and leave a lasting impression.</p>
+                    <p>Let this multi-sensory experience transform your environment—energizing the mind and soothing the soul.</p>
+                </div>
+            </div>
+            <div class="right flexible__image-container">
+                <div class="flexible__image lazyloaded" data-lazyload-400-src="{{URL::asset('assets/images/scentElectronicDiffuser.jpg')}}" data-lazyload-600-src="{{URL::asset('assets/images/scentElectronicDiffuser.jpg')}}" data-lazyload-800-src="{{URL::asset('assets/images/scentElectronicDiffuser.jpg')}}" style="background-image: url(&quot;{{URL::asset('assets/images/scentElectronicDiffuser.jpg')}}&quot;);">
+                    <div class="background-dimmer"></div>
+                </div>
+            </div>
+        </div>
+        <div id="c968" class="frame frame-default ctype-iffcomponents_flexible tx-iff-components-flexible layout-1 image-width-medium images-1">
+            <div class="left flexible__image-container">
+                <div class="flexible__image lazyloaded" data-lazyload-400-src="{{URL::asset('assets/images/ekoNaturalOil.png')}}" data-lazyload-600-src="{{URL::asset('assets/images/ekoNaturalOil.png')}}" data-lazyload-800-src="{{URL::asset('assets/images/ekoNaturalOil.png')}}" style="background-image: url(&quot;{{URL::asset('assets/images/ekoNaturalOil.png')}}&quot;);">
+                    <div class="background-dimmer"></div>
+                </div>
+            </div>
+            <div class="right flexible__content background-color-transparent">
+                <div class="h4">Eko Natural Oil</div>
+                <div class="bodytext large-body">
+                    <p>The Fragrance of Elegance</p>
+                    <p>Eko Natural Oil is a tribute to the vibrant spirit and rich heritage of Lagos. Specially produced from pure coconut oil and a blend of aromatic plants sourced from Badagry and other culturally rich parts of Lagos, this fragrance embodies both tradition and sophistication.</p>
+                    <p>Whether used in homes, offices, or hospitality settings, Eko Natural Oil brings a refined touch of Lagos to your environment. It is perfect for creating a serene yet uplifting ambiance in any space.</p>
+                </div>
+            </div>
+        </div>
+        <div id="c967" class="frame frame-default ctype-iffcomponents_flexible tx-iff-components-flexible layout-2 image-width-medium images-1">
+            <div class="left flexible__content background-color-transparent">
+                <div class="h4">Olumo Natural Oil</div>
+                <div class="bodytext large-body">
+                    <p>It is a unique fragrance crafted from plants and natural ingredients sourced from Abeokuta, home to the historic Olumo Rock. This blend captures the earthy richness and cultural essence of the region, resulting in a raw, grounding scent that connects you to nature.</p>
+                    <p>With every drop, Olumo transforms your space—bringing depth, warmth, and authenticity to your environment. It’s more than a fragrance; it’s an experience of heritage, resilience, and natural beauty.</p>
+                </div>
+            </div>
+            <div class="right flexible__image-container">
+                <div class="flexible__image lazyloaded" data-lazyload-400-src="{{URL::asset('assets/images/olumoNaturalOil.png')}}" data-lazyload-600-src="{{URL::asset('assets/images/olumoNaturalOil.png')}}" data-lazyload-800-src="{{URL::asset('assets/images/olumoNaturalOil.png')}}" style="background-image: url(&quot;{{URL::asset('assets/images/olumoNaturalOil.png')}}&quot;);">
+                    <div class="background-dimmer"></div>
+                </div>
+            </div>
+        </div>
+        <div id="c968" class="frame frame-default ctype-iffcomponents_flexible tx-iff-components-flexible layout-1 image-width-medium images-1">
+            <div class="left flexible__image-container">
+                <div class="flexible__image lazyloaded" data-lazyload-400-src="{{URL::asset('assets/images/nardusRefill.png')}}" data-lazyload-600-src="{{URL::asset('assets/images/nardusRefill.png')}}" data-lazyload-800-src="{{URL::asset('assets/images/nardusRefill.png')}}" style="background-image: url(&quot;{{URL::asset('assets/images/nardusRefill.png')}}&quot;);">
+                    <div class="background-dimmer"></div>
+                </div>
+            </div>
+            <div class="right flexible__content background-color-transparent">
+                <div class="h4">Nardus Refill</div>
+                <div class="bodytext large-body">
+                    <p>Experience continuous freshness with Nardus Refill, designed to keep your space smelling amazing. Our refill bottles offer a convenient and sustainable way to maintain your favorite scents all day long.</p>
+                    <p>Choose from a variety of signature fragrances crafted to match every mood and setting, including Lemongrass & Oud, Eko, and Olumo.</p>
+                </div>
+            </div>
+        </div>
+        <div id="c967" class="frame frame-default ctype-iffcomponents_flexible tx-iff-components-flexible layout-2 image-width-medium images-1">
+            <div class="left flexible__content background-color-transparent">
+                <div class="h4">Car Diffuser</div>
+                <div class="bodytext large-body">
+                    <p>Make Every Drive a Refreshing Experience</p>
+                    <p>Turn your car into a haven of freshness with our beautifully designed Car Diffusers. Whether you're on a quick errand or a long road trip, enjoy a burst of refreshing fragrance every time you drive.</p>
+                    <p>Available in two elegant options:</p>
+                    <ul>
+                        <li>Card Diffuser – Sleek, compact, and easy to use.</li>
+                        <li>Glass Car Diffuser – Stylish, refillable, and long-lasting.</li>
+                    </ul>
+                    <p>Choose your favourite and let every journey feel like a breath of fresh air.</p>
+                </div>
+            </div>
+            <div class="right flexible__image-container">
+                <div class="flexible__image lazyloaded" data-lazyload-400-src="{{URL::asset('assets/images/carDiffuser.png')}}" data-lazyload-600-src="{{URL::asset('assets/images/carDiffuser.png')}}" data-lazyload-800-src="{{URL::asset('assets/images/carDiffuser.png')}}" style="background-image: url(&quot;{{URL::asset('assets/images/carDiffuser.png')}}&quot;);">
+                    <div class="background-dimmer"></div>
+                </div>
+            </div>
+        </div>
+        <div id="c967" class="frame frame-default ctype-iffcomponents_flexible tx-iff-components-flexible layout-2 image-width-medium images-1">
+            <div class="left flexible__image-container">
+                <div class="flexible__image lazyloaded" data-lazyload-400-src="{{URL::asset('assets/images/scentPotpourii.png')}}" data-lazyload-600-src="{{URL::asset('assets/images/scentPotpourii.png')}}" data-lazyload-800-src="{{URL::asset('assets/images/scentPotpourii.png')}}" style="background-image: url(&quot;{{URL::asset('assets/images/scentPotpourii.png')}}&quot;);">
+                    <div class="background-dimmer"></div>
+                </div>
+            </div>
+            <div class="right flexible__content background-color-transparent">
+                <div class="h4">Potpourii</div>
+                <div class="bodytext large-body">
+                    <p style="text-align: justify;">Our potpourri collection boasts a variety of captivating scents, each designed to create a unique and inviting atmosphere in your home. {{config('app.name')}} Scents potpourri is more than just a fragrance; it’s a sensory experience that brings the essence of nature into your home.</p>
+                </div>
+            </div>
+        </div>
+        <div id="c967" class="frame frame-default ctype-iffcomponents_flexible tx-iff-components-flexible layout-2 image-width-medium images-1">
+            <div class="left flexible__content background-color-transparent">
                 <div class="h4">Ambience Scenting</div>
                 <div class="bodytext large-body">
                     <p style="text-align: justify;">Create a lasting impression with our ambience scenting solutions. Our expertly crafted fragrances can transport your customers, guests, or clients to a world of serenity, energy, or creativity, depending on your desired ambiance. Transform your space, transform your mind.</p>
@@ -38,45 +129,6 @@
                 </div>
             </div>
         </div>
-        <div id="c968" class="frame frame-default ctype-iffcomponents_flexible tx-iff-components-flexible layout-1 image-width-medium images-1">
-            <div class="left flexible__image-container">
-                <div class="flexible__image lazyloaded" data-lazyload-400-src="{{URL::asset('assets/images/scentReedDiffuser.jpg')}}" data-lazyload-600-src="{{URL::asset('assets/images/scentReedDiffuser.jpg')}}" data-lazyload-800-src="{{URL::asset('assets/images/scentReedDiffuser.jpg')}}" style="background-image: url(&quot;{{URL::asset('assets/images/scentReedDiffuser.jpg')}}&quot;);">
-                    <div class="background-dimmer"></div>
-                </div>
-            </div>
-            <div class="right flexible__content background-color-transparent">
-                <div class="h4">Reed Diffuser and Fragrance</div>
-                <div class="bodytext large-body">
-                    <p style="text-align: justify;">We offer a collection of fragrances made from meticulously sourced aromatic plants and other ingredients. Indulge in the scent of natural luxury and let the essence of aromatic plants enchant you. Whether you are seeking a fragrance to uplift and inspire or one to calm and soothe, {{config('app.name')}} scents has a fragrance to match your mood and style.</p>
-                </div>
-            </div>
-        </div>
-        <div id="c967" class="frame frame-default ctype-iffcomponents_flexible tx-iff-components-flexible layout-2 image-width-medium images-1">
-            <div class="left flexible__content background-color-transparent">
-                <div class="h4">Potpourii</div>
-                <div class="bodytext large-body">
-                    <p style="text-align: justify;">Our potpourri collection boasts a variety of captivating scents, each designed to create a unique and inviting atmosphere in your home. {{config('app.name')}} Scents potpourri is more than just a fragrance; it’s a sensory experience that brings the essence of nature into your home.</p>
-                </div>
-            </div>
-            <div class="right flexible__image-container">
-                <div class="flexible__image lazyloaded" data-lazyload-400-src="{{URL::asset('assets/images/scentPotpourii.png')}}" data-lazyload-600-src="{{URL::asset('assets/images/scentPotpourii.png')}}" data-lazyload-800-src="{{URL::asset('assets/images/scentPotpourii.png')}}" style="background-image: url(&quot;{{URL::asset('assets/images/scentPotpourii.png')}}&quot;);">
-                    <div class="background-dimmer"></div>
-                </div>
-            </div>
-        </div>
-        <!-- <div id="c968" class="frame frame-default ctype-iffcomponents_flexible tx-iff-components-flexible layout-1 image-width-medium images-1">
-            <div class="left flexible__image-container">
-                <div class="flexible__image lazyloaded" data-lazyload-400-src="{{URL::asset('assets/images/scentElectronicDiffuser.jpg')}}" data-lazyload-600-src="{{URL::asset('assets/images/scentElectronicDiffuser.jpg')}}" data-lazyload-800-src="{{URL::asset('assets/images/scentElectronicDiffuser.jpg')}}" style="background-image: url(&quot;{{URL::asset('assets/images/scentElectronicDiffuser.jpg')}}&quot;);">
-                    <div class="background-dimmer"></div>
-                </div>
-            </div>
-            <div class="right flexible__content background-color-transparent">
-                <div class="h4">Electronic Diffuser</div>
-                <div class="bodytext large-body">
-                    <p style="text-align: justify;">Our electronic diffuser uses advanced technology to release a consistent gentle mist of fragrance into the air and creating a welcoming atmosphere in any space. We guarantee that our products meet the highest standards through rigorous testing and careful attention to our details from strain stability to purification.</p>
-                </div>
-            </div>
-        </div> -->
 
         <div id="c973" class="frame frame-default ctype-iffcomponents_flexible tx-iff-components-flexible layout-3 image-width-medium images-0">
             <!-- <div class="content-section-title">Click and shop now</div> -->

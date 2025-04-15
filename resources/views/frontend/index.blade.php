@@ -5,18 +5,17 @@
 <section id="banner__container" class="size-standard visible">
     <div class="swiper banner-swiper">
         <div class="swiper-wrapper">
-
             <!-- Slide 1 -->
             <div class="swiper-slide banner">
                 <div class="banner__images">
                     <div class="banner__image" style="background-image: url('{{URL::asset('assets/images/essentialOilSlider.png')}}');"></div>
                 </div>
                 <div class="banner__overlay variant-dark"></div>
-                <div class="banner__content text-light">
+                <div class="banner__content banner__content_index text-light">
                     <div class="content-wrapper" style="display: flex; align-items: center; flex-direction: column; text-align: center;">
-                        <div class="banner__heading h1">Promoting Nigeria indigenous plants <br> and herbs for <br>economic diversification</div>
+                        <div class="banner__heading h1">Promoting Nigeria indigenous plants <br> and herbs for economic diversification</div>
                         <a href="{{route('aboutUs')}}" class="style-light variant-secondary h5 arrow-link">
-                            Get to know us
+                            Learn more
                             <span class="arrow-circle"><i class="fa fa-long-arrow-right"></i></span>
                         </a>
                     </div>
@@ -29,9 +28,9 @@
                     <div class="banner__image" style="background-image: url('{{URL::asset('assets/images/scentSlider.png')}}');"></div>
                 </div>
                 <div class="banner__overlay variant-dark"></div>
-                <div class="banner__content text-light">
+                <div class="banner__content banner__content_index text-light">
                     <div class="content-wrapper" style="display: flex; align-items: center; flex-direction: column; text-align: center;">
-                    <div class="banner__heading h1">Promoting Nigeria indigenous plants <br> and herbs for <br>economic diversification</div>
+                    <div class="banner__heading h1">Promoting Nigeria indigenous plants <br> and herbs for economic diversification</div>
                         <a href="{{route('aboutUs')}}" class="style-light variant-secondary h5 arrow-link">
                             Learn more
                             <span class="arrow-circle"><i class="fa fa-long-arrow-right"></i></span>
@@ -46,17 +45,16 @@
                     <div class="banner__image" style="background-image: url('{{URL::asset('assets/images/cosmeticsSlider.png')}}');"></div>
                 </div>
                 <div class="banner__overlay variant-dark"></div>
-                <div class="banner__content text-light">
+                <div class="banner__content banner__content_index text-light">
                     <div class="content-wrapper" style="display: flex; align-items: center; flex-direction: column; text-align: center;">
-                    <div class="banner__heading h1">Promoting Nigeria indigenous plants <br> and herbs for <br>economic diversification</div>
+                    <div class="banner__heading h1">Promoting Nigeria indigenous plants <br> and herbs for economic diversification</div>
                         <a href="{{route('aboutUs')}}" class="style-light variant-secondary h5 arrow-link">
-                            See how
+                            Learn more
                             <span class="arrow-circle"><i class="fa fa-long-arrow-right"></i></span>
                         </a>
                     </div>
                 </div>
             </div>
-
         </div>
 
         <!-- Optional navigation -->
@@ -95,9 +93,9 @@
             </div>
             <div class="text-card">
                 <h2>Our Sustainabilty </h2>
-                <p>At {{config('app.name')}}, sustainability is at the heart of everything we do. We work with over 700 farmers to cultivate aromatic plants like Lemongrass, Basil, Thyme, Turmeric, and Ginger, promoting eco-friendly agricultural practices.</p>
+                <p>At {{config('app.name')}}, sustainability is is at the heart of everything we do. Partnering with over 700 farmers, we cultivate aromatic plant like Lemongrass, Basil, Thyme, Turmeric, and Ginger using eco-friendly practices.</p>
                 <p>Our sustainable processing ensures premium essential oils for flavors, fragrances, and cosmetics while supporting natural scent and cosmetic production.</p>
-                <!-- <p>By prioritizing ethically sourced herbs, innovation, and strategic partnerships, we uphold industry standards and drive a greener future.</p> -->
+                <p>By prioritizing ethically sourced herbs, innovation, and strategic partnerships, we uphold industry standards and drive a greener future.</p>
             </div>
         </div>
         <div id="c4" class="featured-news frame frame-default ctype-iffcomponents_flexible layout-1 image-width-medium images-1">
@@ -159,7 +157,7 @@
 <div class="display-banner">
     <div class="display-banner-overlay">
         <h1 class="display-banner-title">About {{config('app.name')}}</h1>
-        <p class="display-banner-subtitle">Nardus is a leading provider of <br>premium essential oils widely utilized in the <br>flavor, fragrance, and cosmetic industries.</p>
+        <p class="display-banner-subtitle">Nardus is a leading provider of premium essential oils widely <br>utilized in the flavor, fragrance, and cosmetic industries.</p>
         <a href="{{route('aboutUs')}}" class="display-cta-button">Learn More</a>
     </div>
 </div>

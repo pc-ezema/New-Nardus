@@ -159,7 +159,33 @@
                 nextEl: '.swiper-button-next',
                 prevEl: '.swiper-button-prev',
             },
+            on: {
+                init: function() {
+                    triggerAnimations(this.slides[this.activeIndex]);
+                },
+                slideChangeTransitionStart: function() {
+                    resetAnimations(this.slides);
+                },
+                slideChangeTransitionEnd: function() {
+                    triggerAnimations(this.slides[this.activeIndex]);
+                },
+            }
         });
+
+        function triggerAnimations(activeSlide) {
+            const content = activeSlide.querySelector('.banner__content_index');
+            if (content) content.classList.add('animate-content');
+        }
+
+        function resetAnimations(slides) {
+            slides.forEach(slide => {
+                slide.querySelectorAll('.banner__content_index').forEach(el => {
+                    el.classList.remove('animate-content');
+                    el.style.opacity = 0;
+                    el.style.transform = 'translateY(20px)';
+                });
+            });
+        }
     </script>
     <!-- Swiper JS -->
 </body>

@@ -5,7 +5,7 @@
         <div id="banner__slider" style="width: 100%;">
             <div class="banner">
                 <div class="banner__images">
-                    <div class="banner__image lazyloaded" data-lazyload-576-src="{{URL::asset('assets/images/cosmeticsSlider.png')}}" data-lazyload-768-src="{{URL::asset('assets/images/cosmeticsSlider.png')}}" data-lazyload-992-src="{{URL::asset('assets/images/cosmeticsSlider.png')}}" data-lazyload-1200-src="{{URL::asset('assets/images/cosmeticsSlider.png')}}" data-lazyload-1400-src="{{URL::asset('assets/images/cosmeticsSlider.png')}}" data-lazyload-1920-src="{{URL::asset('assets/images/cosmeticsSlider.png')}}" data-lazyload-2560-src="{{URL::asset('assets/images/cosmeticsSlider.png')}}" style="background-image: url(&quot;{{URL::asset('assets/images/cosmeticsSlider.png')}}&quot;);"></div>
+                    <div class="banner__image lazyloaded" data-lazyload-576-src="{{URL::asset('assets/images/cosmeticsBanner.jpeg')}}" data-lazyload-768-src="{{URL::asset('assets/images/cosmeticsBanner.jpeg')}}" data-lazyload-992-src="{{URL::asset('assets/images/cosmeticsBanner.jpeg')}}" data-lazyload-1200-src="{{URL::asset('assets/images/cosmeticsBanner.jpeg')}}" data-lazyload-1400-src="{{URL::asset('assets/images/cosmeticsBanner.jpeg')}}" data-lazyload-1920-src="{{URL::asset('assets/images/cosmeticsBanner.jpeg')}}" data-lazyload-2560-src="{{URL::asset('assets/images/cosmeticsBanner.jpeg')}}" style="background-image: url(&quot;{{URL::asset('assets/images/cosmeticsBanner.jpeg')}}&quot;);"></div>
                 </div>
                 <div class="banner__overlay variant-dark"></div>
                 <div class="banner__content text-light">

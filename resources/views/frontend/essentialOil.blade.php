@@ -5,7 +5,7 @@
         <div id="banner__slider" style="width: 100%;">
             <div class="banner">
                 <div class="banner__images">
-                    <div class="banner__image lazyloaded" data-lazyload-576-src="{{URL::asset('assets/images/essentialOilSlider.png')}}" data-lazyload-768-src="{{URL::asset('assets/images/essentialOilSlider.png')}}" data-lazyload-992-src="{{URL::asset('assets/images/essentialOilSlider.png')}}" data-lazyload-1200-src="{{URL::asset('assets/images/essentialOilSlider.png')}}" data-lazyload-1400-src="{{URL::asset('assets/images/essentialOilSlider.png')}}" data-lazyload-1920-src="{{URL::asset('assets/images/essentialOilSlider.png')}}" data-lazyload-2560-src="{{URL::asset('assets/images/essentialOilSlider.png')}}" style="background-image: url(&quot;{{URL::asset('assets/images/essentialOilSlider.png')}}&quot;);"></div>
+                    <div class="banner__image lazyloaded" data-lazyload-576-src="{{URL::asset('assets/images/essentialOilBanner.jpeg')}}" data-lazyload-768-src="{{URL::asset('assets/images/essentialOilBanner.jpeg')}}" data-lazyload-992-src="{{URL::asset('assets/images/essentialOilBanner.jpeg')}}" data-lazyload-1200-src="{{URL::asset('assets/images/essentialOilBanner.jpeg')}}" data-lazyload-1400-src="{{URL::asset('assets/images/essentialOilBanner.jpeg')}}" data-lazyload-1920-src="{{URL::asset('assets/images/essentialOilBanner.jpeg')}}" data-lazyload-2560-src="{{URL::asset('assets/images/essentialOilBanner.jpeg')}}" style="background-image: url(&quot;{{URL::asset('assets/images/essentialOilBanner.jpeg')}}&quot;);"></div>
                 </div>
                 <div class="banner__overlay variant-dark"></div>
                 <div class="banner__content text-light">
@@ -30,7 +30,7 @@
                 <div class="flip-card">
                     <div class="flip-card-inner">
                         <div class="flip-card-front" style="background-image: url('{{URL::asset('assets/images/essentialoil/lemongrass-oil.png')}}');">
-                            Lemongrass Oil
+                            <span>Lemongrass Oil</span>
                         </div>
                         <div class="flip-card-back">
                             <h3>Lemongrass Essential Oil</h3>
@@ -42,7 +42,7 @@
                 <div class="flip-card">
                     <div class="flip-card-inner">
                         <div class="flip-card-front" style="background-image: url('{{URL::asset('assets/images/essentialOil/thyme-oil.png')}}');">
-                            Thyme Oil
+                           <span>Thyme Oil</span>
                         </div>
                         <div class="flip-card-back">
                             <h3>Thyme Essential Oil</h3>
@@ -54,11 +54,11 @@
                 <div class="flip-card">
                     <div class="flip-card-inner">
                         <div class="flip-card-front" style="background-image: url('{{URL::asset('assets/images/essentialOil/turmeric-oil.png')}}');">
-                            Turmeric Oil
+                            <span>Turmeric Oil</span>
                         </div>
                         <div class="flip-card-back">
                             <h3>Turmeric Essential Oil</h3>
-                            It is extracted from the rhizomes of turmeric, this oil is rich in curcumin, known for its anti-inflammatory, antimicrobial, and antioxidant properties. Used in skincare, wound healing, and aromatherapy for reducing stress.
+                            It is extracted from the rhizomes of turmeric, this oil is rich in curcumin, known for its anti-inflammatory, antimicrobial, and antioxidant properties. It is widely used in skincare, pain relief, wound healing, and immune support. It is also a popular ingredient in massage oils and aromatherapy for reducing stress and promoting relaxation.
                         </div>
                     </div>
                 </div>
@@ -66,11 +66,11 @@
                 <div class="flip-card">
                     <div class="flip-card-inner">
                         <div class="flip-card-front" style="background-image: url('{{URL::asset('assets/images/essentialOil/bitterleaf-oil.png')}}');">
-                            Bitter Leaf Oil
+                            <span>Bitter Leaf Oil</span>
                         </div>
                         <div class="flip-card-back">
                             <h3>Bitter Leaf Essential Oil</h3>
-                            Bitter leaf oil is known for its detoxifying and healing properties. Its bitter compounds help stimulate appetite, fight infections, support liver function, and promote overall well-being.
+                            Bitter leaf oil is known for its detoxifying and healing properties. It is traditionally used in herbal medicine, skincare, and digestive health treatments. Its bitter compounds help stimulate appetite, fight infections, support liver function, and promote overall well-being.
                         </div>
                     </div>
                 </div>
@@ -78,11 +78,11 @@
                 <div class="flip-card">
                     <div class="flip-card-inner">
                         <div class="flip-card-front" style="background-image: url('{{URL::asset('assets/images/essentialOil/coffee-oil.png')}}');">
-                            Coffee Oil
+                            <span>Coffee Oil</span>
                         </div>
                         <div class="flip-card-back">
                             <h3>Coffee Essential Oil</h3>
-                            Rich in antioxidants and caffeine, this oil reduces puffiness, boosts collagen, supports skin rejuvenation, and promotes hair growth. Its invigorating scent enhances focus and mental clarity.
+                            it is  rich in antioxidants, caffeine, and essential fatty acids, making it highly beneficial for anti-aging, skin rejuvenation, and hair growth. It helps reduce puffiness, boost collagen production, and improve circulation. Additionally, coffee oil is used in aromatherapy for its invigorating scent, which enhances focus and mental clarity.
                         </div>
                     </div>
                 </div>
@@ -90,11 +90,11 @@
                 <div class="flip-card">
                     <div class="flip-card-inner">
                         <div class="flip-card-front" style="background-image: url('{{URL::asset('assets/images/essentialOil/water-hyacinth-oil.png')}}');">
-                            Water Hyacinth Oil
+                            <span>Water Hyacinth Oil</span>
                         </div>
                         <div class="flip-card-back">
                             <h3>Water Hyacinth Essential Oil</h3>
-                            Known for its moisturizing and anti-inflammatory benefits, it's used in skincare and haircare. Also contributes to sustainable innovation by repurposing an invasive aquatic plant.
+                            It is valued for its moisturizing, antimicrobial, anti-inflammatory, and skin-soothing properties. It is commonly used in skincare, haircare, and eco-friendly product formulations due to its hydrating and protective benefits. Additionally, water hyacinth oil is gaining attention in sustainable product innovation, as it utilizes an otherwise invasive aquatic plant to create value-added products.
                         </div>
                     </div>
                 </div>
@@ -102,11 +102,11 @@
                 <div class="flip-card">
                     <div class="flip-card-inner">
                         <div class="flip-card-front" style="background-image: url('{{URL::asset('assets/images/essentialoil/ginger-oil.png')}}');">
-                            Ginger Oil
+                            <span>Ginger Oil</span>
                         </div>
                         <div class="flip-card-back">
                             <h3>Ginger Essential Oil</h3>
-                            A warm, spicy oil that helps relieve nausea, muscle discomfort, and digestive issues. Rich in antioxidants, it supports skin health, immunity, and emotional well-being.
+                            Ginger oil is a warm, spicy essential oil known for its uplifting and soothing properties. It helps relieve nausea, muscle discomfort, and digestive issues while promoting relaxation and resilience. Rich in antioxidants, it also supports skin health and boosts immunity.
                         </div>
                     </div>
                 </div>
@@ -114,11 +114,11 @@
                 <div class="flip-card">
                     <div class="flip-card-inner">
                         <div class="flip-card-front" style="background-image: url('{{URL::asset('assets/images/essentialOil/tobacco-oil.png')}}');">
-                            Tobacco Oil
+                            <span>Tobacco Oil</span>
                         </div>
                         <div class="flip-card-back">
                             <h3>Tobacco Essential Oil</h3>
-                            Tobacco oil has a deep, earthy aroma with sweet undertones. Nicotine-free and great for fragrance blends or aromatherapy. Carefully extracted for purity and warmth.
+                            Tobacco oil carries a deep, earthy aroma with sweet, woody undertones—perfect for fragrances and aromatherapy. Nicotine-free, it is carefully extracted for purity and richness, adding depth and warmth to custom blends.
                         </div>
                     </div>
                 </div>
@@ -126,11 +126,11 @@
                 <div class="flip-card">
                     <div class="flip-card-inner">
                         <div class="flip-card-front" style="background-image: url('{{URL::asset('assets/images/essentialOil/siam-weed-oil.png')}}');">
-                            Siam Weed Oil (AKINTOLA)
+                            <span>Siam Weed Oil (AKINTOLA)</span>
                         </div>
                         <div class="flip-card-back">
                             <h3>Siam Weed Essential Oil</h3>
-                            Powerful antimicrobial and healing oil used in herbal medicine. Supports wound healing, relieves inflammation, and serves as a natural insect repellent and antifungal remedy.
+                            Siam weed oil is known for its powerful medicinal and antimicrobial properties. It has been traditionally used in herbal medicine for wound healing, anti-inflammatory benefits, and as a natural insect repellent. Rich in bioactive compounds, this oil is also valued for its potential antifungal and antibacterial effects, making it useful in skincare and natural health products.
                         </div>
                     </div>
                 </div>
@@ -138,11 +138,11 @@
                 <div class="flip-card">
                     <div class="flip-card-inner">
                         <div class="flip-card-front" style="background-image: url('{{URL::asset('assets/images/essentialOil/sweet-basil-oil.png')}}');">
-                            Sweet Basil Oil
+                            <span>Sweet Basil Oil</span>
                         </div>
                         <div class="flip-card-back">
                             <h3>Sweet Basil Essential Oil</h3>
-                            Calming and uplifting, this oil relieves stress, mental fatigue, and has antibacterial and anti-inflammatory properties. Used in aromatherapy, skincare, and perfumery.
+                            Sweet basil  essential oil is widely used for its fresh, herbaceous aroma and therapeutic benefits. It is known for its calming and uplifting properties, helping to relieve stress and mental fatigue. The oil also has antibacterial and anti-inflammatory effects, making it beneficial for skincare, respiratory health, and pain relief. Additionally, sweet basil oil is commonly used in aromatherapy, natural medicine, and perfumery.
                         </div>
                     </div>
                 </div>

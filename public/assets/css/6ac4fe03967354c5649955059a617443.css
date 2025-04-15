@@ -119,15 +119,20 @@
     background-color: rgba(255, 255, 255, 0.2);
 }
 .banner__content {
-    bottom: 33%;
+    bottom: 41%;
     left: 0;
     position: absolute;
     width: 100%;
 }
 .banner__heading,
 .banner__sub-heading {
-    max-width: 900px;
+    max-width: 1000px;
 }
+
+.banner__heading {
+    font-size: 2rem !important;
+}
+
 @media (max-width: 1024px) {
     #banner__container.multiple-banners {
         margin-bottom: 0;
@@ -281,4 +286,23 @@
 
 .burger-line.scrolled {
     background-color: #194d02;
+}
+
+/* No animation for .banner__image anymore */
+.banner__content_index {
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+/* Animation trigger only for content */
+.animate-content {
+    animation: slideInContent 1s ease forwards;
+    animation-delay: 0.5s;
+}
+
+@keyframes slideInContent {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
