@@ -29,7 +29,7 @@
             <div class="grid">
                 <div class="flip-card">
                     <div class="flip-card-inner">
-                        <div class="flip-card-front" style="background-image: url('{{URL::asset('assets/images/essentialoil/lemongrass-oil.png')}}');">
+                        <div class="flip-card-front" style="background-image: url('{{URL::asset('assets/images/essentialOil/lemongrass-oil.png')}}');">
                             <span>Lemongrass Oil</span>
                         </div>
                         <div class="flip-card-back">
@@ -101,7 +101,7 @@
 
                 <div class="flip-card">
                     <div class="flip-card-inner">
-                        <div class="flip-card-front" style="background-image: url('{{URL::asset('assets/images/essentialoil/ginger-oil.png')}}');">
+                        <div class="flip-card-front" style="background-image: url('{{URL::asset('assets/images/essentialOil/ginger-oil.png')}}');">
                             <span>Ginger Oil</span>
                         </div>
                         <div class="flip-card-back">
