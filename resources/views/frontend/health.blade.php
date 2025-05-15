@@ -10,7 +10,7 @@
                 <div class="banner__overlay variant-dark"></div>
                 <div class="banner__content text-light">
                     <div class="content-wrapper">
-                        <div class="banner__heading h1" style="font-weight:normal !important">HEALTH</div>
+                        <div class="banner__heading h1">HEALTH</div>
                     </div>
                 </div>
             </div>

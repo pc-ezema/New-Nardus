@@ -130,9 +130,9 @@
                         <img src="{{URL::asset('assets/images/whoweare.jpg')}}" alt="Coca-Cola and OREO products">
                     </div>
                     <div class="news-content">
-                        <h3 class="news-title">Nardus Signs $100M Essential Oil Offtake MoU with Raadio Tech Company</h3>
+                        <h3 class="news-title">Nardus Signs $100M Essential Oil Offtake MoU with Best Engineering Technology</h3>
                         <p class="news-description">
-                            Nardus Limited has partnered with Raadio Tech Company of Hyderabad, India, to offtake 500+ tons of essential oils from Nigeria. Beyond purchasing, Raadio Tech will provide technical expertise and training
+                            Nardus Limited has partnered with Best Engineering Technology of Hyderabad, India, to offtake 500+ tons of essential oils from Nigeria. Beyond purchasing, Best Engineering Technology will provide technical expertise and training.
                         </p>
                         <p class="news-description">
                             The project covers 3,000 hectares across Ogun, Oyo, and Kogi states, engaging 1,250 youths and women. Key crops include lemongrass, basil, thyme, ginger, and turmeric, with operations underway at Nardus’ processing hubs in Abeokuta, Tede, and Lokoja.

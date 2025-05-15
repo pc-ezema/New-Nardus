@@ -12,7 +12,7 @@
                 <div class="banner__overlay variant-dark"></div>
                 <div class="banner__content text-light">
                     <div class="content-wrapper">
-                        <div class="banner__heading h1" style="font-weight:normal !important">FAQs</div>
+                        <div class="banner__heading h1">FAQs</div>
                     </div>
                 </div>
             </div>
