@@ -34,6 +34,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Swiper CSS -->
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
     <script>
         var ua = window.navigator.userAgent;
@@ -94,6 +95,7 @@
     <script integrity="sha384-VuOwFzI//Oldv+QAE4hVr77E4t+HSt9p8McwIG74Fe1obkf+NAK3ODGubuERxo1q" crossorigin="anonymous" src="{{URL::asset('assets/js/40553c60e1cd1e4d8dfa5e7a32c412f1.js')}}"></script>
     <script integrity="sha384-n+WtPwescrks0W28iIR6pwgdaS1BrxIAlysyhnQIrdl0E+G8eU3UGj5/UdrX4cbg" crossorigin="anonymous" src="{{URL::asset('assets/js/c30665b3374d5ab7e66d7dcb83f4c47e.js')}}"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
     <script>
         document.addEventListener("DOMContentLoaded", function() {

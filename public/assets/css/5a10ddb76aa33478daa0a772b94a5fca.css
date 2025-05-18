@@ -61,10 +61,13 @@ h4,
 .h4,
 h6,
 .h6 {
-    color: #222d35;
+    /* color: #222d35;
     font-weight: 300;
     letter-spacing: 0;
-    margin-bottom: 0.5em;
+    margin-bottom: 0.5em; */
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 20px;
 }
 h1,
 .h1 {

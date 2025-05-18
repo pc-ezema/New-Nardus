@@ -77,7 +77,7 @@
 
                 <div class="flip-card">
                     <div class="flip-card-inner">
-                        <div class="flip-card-front" style="background-image: url('{{URL::asset('assets/images/essentialOil/coffee-oil.png')}}');">
+                        <div class="flip-card-front" style="background-image: url('{{URL::asset('assets/images/essentialOil/coffee-oil.jpeg')}}');">
                             <span>Coffee Oil</span>
                         </div>
                         <div class="flip-card-back">
