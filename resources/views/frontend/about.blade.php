@@ -23,8 +23,8 @@
 <main id="content" class="content-wrapper">
     <section id="field_0">
         <div id="c372" class="frame frame-default ctype-iffcomponents_flexible tx-iff-components-flexible layout-5 image-width-medium images-0">
-            <div class="bodytext large-body" style="color: #194d02; margin-bottom: 1rem;">From Plant to Product, Innovation in Every Drop.</div>
-            <div class="content-section-title">
+            <div class="h2 bodytext large-body" style="color: #194d02; margin-bottom: 1rem;">From Plant to Product, Innovation in Every Drop.</div>
+            <div class="large-body">
                 <p style="text-align: justify;">Our products are widely utilized in the flavor, fragrance, and cosmetic industries. We also extend our value chain to include production of natural scents and cosmetics With a commitment to excellence, we meticulously select the finest plants and herbs to craft superior-grade offerings tailored to our customers' specifications.</p>
             </div>
         </div>
