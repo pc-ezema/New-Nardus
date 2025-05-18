@@ -74,7 +74,7 @@
                 </div>
             </div>
             <div class="right flexible__content background-color-transparent">
-                <div class="h4">Powder </div>
+                <div class="h4">Lemongrass Body Powder</div>
                 <div class="bodytext large-body">
                     <p style="text-align: justify;">
                         {{config('app.name')}} Lemongrass Body Powder is your go-to solution for dry, irritated skin and unwanted odor. Made with natural lemongrass oil, it helps prevent sweat rashes, soothe chafing, and keep you fresh all day.

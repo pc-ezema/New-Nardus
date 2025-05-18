@@ -30,9 +30,13 @@
     text-align: center;
 }
 .large-body {
-    font-size: 24px;
+    /* font-size: 24px;
     font-weight: 400;
-    line-height: 32px;
+    line-height: 32px; */
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 25px;
 }
 .ellipsis {
     display: block;
@@ -76,10 +80,13 @@ h2,
 }
 h3,
 .h3 {
-    font-size: 36px;
-    font-weight: 700;
+    /* font-size: 36px; */
+    /* font-weight: 700; */
     /* letter-spacing: 5.4px; */
-    line-height: 44px;
+    /* line-height: 44px; */
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 16px;
 }
 h4,
 .h4 {

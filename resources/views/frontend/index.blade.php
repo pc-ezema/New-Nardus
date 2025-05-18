@@ -84,12 +84,12 @@
                 </ul>
             </div>
             <div class="rd-right-image">
-                <img src="{{URL::asset('assets/images/whoweare.jpg')}}" alt="Coca-Cola Careers">
+                <img src="{{URL::asset('assets/images/r&d.png')}}" alt="Reseach and Development">
             </div>
         </div>
         <div id="c54" class="sustainability frame frame-default ctype-iffcomponents_flexible tx-iff-components-flexible layout-2 image-width-medium images-1">
             <div class="section-image">
-                <img src="{{URL::asset('assets/images/whoweare.jpg')}}" alt="Sustainability" />
+                <img src="{{URL::asset('assets/images/Sustainability.png')}}" alt="Sustainability" />
             </div>
             <div class="text-card">
                 <h2>Our Sustainabilty </h2>
@@ -106,7 +106,7 @@
                 <!-- News Card 1 -->
                 <div class="news-card">
                     <div class="news-image">
-                        <img src="{{URL::asset('assets/images/whoweare.jpg')}}" alt="Jack Daniel's and Coca-Cola cans">
+                        <img src="{{URL::asset('assets/images/N-65.png')}}" alt="N-65">
                     </div>
                     <div class="news-content">
                         <h3 class="news-title">N65 Fragrance</h3>
@@ -127,7 +127,7 @@
                 <!-- News Card 2 -->
                 <div class="news-card">
                     <div class="news-image">
-                        <img src="{{URL::asset('assets/images/whoweare.jpg')}}" alt="Coca-Cola and OREO products">
+                        <img src="{{URL::asset('assets/images/Nardus-signs.png')}}" alt="Nardus Signs">
                     </div>
                     <div class="news-content">
                         <h3 class="news-title">Nardus Signs $100M Essential Oil Offtake MoU with Best Engineering Technology</h3>
