@@ -48,7 +48,8 @@
 
                 <p class="footer__section-heading" style="margin-top: .5rem;">Phone Number</p>
                 <div id="footer__some-container" style="margin-top: -1rem;">
-                    {{config('app.phone1')}}
+                    {{config('app.phone1')}} <br>
+                    {{config('app.phone2')}}
                 </div>
             </div>
         </section>
