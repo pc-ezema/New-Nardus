@@ -5,7 +5,7 @@
         <div id="banner__slider" style="width: 100%;">
             <div class="banner">
                 <div class="banner__images">
-                    <div class="banner__image lazyloaded" data-lazyload-576-src="{{URL::asset('assets/images/homeBanner.jpg')}}" data-lazyload-768-src="{{URL::asset('assets/images/homeBanner.jpg')}}" data-lazyload-992-src="{{URL::asset('assets/images/homeBanner.jpg')}}" data-lazyload-1200-src="{{URL::asset('assets/images/homeBanner.jpg')}}" data-lazyload-1400-src="{{URL::asset('assets/images/homeBanner.jpg')}}" data-lazyload-1920-src="{{URL::asset('assets/images/homeBanner.jpg')}}" data-lazyload-2560-src="{{URL::asset('assets/images/homeBanner.jpg')}}" style="background-image: url(&quot;{{URL::asset('assets/images/homeBanner.jpg')}}&quot;);"></div>
+                    <div class="banner__image lazyloaded" data-lazyload-576-src="{{URL::asset('assets/images/aboutUsBanner.png')}}" data-lazyload-768-src="{{URL::asset('assets/images/aboutUsBanner.png')}}" data-lazyload-992-src="{{URL::asset('assets/images/aboutUsBanner.png')}}" data-lazyload-1200-src="{{URL::asset('assets/images/aboutUsBanner.png')}}" data-lazyload-1400-src="{{URL::asset('assets/images/aboutUsBanner.png')}}" data-lazyload-1920-src="{{URL::asset('assets/images/aboutUsBanner.png')}}" data-lazyload-2560-src="{{URL::asset('assets/images/aboutUsBanner.png')}}" style="background-image: url(&quot;{{URL::asset('assets/images/aboutUsBanner.png')}}&quot;);"></div>
                 </div>
                 <div class="banner__overlay variant-dark"></div>
                 <div class="banner__content text-light">
@@ -36,7 +36,7 @@
                 </div>
             </div>
             <div class="right flexible__image-container">
-                <div class="flexible__image lazyload" style="min-height: 400px !important;" data-lazyload-400-src="{{URL::asset('assets/images/whoweare.jpg')}}" data-lazyload-600-src="{{URL::asset('assets/images/whoweare.jpg')}}" data-lazyload-800-src="{{URL::asset('assets/images/whoweare.jpg')}}">
+                <div class="flexible__image lazyload" style="min-height: 400px !important;" data-lazyload-400-src="{{URL::asset('assets/images/whoweare.png')}}" data-lazyload-600-src="{{URL::asset('assets/images/whoweare.png')}}" data-lazyload-800-src="{{URL::asset('assets/images/whoweare.png')}}">
                     <div class="background-dimmer"></div>
                 </div>
             </div>
@@ -55,7 +55,7 @@
             </div>
         </div>
         <div id="c57" class="frame frame-default ctype-iffcomponents_panel tx-iff-components-panel size-standard type-signpost">
-            <div class="panel lazyload" data-lazyload-576-src="{{URL::asset('assets/images/vision.jpg')}}" data-lazyload-768-src="{{URL::asset('assets/images/vision.jpg')}}" data-lazyload-1024-src="{{URL::asset('assets/images/vision.jpg')}}" data-lazyload-1440-src="{{URL::asset('assets/images/vision.jpg')}}" data-lazyload-2560-src="{{URL::asset('assets/images/vision.jpg')}}">
+            <div class="panel lazyload" data-lazyload-576-src="{{URL::asset('assets/images/vision.png')}}" data-lazyload-768-src="{{URL::asset('assets/images/vision.png')}}" data-lazyload-1024-src="{{URL::asset('assets/images/vision.png')}}" data-lazyload-1440-src="{{URL::asset('assets/images/vision.png')}}" data-lazyload-2560-src="{{URL::asset('assets/images/vision.png')}}">
                 <div class="content-wrapper">
                     <div class="panel__content background-color-blue text-light">
                         <div class="h3">Our Vision</div>
@@ -111,7 +111,7 @@
                 </div>
             </div>
             <div class="right flexible__image-container">
-                <div class="flexible__image lazyload" data-lazyload-400-src="https://d3b9n0uye9y0ja.cloudfront.net/typo3temp/assets/images/csm_CFG_Biotech_2k_2fabb839f2_dac313f76451c85db8ef32cbe5695714.jpg" data-lazyload-600-src="https://d3b9n0uye9y0ja.cloudfront.net/typo3temp/assets/images/csm_CFG_Biotech_2k_a34e3fa244_ff6db0bd6e20688f033ec50e0063d2a4.jpg" data-lazyload-800-src="https://d3b9n0uye9y0ja.cloudfront.net/typo3temp/assets/images/csm_CFG_Biotech_2k_820134bdef_bfc9d033d7feb0edba753e6ed31f1b18.jpg">
+                <div class="flexible__image lazyload" data-lazyload-400-src="{{URL::asset('assets/images/corevalue.png')}}" data-lazyload-600-src="{{URL::asset('assets/images/corevalue.png')}}" data-lazyload-800-src="{{URL::asset('assets/images/corevalue.png')}}">
                     <div class="background-dimmer"></div>
                 </div>
             </div>
