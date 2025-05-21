@@ -29,9 +29,9 @@ body.popup-active {
 }
 .content-wrapper {
     margin: 0 auto;
-    max-width: 1200px;
-    padding-left: 22px;
-    padding-right: 22px;
+    /* max-width: 1200px; */
+    padding-left: 100px;
+    padding-right: 100px;
     width: 100%;
 }
 #general-popup {
