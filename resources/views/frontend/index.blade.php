@@ -10,7 +10,7 @@
                     <div class="banner__image" style="background-image: url('{{URL::asset('assets/images/essentialOilSlider.png')}}');"></div>
                 </div>
                 <div class="banner__overlay variant-dark"></div>
-                <div class="banner__content banner__content_index text-light">
+                <div class="banner__content banner__content_index text-light" style="margin-left: 0;">
                     <div class="content-wrapper" style="display: flex; align-items: center; flex-direction: column; text-align: center;">
                         <div class="banner__heading h1">Promoting Nigeria indigenous plants <br> and herbs for economic diversification</div>
                         <a href="{{route('aboutUs')}}" class="style-light variant-secondary h5 arrow-link">
@@ -27,7 +27,7 @@
                     <div class="banner__image" style="background-image: url('{{URL::asset('assets/images/scentSlider.png')}}');"></div>
                 </div>
                 <div class="banner__overlay variant-dark"></div>
-                <div class="banner__content banner__content_index text-light">
+                <div class="banner__content banner__content_index text-light" style="margin-left: 0;">
                     <div class="content-wrapper" style="display: flex; align-items: center; flex-direction: column; text-align: center;">
                     <div class="banner__heading h1">Promoting Nigeria indigenous plants <br> and herbs for economic diversification</div>
                         <a href="{{route('aboutUs')}}" class="style-light variant-secondary h5 arrow-link">
@@ -44,7 +44,7 @@
                     <div class="banner__image" style="background-image: url('{{URL::asset('assets/images/cosmeticsSlider.png')}}');"></div>
                 </div>
                 <div class="banner__overlay variant-dark"></div>
-                <div class="banner__content banner__content_index text-light">
+                <div class="banner__content banner__content_index text-light" style="margin-left: 0;">
                     <div class="content-wrapper" style="display: flex; align-items: center; flex-direction: column; text-align: center;">
                     <div class="banner__heading h1">Promoting Nigeria indigenous plants <br> and herbs for economic diversification</div>
                         <a href="{{route('aboutUs')}}" class="style-light variant-secondary h5 arrow-link">
