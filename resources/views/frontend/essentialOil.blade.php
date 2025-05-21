@@ -20,7 +20,7 @@
         &#x2193; <!-- Down Arrow -->
     </div>
 </section>
-<main id="content" class="content-wrapper">
+<main id="content" class="content-wrapper" style="background: #184e01;">
     <section id="field_0">
         <div id="c965" class="frame frame-default ctype-iffcomponents_flexible tx-iff-components-flexible layout-5 image-width-medium images-0" style="align-items: center;">
             <div class="h2" style="text-align: center; font-size: 30px !important;">From Nature to Home: A Natural Path to Wellness</div>
@@ -148,20 +148,21 @@
                 </div>
             </div>
         </div>
-
-        <div id="c973" class="frame frame-default ctype-iffcomponents_flexible tx-iff-components-flexible layout-3 image-width-medium images-0">
-            <!-- <div class="content-section-title">Click and shop now</div> -->
-            <div class="left">
-                <div class="flexible__mobile-bodytext">
-                </div><a href="https://shop.nardus.ng/shop/" target="_blank" class="cta-button style-color variant-primary" rel="noopener noreferrer">SHOP NOW</a>
-            </div>
-            <div class="right">
-                <div class="bodytext large-body">
-                    <p>With {{config('app.name')}} essential oils, find your own little haven of health. Take a deep breath, loosen up and feel the life-changing impact of nature.</p>
-                </div>
+    </section>
+</main>
+<main id="content" class="content-wrapper">
+    <div id="c973" class="frame frame-default ctype-iffcomponents_flexible tx-iff-components-flexible layout-3 image-width-medium images-0">
+        <!-- <div class="content-section-title">Click and shop now</div> -->
+        <div class="left">
+            <div class="flexible__mobile-bodytext">
+            </div><a href="https://shop.nardus.ng/shop/" target="_blank" class="cta-button style-color variant-primary" rel="noopener noreferrer">SHOP NOW</a>
+        </div>
+        <div class="right">
+            <div class="bodytext large-body">
+                <p>With {{config('app.name')}} essential oils, find your own little haven of health. Take a deep breath, loosen up and feel the life-changing impact of nature.</p>
             </div>
         </div>
-    </section>
+    </div>
 </main>
 
 @endsection
