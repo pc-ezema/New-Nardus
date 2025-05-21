@@ -68,7 +68,7 @@
         </div>
         <div id="c4" class="frame frame-default ctype-iffcomponents_flexible tx-iff-components-flexible layout-1 image-width-medium images-1">
             <div class="left flexible__image-container">
-                <div class="flexible__image lazyload" style="min-height: 350px !important;" data-lazyload-400-src="{{URL::asset('assets/images/whatwedo.jpg')}}" data-lazyload-600-src="{{URL::asset('assets/images/whatwedo.jpg')}}" data-lazyload-800-src="{{URL::asset('assets/images/whatwedo.jpg')}}">
+                <div class="flexible__image lazyload" style="min-height: 350px !important;" data-lazyload-400-src="{{URL::asset('assets/images/mission.png')}}" data-lazyload-600-src="{{URL::asset('assets/images/mission.png')}}" data-lazyload-800-src="{{URL::asset('assets/images/mission.png')}}">
                     <div class="background-dimmer"></div>
                 </div>
             </div>
