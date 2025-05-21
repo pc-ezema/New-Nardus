@@ -1427,7 +1427,7 @@ a {
 }
 
 .flip-card-front {
-    background-size: cover;
+    background-size: 380px;
     background-position: center top;
     background-repeat: no-repeat; /* Prevents tiling */
     position: absolute;
@@ -1449,7 +1449,7 @@ a {
     position: absolute;
     bottom: 0;
     left: 0;
-    height: 90px;
+    height: 80px;
     width: 100%;
     background: linear-gradient(to top, rgb(25, 77, 2), transparent);
     z-index: 0;
