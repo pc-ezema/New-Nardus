@@ -46,8 +46,10 @@
     grid-template-columns: repeat(4, 1fr);
 }
 .card {
-    display: flex;
-    flex-direction: column;
+    display: flex !important;
+    flex-direction: column !important;
+    text-decoration: none;
+    border: none !important;
 }
 .card__image {
     aspect-ratio: 1.2333333333;
