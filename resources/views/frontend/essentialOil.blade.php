@@ -126,7 +126,7 @@
                 <div class="flip-card">
                     <div class="flip-card-inner">
                         <div class="flip-card-front" style="background-image: url('{{URL::asset('assets/images/essentialOil/siam-weed-oil.png')}}');">
-                            <span>Siam Weed Oil (AKINTOLA)</span>
+                            <span>Siam Weed Oil</span>
                         </div>
                         <div class="flip-card-back">
                             <h3>Siam Weed Essential Oil</h3>
