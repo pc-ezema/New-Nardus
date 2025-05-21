@@ -25,7 +25,7 @@
         <div id="c965" class="frame frame-default ctype-iffcomponents_flexible tx-iff-components-flexible layout-5 image-width-medium images-0" style="align-items: center;">
             <div class="h2" style="text-align: center; font-size: 30px !important; color: #fff;">From Nature to Home: A Natural Path to Wellness</div>
         </div>
-        <div id="c32" class="frame frame-default ctype-iffcomponents_multibox with-shape-1">
+        <div id="c32" class="frame frame-default ctype-iffcomponents_multibox with-shape-1" style="padding: 3rem;">
             <div class="grid">
                 <div class="flip-card">
                     <div class="flip-card-inner">

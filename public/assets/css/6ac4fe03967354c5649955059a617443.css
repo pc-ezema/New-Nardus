@@ -123,6 +123,7 @@
     left: 0;
     position: absolute;
     width: 100%;
+    margin-left: 7rem;
 }
 .banner__heading,
 .banner__sub-heading {

@@ -124,7 +124,7 @@
                 </div>
             </div>
             <div class="right flexible__image-container">
-                <div class="flexible__image lazyloaded" data-lazyload-400-src="{{URL::asset('assets/images/scentElectronicDiffuser.png')}}" data-lazyload-600-src="{{URL::asset('assets/images/scentElectronicDiffuser.png')}}" data-lazyload-800-src="{{URL::asset('assets/images/scentElectronicDiffuser.png')}}" style="background-image: url(&quot;{{URL::asset('assets/images/scentElectronicDiffuser.png')}}&quot;);">
+                <div class="flexible__image lazyloaded" data-lazyload-400-src="{{URL::asset('assets/images/electronicDiffuser.png')}}" data-lazyload-600-src="{{URL::asset('assets/images/electronicDiffuser.png')}}" data-lazyload-800-src="{{URL::asset('assets/images/electronicDiffuser.png')}}" style="background-image: url(&quot;{{URL::asset('assets/images/electronicDiffuser.png')}}&quot;);">
                     <div class="background-dimmer"></div>
                 </div>
             </div>
