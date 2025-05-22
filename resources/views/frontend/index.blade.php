@@ -24,7 +24,7 @@
             <!-- Slide 2 -->
             <div class="swiper-slide banner">
                 <div class="banner__images">
-                    <div class="banner__image" style="background-image: url('{{URL::asset('assets/images/scentSlider.png')}}');"></div>
+                    <div class="banner__image second__image" style="background-image: url('{{URL::asset('assets/images/scentSlider.png')}}');"></div>
                 </div>
                 <div class="banner__overlay variant-dark"></div>
                 <div class="banner__content banner__content_index text-light" style="margin-left: 0;">
