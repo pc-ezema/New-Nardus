@@ -205,6 +205,9 @@
         font-size: 1rem !important;
     }
 
+    #banner__container .banner .banner__image {
+        background-position: inherit !important;
+    }
 }
 
 .arrow-link {
