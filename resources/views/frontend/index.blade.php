@@ -76,7 +76,6 @@
                     <li>Sweet Basil</li>
                     <li>Bitter Leaf</li>
                     <li>Moringa Leaf</li>
-                    <li>Moringa Leaf</li>
                     <li>Water Hyacinth</li>
                     <li>Ginger</li>
                     <li>Turmeric</li>
@@ -91,7 +90,7 @@
                 <img src="{{URL::asset('assets/images/Sustainability.png')}}" alt="Sustainability" />
             </div>
             <div class="text-card">
-                <h2>Our Sustainabilty </h2>
+                <h2>Our Sustainability</h2>
                 <p>At {{config('app.name')}}, sustainability is is at the heart of everything we do. Partnering with over 700 farmers, we cultivate aromatic plant like Lemongrass, Basil, Thyme, Turmeric, and Ginger using eco-friendly practices.</p>
                 <p>Our sustainable processing ensures premium essential oils for flavors, fragrances, and cosmetics while supporting natural scent and cosmetic production.</p>
                 <p>By prioritizing ethically sourced herbs, innovation, and strategic partnerships, we uphold industry standards and drive a greener future.</p>
@@ -108,10 +107,9 @@
                         <img src="{{URL::asset('assets/images/N-65.png')}}" alt="N-65">
                     </div>
                     <div class="news-content">
-                        <h3 class="news-title">N65 Fragrance</h3>
+                        <h3 class="news-title">Hypen between N-65</h3>
                         <p class="news-description">
-                            The potency of Nigeria aromatic plants is unlocked in the N65 fragrance.
-                            A combination of natural oil extracts from indigenous Nigeria plants, it celebrate the 65th independence anniversary of Nigeria.  "Even in the diversity of the aroma in the different plants, they blend together to give a sweet scent of unity"
+                            The potency of Nigeria aromatic plants is unlocked in the N-65 fragrance. A combination of natural oil extracts from indigenous Nigeria plants. It celebrates the 65th independence anniversary of Nigeria. "Even in the diversity of the aroma in the different plants, they blend together to give a sweet scent of unity"    
                         </p>
                         <!-- <a href="#" class="explore-link">
                             Explore

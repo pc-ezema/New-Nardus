@@ -23,7 +23,7 @@
 <main id="content" class="content-wrapper">
     <section id="field_0">
         <div id="c965" class="frame frame-default ctype-iffcomponents_flexible tx-iff-components-flexible layout-5 image-width-medium images-0">
-            <div class="h2" style="text-align: center; font-size: 30px !important;">Promoting an exceptional fragrance brand that utilizes high-quality health ingredients backed by solid scientific research.</div>
+            <div class="h2" style="text-align: center; font-size: 30px !important;">Promoting an exceptional fragrance brand that utilizes high-quality natural ingredients backed by solid scientific research.</div>
         </div>
         <div id="c967" class="frame frame-default ctype-iffcomponents_flexible tx-iff-components-flexible layout-2 image-width-medium images-1">
             <div class="left flexible__content background-color-transparent">

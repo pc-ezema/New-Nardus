@@ -10,7 +10,7 @@
                 <div class="banner__overlay variant-dark"></div>
                 <div class="banner__content text-light">
                     <div class="content-wrapper">
-                        <div class="banner__heading h1">Essential Oil</div>
+                        <div class="banner__heading h1">Essential Oils</div>
                     </div>
                 </div>
             </div>
