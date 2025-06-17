@@ -67,7 +67,7 @@
     <section id="field_0">
         <div id="c54" class="rd frame frame-default ctype-iffcomponents_flexible tx-iff-components-flexible layout-2 image-width-medium images-1">
             <div class="rd-left-card">
-                <h2>Reseach and Development</h2>
+                <h2>Research and Development</h2>
                 <p>Nardus Limited is presently working on various Nigeria underutilised Indigenous plants for value addition and product development.</p>
                 <p>List of plants & crops under research </p>
                 <ul>
@@ -107,7 +107,7 @@
                         <img src="{{URL::asset('assets/images/N-65.png')}}" alt="N-65">
                     </div>
                     <div class="news-content">
-                        <h3 class="news-title">Hypen between N-65</h3>
+                        <h3 class="news-title">N-65 Fragrance</h3>
                         <p class="news-description">
                             The potency of Nigeria aromatic plants is unlocked in the N-65 fragrance. A combination of natural oil extracts from indigenous Nigeria plants. It celebrates the 65th independence anniversary of Nigeria. "Even in the diversity of the aroma in the different plants, they blend together to give a sweet scent of unity"    
                         </p>
