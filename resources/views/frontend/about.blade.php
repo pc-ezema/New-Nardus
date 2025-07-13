@@ -30,7 +30,7 @@
         </div>
         <div id="c54" class="frame frame-default ctype-iffcomponents_flexible tx-iff-components-flexible layout-2 image-width-medium images-1">
             <div class="left flexible__content background-color-transparent">
-                <div class="h3">Nardus Corporate Philosophy</div>
+                <div class="h3">Who We Are</div>
                 <div class="bodytext large-body">
                     <p>Nardus Limited is a global producer of natural wellness products (Essential oils, Fragrances, Cosmetics) and household products of premium qualities.</p>
                 </div>
@@ -48,11 +48,7 @@
                 </div>
             </div>
             <div class="right flexible__content background-color-transparent">
-                <!-- <div class="h3">What We Do</div> -->
-                <!-- <div class="bodytext large-body">
-                    <p>{{config('app.name')}} Company Limited is a leading global supplier of essential oils and natural ingredients, catering to the fragrance, cosmetics and health sector industries. We offer an extensive selection of essential oils to meet the diverse needs of our clients.</p>
-                </div> -->
-                <div class="h3">Who We Are</div>
+                <div class="h3">What We Do</div>
                 <div class="bodytext large-body">
                     <p>We support health and well-being through plant-based products. We constantly research and source new products that meet our customers' growing needs and also make a significant contribution to the world's need for essential oil.</p>
                 </div>
